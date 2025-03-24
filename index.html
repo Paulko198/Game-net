@@ -6,31 +6,96 @@
     <title>Monster Survivors - Play Free Online Survival Game | AllPopularGames.online</title>
     <meta name="description" content="Play Monster Survivors online for free! A thrilling survival game where you fight against waves of monsters. Experience intense action and strategic gameplay in this addictive browser game.">
     <meta name="keywords" content="Monster Survivors, online survival game, free browser game, monster fighting game, action survival">
+    <meta property="og:title" content="Monster Survivors - Free Online Survival Game">
+    <meta property="og:description" content="Play Monster Survivors online for free! Battle endless waves of monsters and upgrade your abilities.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://allpopulargames.online/monster-survivors">
+    <link rel="canonical" href="https://allpopulargames.online/monster-survivors">
+    <meta name="theme-color" content="#3b82f6">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Ensure iframe gets proper focus and mouse events */
+        #game-container {
+            position: relative;
+            transition: all 0.3s ease;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        #game-frame {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 850px;
+        }
+        .hidden {
+            display: none !important;
+        }
+        
+        /* Mobile optimization */
+        @media (max-width: 768px) {
+            #game-frame {
+                height: 550px !important;
+            }
+        }
+        
+        /* Loading spinner */
+        .loader {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            border-top: 4px solid #3b82f6;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
 </head>
 <body class="bg-blue-50 text-gray-800">
-    <header class="bg-blue-500 py-4 shadow-md">
+    <header class="bg-blue-600 py-3 shadow-md">
         <div class="container mx-auto px-4">
             <h1 class="text-3xl font-bold text-center text-white">Monster Survivors</h1>
             <p class="text-lg text-center text-white">An Exciting Monster Survival Adventure</p>
         </div>
     </header>
 
-    <main class="container mx-auto px-4 py-6">
+    <main class="container mx-auto px-2 py-4 max-w-6xl">
         <div class="mx-auto">
-            <!-- 更大的游戏框架 -->
-            <div class="bg-white rounded-lg p-4 shadow-lg">
-                <div class="aspect-w-16 aspect-h-9">
+            <!-- Game frame -->
+            <div id="game-container" class="bg-white rounded-lg p-3 shadow-lg relative">
+                <div id="loading-indicator" class="absolute inset-0 flex items-center justify-center bg-white rounded-lg z-10">
+                    <div>
+                        <div class="loader"></div>
+                        <span class="text-gray-700 font-medium">Loading game...</span>
+                    </div>
+                </div>
+                <div class="relative">
                     <iframe 
-                        src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
-                        class="w-full h-[750px] rounded-lg border border-gray-200"
-                        allowfullscreen>
+                        id="game-frame"
+                        src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
+                        class="rounded-lg border border-gray-200"
+                        title="Monster Survivors Game"
+                        allowfullscreen
+                        allow="autoplay; fullscreen; gamepad; keyboard-map"
+                        sandbox="allow-same-origin allow-scripts allow-forms allow-pointer-lock allow-popups"
+                        loading="lazy">
                     </iframe>
                 </div>
             </div>
 
-            <!-- 简化的游戏介绍 -->
-            <div class="bg-white rounded-lg p-4 mt-4 shadow-md">
+            <!-- Troubleshooting tips -->
+            <div class="bg-blue-100 rounded-lg p-2 mt-3 shadow border border-blue-200">
+                <p class="text-blue-800 text-center font-medium">
+                    <span class="font-bold">Controls:</span> Use mouse click or WASD keys to move your character. If controls don't work, try clicking on the game window or refreshing the page.
+                </p>
+            </div>
+
+            <!-- Game intro -->
+            <div class="bg-white rounded-lg p-3 mt-3 shadow-md">
                 <p class="text-gray-700 text-center">
                     In Monster Survivors, face endless waves of monsters, collect resources, and upgrade your abilities to become the ultimate survivor.
                 </p>
@@ -38,10 +103,96 @@
         </div>
     </main>
 
-    <footer class="bg-blue-500 py-3 mt-4 text-white shadow-md">
+    <footer class="bg-blue-600 py-2 mt-3 text-white shadow-md">
         <div class="container mx-auto px-4 text-center">
             <p>© 2024 AllPopularGames.online</p>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const gameFrame = document.getElementById('game-frame');
+            const gameContainer = document.getElementById('game-container');
+            const loadingIndicator = document.getElementById('loading-indicator');
+            
+            // Listen for iframe load completion
+            gameFrame.addEventListener('load', function() {
+                // Hide loading indicator
+                loadingIndicator.classList.add('hidden');
+                
+                // Focus the iframe after loading
+                setTimeout(() => {
+                    gameFrame.focus();
+                    
+                    // Try to pass focus to the game inside iframe
+                    try {
+                        gameFrame.contentWindow.focus();
+                        gameFrame.contentWindow.postMessage('activate-controls', '*');
+                    } catch(e) {
+                        console.log('Unable to focus iframe content: ', e);
+                    }
+                }, 500);
+            });
+            
+            // Ensure iframe gets focus when clicked
+            gameFrame.addEventListener('click', function() {
+                this.focus();
+                
+                try {
+                    this.contentWindow.focus();
+                } catch(e) {
+                    console.log('Unable to focus iframe content');
+                }
+            });
+            
+            // Listen for messages from iframe content
+            window.addEventListener('message', function(event) {
+                // Handle any messages from the game if needed
+                console.log('Message from game:', event.data);
+            });
+            
+            // If game loads but controls still don't work, we'll add a reset button
+            let resetAttempts = 0;
+            
+            function addResetButton() {
+                if (resetAttempts > 0) return;
+                
+                const resetButton = document.createElement('button');
+                resetButton.innerText = 'Reset Game';
+                resetButton.className = 'mt-3 mx-auto block bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition-all duration-200 transform hover:scale-105';
+                
+                resetButton.addEventListener('click', function() {
+                    resetAttempts++;
+                    
+                    // Show loading indicator again
+                    loadingIndicator.classList.remove('hidden');
+                    
+                    // Reload iframe with fresh content
+                    gameFrame.src = '';
+                    setTimeout(() => {
+                        gameFrame.src = "https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html";
+                    }, 100);
+                });
+                
+                gameContainer.parentNode.insertBefore(resetButton, gameContainer.nextSibling);
+            }
+            
+            // Add reset button after 30 seconds to help users who might be stuck
+            setTimeout(addResetButton, 30000);
+            
+            // Optimize for mobile devices
+            function adjustForMobile() {
+                if (window.innerWidth < 768) {
+                    const tips = document.querySelectorAll('.bg-blue-100');
+                    tips.forEach(tip => {
+                        tip.classList.add('text-sm');
+                    });
+                }
+            }
+            
+            adjustForMobile();
+            window.addEventListener('resize', adjustForMobile);
+        });
+    </script>
 </body>
 </html> 
