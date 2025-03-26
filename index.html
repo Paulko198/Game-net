@@ -3,196 +3,446 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monster Survivors - Play Free Online Survival Game | AllPopularGames.online</title>
-    <meta name="description" content="Play Monster Survivors online for free! A thrilling survival game where you fight against waves of monsters. Experience intense action and strategic gameplay in this addictive browser game.">
-    <meta name="keywords" content="Monster Survivors, online survival game, free browser game, monster fighting game, action survival">
-    <meta property="og:title" content="Monster Survivors - Free Online Survival Game">
-    <meta property="og:description" content="Play Monster Survivors online for free! Battle endless waves of monsters and upgrade your abilities.">
+    <title>AllPopularGames - Play Free Online Games</title>
+    <meta name="description" content="Play free online games on AllPopularGames. We have a huge collection of action, adventure, puzzle, shooting, strategy and survival games!">
+    <meta name="keywords" content="online games, free games, browser games, action games, puzzle games, shooting games, adventure games">
+    <meta property="og:title" content="AllPopularGames - Free Online Games">
+    <meta property="og:description" content="Play the best free online games on AllPopularGames. New games added regularly!">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://allpopulargames.online/monster-survivors">
-    <link rel="canonical" href="https://allpopulargames.online/monster-survivors">
-    <meta name="theme-color" content="#3b82f6">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta property="og:url" content="https://allpopulargames.online">
+    <link rel="canonical" href="https://allpopulargames.online">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/no-play-buttons.css">
     <style>
-        /* Ensure iframe gets proper focus and mouse events */
-        #game-container {
+        :root {
+            --main-bg: #222222;
+            --header-bg: #333333;
+            --content-bg: #ffffff;
+            --accent-color: #FF6B00;
+            --accent-hover: #ff8534;
+            --text-light: #ffffff;
+            --text-dark: #333333;
+            --text-gray: #666666;
+            --section-title: #006699;
+            --card-shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: var(--main-bg);
+            color: var(--text-dark);
+            line-height: 1.5;
+        }
+
+        /* Header Styles */
+        .main-header {
+            background-color: var(--header-bg);
+            padding: 10px 0;
+            text-align: center;
             position: relative;
-            transition: all 0.3s ease;
-            max-width: 100%;
+        }
+
+        .logo-container {
+            background-color: var(--accent-color);
+            display: inline-block;
+            padding: 8px 20px 8px 20px;
+            border-radius: 0 0 20px 20px;
+            margin-top: -10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            color: var(--text-light);
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo span {
+            position: relative;
+            z-index: 2;
+        }
+
+        .site-name {
+            margin-right: 5px;
+        }
+
+        .games-text {
+            margin-left: 5px;
+        }
+
+        .menu-button {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #444;
+            border: none;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .language-selector {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #444;
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Main Content */
+        .main-content {
+            background-color: var(--content-bg);
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 30px 15px;
         }
-        #game-frame {
+
+        /* Title Section */
+        .page-title-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .page-title {
+            color: var(--section-title);
+            font-size: 28px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .best-tag {
+            text-align: center;
+            margin-bottom: 20px;
             position: relative;
-            z-index: 1;
+        }
+
+        .best-icon {
+            color: var(--section-title);
+            font-size: 36px;
+        }
+
+        .best-text {
+            color: var(--section-title);
+            font-size: 36px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        /* Games Grid */
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .game-card {
+            background: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px var(--card-shadow);
+            transition: transform 0.3s ease;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .game-thumbnail {
             width: 100%;
-            height: 850px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
         }
-        .hidden {
-            display: none !important;
+
+        .game-info {
+            padding: 10px;
+            text-align: center;
         }
-        
-        /* Mobile optimization */
+
+        .game-title {
+            color: var(--text-dark);
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .game-iframe-container {
+            width: 100%;
+            aspect-ratio: 1/1;
+            position: relative;
+        }
+
+        .game-iframe-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Media Queries */
         @media (max-width: 768px) {
-            #game-frame {
-                height: 550px !important;
+            .games-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .page-title {
+                font-size: 24px;
+            }
+            
+            .best-text {
+                font-size: 28px;
             }
         }
-        
-        /* Loading spinner */
-        .loader {
-            border: 4px solid rgba(0, 0, 0, 0.1);
-            border-radius: 50%;
-            border-top: 4px solid #3b82f6;
-            width: 30px;
-            height: 30px;
-            animation: spin 1s linear infinite;
-            display: inline-block;
-            margin-right: 10px;
+
+        @media (max-width: 480px) {
+            .games-grid {
+                grid-template-columns: 1fr;
+            }
         }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+
+        /* 彻底移除Play按钮 - 更精确的选择器 */
+        .game-card .play-button, 
+        .game-card a.play,
+        .game-card button.play,
+        .game-card div.play,
+        .game-card .control-play {
+            display: none !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+            height: 0 !important;
+            width: 0 !important;
+            position: absolute !important;
+            pointer-events: none !important;
+            z-index: -100 !important;
+        }
+        
+        /* 确保嵌入的iframe中的Play按钮不可见，但不阻止iframe本身显示 */
+        .game-iframe-container {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* 添加一个透明的覆盖层，用于处理点击事件 */
+        .game-iframe-container::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            z-index: 10;
+        }
+        
+        /* 确保游戏卡片整体可点击 */
+        .game-card {
+            cursor: pointer;
+            position: relative;
+        }
+        
+        /* 确保卡片中特定的Play按钮被隐藏 */
+        .game-card .game-info > .play-button,
+        .game-card .game-info + a[class*="play"],
+        .game-card .game-info + button[class*="play"] {
+            display: none !important;
         }
     </style>
 </head>
-<body class="bg-blue-50 text-gray-800">
-    <header class="bg-blue-600 py-3 shadow-md">
-        <div class="container mx-auto px-4">
-            <h1 class="text-3xl font-bold text-center text-white">Monster Survivors</h1>
-            <p class="text-lg text-center text-white">An Exciting Monster Survival Adventure</p>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <button class="menu-button">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <div class="logo-container">
+            <a href="index.html" class="logo">
+                <span class="site-name">ALLPOPULARGAMES</span>
+            </a>
         </div>
+        
+        <button class="language-selector">
+            EN <i class="fas fa-caret-down"></i>
+        </button>
     </header>
 
-    <main class="container mx-auto px-2 py-4 max-w-6xl">
-        <div class="mx-auto">
-            <!-- Game frame -->
-            <div id="game-container" class="bg-white rounded-lg p-3 shadow-lg relative">
-                <div id="loading-indicator" class="absolute inset-0 flex items-center justify-center bg-white rounded-lg z-10">
-                    <div>
-                        <div class="loader"></div>
-                        <span class="text-gray-700 font-medium">Loading game...</span>
-                    </div>
-                </div>
-                <div class="relative">
-                    <iframe 
-                        id="game-frame"
-                        src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
-                        class="rounded-lg border border-gray-200"
-                        title="Monster Survivors Game"
-                        allowfullscreen
-                        allow="autoplay; fullscreen; gamepad; keyboard-map"
-                        sandbox="allow-same-origin allow-scripts allow-forms allow-pointer-lock allow-popups"
-                        loading="lazy">
-                    </iframe>
-                </div>
-            </div>
-
-            <!-- Troubleshooting tips -->
-            <div class="bg-blue-100 rounded-lg p-2 mt-3 shadow border border-blue-200">
-                <p class="text-blue-800 text-center font-medium">
-                    <span class="font-bold">Controls:</span> Use mouse click or WASD keys to move your character. If controls don't work, try clicking on the game window or refreshing the page.
-                </p>
-            </div>
-
-            <!-- Game intro -->
-            <div class="bg-white rounded-lg p-3 mt-3 shadow-md">
-                <p class="text-gray-700 text-center">
-                    In Monster Survivors, face endless waves of monsters, collect resources, and upgrade your abilities to become the ultimate survivor.
-                </p>
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Title Section -->
+        <div class="page-title-section">
+            <h1 class="page-title">POPULAR GAMES FOR YOUR ENJOYMENT</h1>
+            <div class="best-tag">
+                <i class="fas fa-thumbs-up best-icon"></i>
+                <span class="best-text">BEST</span>
             </div>
         </div>
-    </main>
 
-    <footer class="bg-blue-600 py-2 mt-3 text-white shadow-md">
-        <div class="container mx-auto px-4 text-center">
-            <p>© 2024 AllPopularGames.online</p>
+        <!-- Games Grid -->
+        <div class="games-grid" id="games-container">
+            <!-- Games will be populated by JavaScript -->
         </div>
-    </footer>
+    </div>
 
+    <!-- JavaScript -->
+    <script src="js/games.js"></script>
     <script>
+        // Sample games data if js/games.js is not available
+        const sampleGames = [
+            {
+                id: "om-nom-run",
+                title: "Om Nom Run",
+                thumbnail: "https://html5games.com/wp-content/uploads/2022/03/om-nom-run-740x416.jpg",
+                embedUrl: "https://play.famobi.com/om-nom-run"
+            },
+            {
+                id: "garden-bloom",
+                title: "Garden Bloom",
+                thumbnail: "https://html5games.com/wp-content/uploads/2022/03/garden-bloom-740x416.jpg",
+                embedUrl: "https://play.famobi.com/garden-bloom"
+            },
+            {
+                id: "bubble-tower-3d",
+                title: "Bubble Tower 3D",
+                thumbnail: "https://html5games.com/wp-content/uploads/2022/03/bubble-tower-3d-740x416.jpg",
+                embedUrl: "https://play.famobi.com/bubble-tower-3d"
+            },
+            {
+                id: "cannon-balls-3d",
+                title: "Cannon Balls 3D",
+                thumbnail: "https://html5games.com/wp-content/uploads/2022/03/cannon-balls-3d-740x416.jpg",
+                embedUrl: "https://play.famobi.com/cannon-balls-3d"
+            },
+            {
+                id: "tower-crash-3d",
+                title: "Tower Crash 3D",
+                thumbnail: "https://html5games.com/wp-content/uploads/2021/09/tower-crash-3d-741x416.jpg",
+                embedUrl: "https://play.famobi.com/tower-crash-3d"
+            },
+            {
+                id: "element-blocks",
+                title: "Element Blocks",
+                thumbnail: "https://html5games.com/wp-content/uploads/2021/09/element-blocks-741x416.jpg",
+                embedUrl: "https://play.famobi.com/element-blocks"
+            },
+            {
+                id: "zoo-boom",
+                title: "Zoo Boom",
+                thumbnail: "https://html5games.com/wp-content/uploads/2021/09/zoo-boom-741x416.jpg",
+                embedUrl: "https://play.famobi.com/zoo-boom"
+            },
+            {
+                id: "moto-x3m-pool-party",
+                title: "Moto X3M Pool Party",
+                thumbnail: "https://html5games.com/wp-content/uploads/2021/09/moto-x3m-pool-party-741x416.jpg",
+                embedUrl: "https://play.famobi.com/moto-x3m-pool-party"
+            },
+            {
+                id: "train-miner",
+                title: "Train Miner",
+                thumbnail: "images/games/train-miner.jpg",
+                embedUrl: "https://play.famobi.com/train-miner"
+            }
+        ];
+
+        // Combine games data from games.js if available
+        let allGames = [];
+        if (typeof gamesData !== 'undefined') {
+            // Add games from gamesData
+            allGames = [...gamesData];
+            
+            // Add sample games that might not be in gamesData
+            sampleGames.forEach(sampleGame => {
+                if (!allGames.find(g => g.id === sampleGame.id)) {
+                    allGames.push(sampleGame);
+                }
+            });
+        } else {
+            allGames = sampleGames;
+        }
+        
         document.addEventListener('DOMContentLoaded', function() {
-            const gameFrame = document.getElementById('game-frame');
-            const gameContainer = document.getElementById('game-container');
-            const loadingIndicator = document.getElementById('loading-indicator');
+            const gamesContainer = document.getElementById('games-container');
             
-            // Listen for iframe load completion
-            gameFrame.addEventListener('load', function() {
-                // Hide loading indicator
-                loadingIndicator.classList.add('hidden');
-                
-                // Focus the iframe after loading
-                setTimeout(() => {
-                    gameFrame.focus();
-                    
-                    // Try to pass focus to the game inside iframe
-                    try {
-                        gameFrame.contentWindow.focus();
-                        gameFrame.contentWindow.postMessage('activate-controls', '*');
-                    } catch(e) {
-                        console.log('Unable to focus iframe content: ', e);
-                    }
-                }, 500);
+            // Populate games grid with initial games
+            allGames.forEach(game => {
+                const card = createGameCard(game);
+                gamesContainer.appendChild(card);
             });
-            
-            // Ensure iframe gets focus when clicked
-            gameFrame.addEventListener('click', function() {
-                this.focus();
-                
-                try {
-                    this.contentWindow.focus();
-                } catch(e) {
-                    console.log('Unable to focus iframe content');
-                }
-            });
-            
-            // Listen for messages from iframe content
-            window.addEventListener('message', function(event) {
-                // Handle any messages from the game if needed
-                console.log('Message from game:', event.data);
-            });
-            
-            // If game loads but controls still don't work, we'll add a reset button
-            let resetAttempts = 0;
-            
-            function addResetButton() {
-                if (resetAttempts > 0) return;
-                
-                const resetButton = document.createElement('button');
-                resetButton.innerText = 'Reset Game';
-                resetButton.className = 'mt-3 mx-auto block bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition-all duration-200 transform hover:scale-105';
-                
-                resetButton.addEventListener('click', function() {
-                    resetAttempts++;
-                    
-                    // Show loading indicator again
-                    loadingIndicator.classList.remove('hidden');
-                    
-                    // Reload iframe with fresh content
-                    gameFrame.src = '';
-                    setTimeout(() => {
-                        gameFrame.src = "https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html";
-                    }, 100);
-                });
-                
-                gameContainer.parentNode.insertBefore(resetButton, gameContainer.nextSibling);
-            }
-            
-            // Add reset button after 30 seconds to help users who might be stuck
-            setTimeout(addResetButton, 30000);
-            
-            // Optimize for mobile devices
-            function adjustForMobile() {
-                if (window.innerWidth < 768) {
-                    const tips = document.querySelectorAll('.bg-blue-100');
-                    tips.forEach(tip => {
-                        tip.classList.add('text-sm');
-                    });
-                }
-            }
-            
-            adjustForMobile();
-            window.addEventListener('resize', adjustForMobile);
         });
+        
+        // Function to create a game card
+        function createGameCard(game) {
+            const card = document.createElement('div');
+            card.className = 'game-card no-play-buttons';
+            
+            const title = game.title_en || game.title;
+            
+            // 为卡片添加点击事件
+            card.addEventListener('click', function(e) {
+                // 阻止任何默认行为
+                e.preventDefault();
+                e.stopPropagation();
+                
+                if (game.embedUrl) {
+                    // 对于有embedUrl的游戏，直接在新窗口打开
+                    window.open(game.embedUrl, '_blank');
+                } else if (game.id) {
+                    // 对于有id的游戏，打开对应的游戏页面
+                    window.location.href = `games/${game.id}.html`;
+                }
+            });
+            
+            // 添加鼠标指针样式，提示可点击
+            card.style.cursor = 'pointer';
+            
+            if (game.embedUrl) {
+                // 对于嵌入式游戏，显示iframe和标题
+                card.innerHTML = `
+                    <div class="game-iframe-container">
+                        <iframe src="${game.embedUrl}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="game-info">
+                        <h3 class="game-title">${title}</h3>
+                    </div>
+                `;
+            } else {
+                // 对于非嵌入式游戏，显示缩略图和标题
+                card.innerHTML = `
+                    <img src="${game.thumbnail}" alt="${title}" class="game-thumbnail">
+                    <div class="game-info">
+                        <h3 class="game-title">${title}</h3>
+                    </div>
+                `;
+            }
+            
+            return card;
+        }
     </script>
+    <!-- 游戏批量添加工具 -->
+    <script src="games-tools.js"></script>
+    <!-- 隐藏Play按钮的脚本 -->
+    <script src="js/hide-play-buttons.js"></script>
 </body>
 </html> 
