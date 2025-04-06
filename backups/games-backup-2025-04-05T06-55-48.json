@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Test Puzzle Game",
+    "type": "Puzzle",
+    "url": "https://example.com/test-puzzle",
+    "thumbUrl": "https://via.placeholder.com/300",
+    "openMode": "iframe",
+    "tag": "new"
+  },
+  {
+    "title": "TRAIN MINER",
+    "type": "Match 3",
+    "url": "/games/train-miner.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/TrainMinerTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "redirect",
+    "tag": "",
+    "originalUrl": "https://play.famobi.com/train-miner/A1000-10?ref=allpopulargames",
+    "canonicalUrl": "https://allpopulargames.online/games/train-miner.html"
+  },
+  {
+    "title": "RISE UP",
+    "type": "Match 3",
+    "url": "/games/rise-up.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/RiseUpTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "redirect",
+    "tag": "",
+    "originalUrl": "https://play.famobi.com/rise-up/A1000-10?ref=allpopulargames",
+    "canonicalUrl": "https://allpopulargames.online/games/rise-up.html"
+  },
+  {
+    "title": "GIANT RUSH",
+    "type": "Match 3",
+    "url": "/games/giant-rush.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/GiantRushTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "redirect",
+    "tag": "hot",
+    "originalUrl": "https://play.famobi.com/giant-rush/A1000-10?ref=allpopulargames",
+    "canonicalUrl": "https://allpopulargames.online/games/giant-rush.html"
+  },
+  {
+    "title": "Bloxd.io",
+    "type": "Arcade",
+    "url": "/games/bloxd-io.html",
+    "thumbUrl": "https://imgs.crazygames.com/games/bloxdhop-io/cover_16x9-1709115453824.png?metadata=none&quality=70&width=587.5",
+    "openMode": "redirect",
+    "tag": "",
+    "originalUrl": "https://www.crazygames.com/embed/bloxdhop-io?ref=allpopulargames",
+    "canonicalUrl": "https://allpopulargames.online/games/bloxd-io.html"
+  }
+]

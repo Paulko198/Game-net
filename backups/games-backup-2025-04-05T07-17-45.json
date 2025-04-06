@@ -1,0 +1,199 @@
+[
+  {
+    "title": "Test Puzzle Game",
+    "type": "Puzzle",
+    "url": "/games/test-puzzle-game.html",
+    "thumbUrl": "https://via.placeholder.com/300",
+    "openMode": "redirect",
+    "tag": "new",
+    "originalUrl": "https://example.com/test-puzzle?ref=allpopulargames&ref=allpopulargames",
+    "canonicalUrl": "https://allpopulargames.online/games/test-puzzle-game.html"
+  },
+  {
+    "title": "TRAIN MINER",
+    "type": "Match 3",
+    "url": "/games/train-miner.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/TrainMinerTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "redirect",
+    "tag": "",
+    "originalUrl": "https://play.famobi.com/train-miner/A1000-10?ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames",
+    "canonicalUrl": "https://allpopulargames.online/games/train-miner.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Arcade"
+    ]
+  },
+  {
+    "title": "RISE UP",
+    "type": "Match 3",
+    "url": "/games/rise-up.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/RiseUpTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "redirect",
+    "tag": "",
+    "originalUrl": "https://play.famobi.com/rise-up/A1000-10?ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames",
+    "canonicalUrl": "https://allpopulargames.online/games/rise-up.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Arcade"
+    ]
+  },
+  {
+    "title": "GIANT RUSH",
+    "type": "Match 3",
+    "url": "/games/giant-rush.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/GiantRushTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "redirect",
+    "tag": "hot",
+    "originalUrl": "https://play.famobi.com/giant-rush/A1000-10?ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames",
+    "canonicalUrl": "https://allpopulargames.online/games/giant-rush.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Arcade"
+    ]
+  },
+  {
+    "title": "Bloxd.io",
+    "type": "Arcade",
+    "url": "/games/bloxd-io.html",
+    "thumbUrl": "https://imgs.crazygames.com/games/bloxdhop-io/cover_16x9-1709115453824.png?metadata=none&quality=70&width=587.5",
+    "openMode": "redirect",
+    "tag": "",
+    "originalUrl": "https://www.crazygames.com/embed/bloxdhop-io?ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames&ref=allpopulargames",
+    "canonicalUrl": "https://allpopulargames.online/games/bloxd-io.html"
+  },
+  {
+    "title": "GO ESCAPE",
+    "type": "Match 3",
+    "url": "/games/go-escape.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/GoEscapeTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "iframe",
+    "tag": "",
+    "originalUrl": "https://play.famobi.com/go-escape/A1000-10",
+    "canonicalUrl": "https://allpopulargames.online/games/go-escape.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Bubble Shooter",
+      "Puzzle"
+    ]
+  },
+  {
+    "title": "COLOR FILL 3D",
+    "type": "Match 3",
+    "url": "/games/color-fill-3d.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/ColorFill3dTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "iframe",
+    "tag": "new",
+    "originalUrl": "https://play.famobi.com/color-fill-3d/A1000-10",
+    "canonicalUrl": "https://allpopulargames.online/games/color-fill-3d.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Bubble Shooter",
+      "Puzzle"
+    ]
+  },
+  {
+    "title": "COLOR WATER SORT 3D",
+    "type": "Match 3",
+    "url": "/games/color-water-sort-3d.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/ColorWaterSort3dTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "iframe",
+    "tag": "new",
+    "originalUrl": "https://play.famobi.com/color-water-sort-3d/A1000-10",
+    "canonicalUrl": "https://allpopulargames.online/games/color-water-sort-3d.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Bubble Shooter",
+      "Puzzle"
+    ]
+  },
+  {
+    "title": "COLOR ROLL 3D",
+    "type": "Match 3",
+    "url": "/games/color-roll-3d.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/ColorRoll3dTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "iframe",
+    "tag": "",
+    "originalUrl": "https://play.famobi.com/color-roll-3d/A1000-10",
+    "canonicalUrl": "https://allpopulargames.online/games/color-roll-3d.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Bubble Shooter",
+      "Puzzle"
+    ]
+  },
+  {
+    "title": "BRAINDOM",
+    "type": "Match 3",
+    "url": "/games/braindom.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/BraindomTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "iframe",
+    "tag": "hot",
+    "originalUrl": "https://play.famobi.com/braindom/A1000-10",
+    "canonicalUrl": "https://allpopulargames.online/games/braindom.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Bubble Shooter",
+      "Puzzle"
+    ]
+  },
+  {
+    "title": "WESTERN SNIPER",
+    "type": "Match 3",
+    "url": "/games/western-sniper.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/WesternSniperTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "iframe",
+    "tag": "",
+    "originalUrl": "https://play.famobi.com/western-sniper/A1000-10",
+    "canonicalUrl": "https://allpopulargames.online/games/western-sniper.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Bubble Shooter",
+      "Puzzle"
+    ]
+  },
+  {
+    "title": "SPOT THE CAT",
+    "type": "Match 3",
+    "url": "/games/spot-the-cat.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/SpotTheCatTeaser.jpg?v=0.2-e9a56fac",
+    "openMode": "iframe",
+    "tag": "new",
+    "originalUrl": "https://play.famobi.com/spot-the-cat/A1000-10",
+    "canonicalUrl": "https://allpopulargames.online/games/spot-the-cat.html",
+    "description": "享受这款精彩的Match 3游戏。无需下载，直接在浏览器中即可开始游戏！",
+    "source": "html5games.com",
+    "embedTestPassed": true,
+    "categories": [
+      "Match 3",
+      "Bubble Shooter",
+      "Puzzle"
+    ]
+  }
+]

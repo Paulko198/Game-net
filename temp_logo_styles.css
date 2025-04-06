@@ -1,0 +1,61 @@
+/* 
+ * 临时Logo样式示例 - 用于参考
+ * 当您上传实际的logo.png图片后，将这些样式合并到主样式表中
+ */
+
+/* 头部导航栏中的logo样式 */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* 导航栏中的logo高度 */
+    width: auto; /* 保持宽高比 */
+    margin-right: 10px;
+}
+
+/* 欢迎横幅中的logo样式 */
+.welcome-banner .site-logo {
+    height: 80px; /* 欢迎横幅中的logo高度 */
+    width: auto; /* 保持宽高比 */
+    margin-right: 15px;
+}
+
+/* 当侧边栏收缩时的logo样式 */
+.sidebar-collapsed .logo img {
+    height: 40px;
+    margin-right: 0;
+}
+
+/* Logo的图片可替换实现（如果暂时无法上传图片） */
+.logo-placeholder {
+    background-color: #7165e3; /* 使用网站主题色 */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.welcome-banner .logo-placeholder {
+    padding: 15px 25px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+/* 
+ * 示例HTML:
+ * <div class="logo">
+ *     <div class="logo-placeholder">APG</div>
+ *     <span>AllPopularGames</span>
+ * </div>
+ *
+ * 或使用图片:
+ * <div class="logo">
+ *     <img src="images/logo.png" alt="AllPopularGames Logo">
+ * </div>
+ */ 

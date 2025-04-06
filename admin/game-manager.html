@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏管理系统 - AllPopularGames</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" integrity="sha512-XMVd28F1oH/O71fzwBnV7HucLxVwtxf26XV8P4wPk26EDxuGZ91N8bsOttmnomcCD3CS5ZMRL50H0GgOHvegtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .admin-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .admin-card {
+            background: #282828;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .admin-form {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #ddd;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background: #333;
+            color: #fff;
+        }
+        .btn-row {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .btn {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .btn-primary {
+            background: var(--accent-blue);
+            color: white;
+        }
+        .btn-secondary {
+            background: #555;
+            color: white;
+        }
+        .btn-danger {
+            background: #e74c3c;
+            color: white;
+        }
+        .btn-success {
+            background: #2ecc71;
+            color: white;
+        }
+        .game-list {
+            margin-top: 20px;
+        }
+        .game-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #444;
+            gap: 10px;
+        }
+        .game-item img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .game-item-info {
+            flex: 1;
+        }
+        .game-item-actions {
+            display: flex;
+            gap: 10px;
+        }
+        .alert {
+            padding: 10px 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            font-weight: 500;
+        }
+        .alert-success {
+            background: rgba(46, 204, 113, 0.2);
+            border: 1px solid #2ecc71;
+            color: #2ecc71;
+        }
+        .alert-danger {
+            background: rgba(231, 76, 60, 0.2);
+            border: 1px solid #e74c3c;
+            color: #e74c3c;
+        }
+        #import-json {
+            width: 100%;
+            height: 150px;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background: #333;
+            color: #fff;
+        }
+        /* Export/Import section */
+        .export-import-container {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin: 15px 0;
+            flex-wrap: wrap;
+        }
+        
+        #import-container {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+        
+        #import-container pre {
+            background: #e9ecef;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        
+        #import-json {
+            width: 100%;
+            min-height: 150px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo.png" alt="AllPopularGames Logo">
+                    <h1>AllPopular<span>Games</span></h1>
+                </a>
+            </div>
+            <a href="../index.html" class="btn-back">
+                <i class="fas fa-home"></i> 返回首页
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="admin-container">
+            <h1>游戏管理系统</h1>
+            <p>在此页面添加、编辑或删除游戏。所有更改将保存在您的浏览器中。</p>
+            <div id="alerts"></div>
+            
+            <div class="admin-card">
+                <h2>添加新游戏</h2>
+                <form id="add-game-form" class="admin-form">
+                    <div class="form-group">
+                        <label for="game-title">游戏标题</label>
+                        <input type="text" id="game-title" required placeholder="E.g.: Memory Match">
+                    </div>
+                    <div class="form-group">
+                        <label for="game-type">游戏类型</label>
+                        <select id="game-type" required>
+                            <option value="">选择类型...</option>
+                            <option value="Action">动作</option>
+                            <option value="Adventure">冒险</option>
+                            <option value="Arcade">街机</option>
+                            <option value="Board">棋盘</option>
+                            <option value="Bubble Shooter">泡泡射击</option>
+                            <option value="Card">卡牌</option>
+                            <option value="Casino">赌场</option>
+                            <option value="Casual">休闲</option>
+                            <option value="Educational">教育</option>
+                            <option value="Girls">女生游戏</option>
+                            <option value="Jump & Run">跳跃跑酷</option>
+                            <option value="Match 3">三消游戏</option>
+                            <option value="Multiplayer">多人游戏</option>
+                            <option value="Music">音乐</option>
+                            <option value="Puzzle">益智</option>
+                            <option value="Quiz">问答游戏</option>
+                            <option value="Racing">赛车</option>
+                            <option value="RPG">角色扮演</option>
+                            <option value="Simulation">模拟</option>
+                            <option value="Sports">体育</option>
+                            <option value="Strategy">策略</option>
+                            <option value="Trivia">知识</option>
+                            <option value="Word">文字</option>
+                            <option value="Shooting">射击</option>
+                            <option value="Fighting">格斗</option>
+                            <option value="Battle Royale">大逃杀</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="game-url">游戏链接 URL</label>
+                        <input type="url" id="game-url" required placeholder="E.g.: https://example.com/game">
+                    </div>
+                    <div class="form-group">
+                        <label for="game-thumb">缩略图 URL (可选)</label>
+                        <input type="url" id="game-thumb" placeholder="E.g.: https://example.com/image.jpg">
+                    </div>
+                    <div class="form-group">
+                        <label for="game-mode">打开方式</label>
+                        <select id="game-mode" required>
+                            <option value="iframe">内嵌框架 (推荐)</option>
+                            <option value="external">外部链接</option>
+                            <option value="internal">内部页面</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="game-tag">特殊标签 (可选)</label>
+                        <select id="game-tag">
+                            <option value="">无</option>
+                            <option value="hot">热门</option>
+                            <option value="new">新游戏</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="grid-column: 1 / -1;">
+                        <div class="btn-row">
+                            <button type="submit" class="btn btn-primary">添加游戏</button>
+                            <button type="reset" class="btn btn-secondary">重置</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="admin-card">
+                <h2>游戏列表</h2>
+                <div id="game-list" class="game-list">
+                    <p>No games. Use the form above to add games.</p>
+                </div>
+            </div>
+            
+            <div class="export-import-container">
+                <h2>导入/导出</h2>
+                <div class="button-group">
+                    <button id="export-btn" class="btn btn-primary">
+                        <i class="fas fa-file-export"></i> 导出游戏列表
+                    </button>
+                    <button id="import-btn" class="btn btn-secondary">
+                        <i class="fas fa-file-import"></i> 导入游戏列表
+                    </button>
+                    <button id="generate-static" class="btn btn-success">
+                        <i class="fas fa-file-code"></i> 生成静态页面
+                    </button>
+                    <button id="auto-sync-btn" class="btn btn-info">
+                        <i class="fas fa-sync-alt"></i> 自动同步并转换
+                    </button>
+                </div>
+                
+                <div id="import-container" style="display: none;">
+                    <h3>导入游戏数据</h3>
+                    <p>粘贴之前导出的JSON数据或使用以下格式的文本：</p>
+                    <pre>游戏标题 | 类型 | URL | 缩略图URL | 打开模式 | 标签(可选)</pre>
+                    <p>每行一个游戏，字段用竖线(|)分隔。</p>
+                    <textarea id="import-json" rows="10" placeholder="粘贴JSON数据或按上述格式输入"></textarea>
+                    <div class="button-group">
+                        <button id="process-import-btn" class="btn btn-primary">处理导入</button>
+                        <button id="cancel-import-btn" class="btn btn-secondary">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="game-manager.js"></script>
+</body>
+</html> 

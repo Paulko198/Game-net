@@ -1,0 +1,27 @@
+{
+  "name": "allpopulargames",
+  "version": "1.0.0",
+  "description": "Popular games collection website",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8000",
+    "server": "node server.js",
+    "sync": "node scripts/sync-games.js",
+    "sync:auto": "node -e \"setInterval(() => require('child_process').execSync('npm run sync', {stdio: 'inherit'}), 3600000)\"",
+    "sync:once": "node scripts/sync-games.js"
+  },
+  "keywords": [
+    "games",
+    "collection",
+    "html5"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "puppeteer": "^22.15.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

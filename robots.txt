@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /backups/
+Disallow: /temp/
+Disallow: /restore_backup/
+
+# 网站地图
+Sitemap: https://allpopulargames.online/sitemap.xml 

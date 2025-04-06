@@ -1,0 +1,18 @@
+[
+  {
+    "title": "StreetRace Fury",
+    "type": "Racing",
+    "url": "/games/streetrace-fury.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/StreetRaceFuryTeaser.jpg",
+    "openMode": "iframe",
+    "tag": "new",
+    "originalUrl": "https://play.famobi.com/streetrace-fury",
+    "categories": [
+      "Racing",
+      "Action"
+    ],
+    "description": "Race through busy streets in this thrilling racing game!",
+    "source": "html5games.com",
+    "embedTestPassed": true
+  }
+]

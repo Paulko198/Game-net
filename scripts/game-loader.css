@@ -1,0 +1,252 @@
+/**
+ * 游戏加载器样式
+ * 提供游戏加载状态和错误处理的CSS样式
+ */
+
+/* 游戏iframe容器 */
+.game-iframe-container {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background-color: var(--secondary-bg, #2c2c2e);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+/* 加载状态容器 */
+.game-loading-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-bg, #2c2c2e);
+  z-index: 10;
+  padding: 20px;
+  box-sizing: border-box;
+  color: var(--text-primary, #ffffff);
+}
+
+/* 加载动画 */
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border-top-color: var(--accent-blue, #0a84ff);
+  animation: spin 1s ease-in-out infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* 加载文本 */
+.game-loading-container h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  color: var(--text-primary, #ffffff);
+}
+
+/* 加载进度条 */
+.loading-progress {
+  width: 80%;
+  max-width: 300px;
+  height: 6px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.loading-progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: var(--accent-blue, #0a84ff);
+  border-radius: 3px;
+  transition: width 0.2s ease;
+}
+
+/* 错误状态 */
+.loading-error {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--text-primary, #ffffff);
+}
+
+.loading-error p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: var(--text-secondary, rgba(235, 235, 245, 0.8));
+}
+
+/* 重试按钮 */
+.retry-button {
+  background-color: var(--accent-blue, #0a84ff);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.retry-button:hover {
+  background-color: #0070e0;
+  transform: translateY(-2px);
+}
+
+.retry-button:active {
+  transform: translateY(0);
+}
+
+/* 替代内容样式 */
+.game-alternative {
+  padding: 20px;
+  text-align: center;
+}
+
+.game-alternative h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+  color: var(--text-primary, #ffffff);
+}
+
+.game-alternative p {
+  color: var(--text-secondary, rgba(235, 235, 245, 0.8));
+  margin-bottom: 20px;
+}
+
+/* 替代游戏网格 */
+.alternative-games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 10px 0;
+}
+
+/* 替代游戏卡片 */
+.alternative-game-card {
+  background-color: var(--tertiary-bg, #3a3a3c);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.alternative-game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.alternative-game-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.alternative-game-card h4 {
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+  color: var(--text-primary, #ffffff);
+}
+
+/* 替代游戏按钮 */
+.play-alt-button {
+  width: 100%;
+  padding: 8px 0;
+  background-color: var(--accent-blue, #0a84ff);
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.play-alt-button:hover {
+  background-color: #0070e0;
+}
+
+/* 替代游戏加载中样式 */
+.alt-spinner {
+  margin: 20px auto;
+}
+
+/* 全屏按钮 */
+.game-fullscreen-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+  z-index: 20;
+}
+
+.game-fullscreen-btn:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.game-iframe-container:hover .game-fullscreen-btn {
+  opacity: 0.8;
+}
+
+/* iframe样式 */
+.game-iframe-container iframe {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-bg, #1c1c1e);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .game-iframe-container {
+    min-height: 400px;
+  }
+  
+  .alternative-games-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .game-iframe-container {
+    min-height: 300px;
+  }
+  
+  .alternative-games-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+  
+  .loading-progress {
+    width: 90%;
+  }
+} 

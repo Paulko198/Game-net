@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Blaze Kick",
+    "type": "Sport",
+    "url": "/games/blaze-kick.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/BlazeKickTeaser.jpg",
+    "openMode": "iframe",
+    "tag": "hot",
+    "originalUrl": "https://play.famobi.com/blaze-kick",
+    "categories": [
+      "Sport",
+      "Skill"
+    ],
+    "description": "Train your free kick skills in this blazing soccer game and try to earn as many points as you can in 60 seconds!",
+    "source": "html5games.com",
+    "embedTestPassed": true
+  },
+  {
+    "title": "3D Penalty",
+    "type": "Sport",
+    "url": "/games/3d-penalty.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/3DPenaltyTeaser.jpg",
+    "openMode": "iframe",
+    "tag": "hot",
+    "originalUrl": "https://play.famobi.com/3d-penalty",
+    "categories": [
+      "Sport",
+      "Skill"
+    ],
+    "description": "Show your penalty skills in this 3D soccer game!",
+    "source": "html5games.com",
+    "embedTestPassed": true
+  },
+  {
+    "title": "Stickman Destruction 3 Heroes",
+    "type": "Action",
+    "url": "/games/stickman-destruction-3-heroes.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/StickmanDestruction3TetraHeroesTeaser.jpg",
+    "openMode": "iframe",
+    "tag": "new",
+    "originalUrl": "https://play.famobi.com/stickman-destruction-3-heroes",
+    "categories": [
+      "Action",
+      "Arcade"
+    ],
+    "description": "Control stickman heroes and perform amazing stunts!",
+    "source": "html5games.com",
+    "embedTestPassed": true
+  },
+  {
+    "title": "StreetRace Fury",
+    "type": "Racing",
+    "url": "/games/streetrace-fury.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/StreetRaceFuryTeaser.jpg",
+    "openMode": "iframe",
+    "tag": "new",
+    "originalUrl": "https://play.famobi.com/streetrace-fury",
+    "categories": [
+      "Racing",
+      "Action"
+    ],
+    "description": "Race through busy streets in this thrilling racing game!",
+    "source": "html5games.com",
+    "embedTestPassed": true
+  },
+  {
+    "title": "Bubble Woods",
+    "type": "Puzzle",
+    "url": "/games/bubble-woods.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/BubbleWoodsTeaser.jpg",
+    "openMode": "iframe",
+    "tag": "hot",
+    "originalUrl": "https://play.famobi.com/bubble-woods",
+    "categories": [
+      "Puzzle",
+      "Casual"
+    ],
+    "description": "Pop colorful bubbles in this addictive puzzle game!",
+    "source": "html5games.com",
+    "embedTestPassed": true
+  }
+]

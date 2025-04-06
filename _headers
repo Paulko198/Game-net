@@ -1,0 +1,29 @@
+# 全局标头
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  
+# 游戏图片缓存
+/images/*
+  Cache-Control: public, max-age=86400
+  
+# API数据较短缓存时间  
+/allpopulargames_games.json
+  Cache-Control: public, max-age=3600
+
+# 静态资源缓存
+/images/*
+  Cache-Control: public, max-age=86400, s-maxage=31536000
+
+/scripts/*.js
+  Cache-Control: public, max-age=86400, s-maxage=2592000
+
+/styles.css
+  Cache-Control: public, max-age=86400, s-maxage=2592000
+
+# JSON文件缓存较短
+/*.json
+  Cache-Control: public, max-age=3600, s-maxage=86400

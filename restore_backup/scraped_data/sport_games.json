@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Blaze Kick",
+    "type": "Sport",
+    "url": "/games/blaze-kick.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/BlazeKickTeaser.jpg",
+    "openMode": "iframe",
+    "tag": "hot",
+    "originalUrl": "https://play.famobi.com/blaze-kick",
+    "categories": [
+      "Sport",
+      "Skill"
+    ],
+    "description": "Train your free kick skills in this blazing soccer game and try to earn as many points as you can in 60 seconds!",
+    "source": "html5games.com",
+    "embedTestPassed": true
+  },
+  {
+    "title": "3D Penalty",
+    "type": "Sport",
+    "url": "/games/3d-penalty.html",
+    "thumbUrl": "https://img.cdn.famobi.com/portal/html5games/images/tmp/3DPenaltyTeaser.jpg",
+    "openMode": "iframe",
+    "tag": "hot",
+    "originalUrl": "https://play.famobi.com/3d-penalty",
+    "categories": [
+      "Sport",
+      "Skill"
+    ],
+    "description": "Show your penalty skills in this 3D soccer game!",
+    "source": "html5games.com",
+    "embedTestPassed": true
+  }
+]

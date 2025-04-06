@@ -1,0 +1,1910 @@
+[2025-04-02T11:10:13.725Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T11:10:13.726Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T11:10:15.223Z] 获取游戏数据失败: 源网站没有游戏数据
+[2025-04-02T11:10:15.223Z] 同步失败: 源网站没有游戏数据
+[2025-04-02T11:15:27.649Z] 开始同步游戏数据，源文件: E:\Cursor_Code\Gamenet\fixed-games.json, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T11:15:27.654Z] 开始从 E:\Cursor_Code\Gamenet\fixed-games.json 读取游戏数据...
+[2025-04-02T11:15:27.654Z] 成功读取 3 个游戏数据
+[2025-04-02T11:15:27.655Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T11-15-27.json
+[2025-04-02T11:15:27.662Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T11:15:27.663Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T11:15:27.664Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T11:26:28.145Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T11:26:28.146Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T11:26:29.478Z] 获取游戏数据失败: 源网站没有游戏数据
+[2025-04-02T11:26:29.478Z] 同步失败: 源网站没有游戏数据
+[2025-04-02T11:29:32.176Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T11:29:32.177Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T11:29:33.540Z] 从localStorage获取游戏数据失败，尝试从JSON文件获取...
+[2025-04-02T11:29:33.540Z] 获取游戏数据失败: 找不到游戏数据JSON文件
+[2025-04-02T11:29:33.541Z] 同步失败: 找不到游戏数据JSON文件
+[2025-04-02T11:31:32.458Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T11:31:32.459Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T11:31:33.819Z] 从localStorage获取游戏数据失败，尝试从JSON文件获取...
+[2025-04-02T11:31:33.820Z] 成功从JSON文件获取 3 个游戏数据
+[2025-04-02T11:31:33.820Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T11-31-33.json
+[2025-04-02T11:31:33.822Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T11:31:33.823Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T11:31:33.823Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T13:46:14.736Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T13:46:14.738Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T13:46:16.433Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T13:46:16.575Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T13:46:16.575Z] 成功从JSON文件获取 3 个游戏数据
+[2025-04-02T13:46:16.576Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T13-46-16.json
+[2025-04-02T13:46:16.577Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T13:46:16.578Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T13:46:16.579Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T14:50:16.031Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T14:50:16.033Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T14:50:17.427Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T14:50:17.728Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T14:50:17.728Z] 成功从JSON文件获取 3 个游戏数据
+[2025-04-02T14:50:17.729Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T14-50-17.json
+[2025-04-02T14:50:17.731Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T14:50:17.732Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T14:50:17.732Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T14:58:05.800Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T14:58:05.802Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T14:58:07.004Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T14:58:07.150Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T14:58:07.151Z] 成功从JSON文件获取 3 个游戏数据
+[2025-04-02T14:58:07.152Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T14-58-07.json
+[2025-04-02T14:58:07.153Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T14:58:07.154Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T14:58:07.155Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:00:46.366Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:00:46.367Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:00:47.668Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:00:47.853Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:00:47.853Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:00:47.854Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-00-47.json
+[2025-04-02T15:00:47.854Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:00:47.856Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:00:47.856Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:01:10.356Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:01:10.358Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:01:11.772Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:01:11.906Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:01:11.907Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:01:11.907Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-01-11.json
+[2025-04-02T15:01:11.908Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:01:11.909Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:01:11.910Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:07:49.926Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:07:49.928Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:07:51.147Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:07:51.308Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:07:51.309Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:07:51.309Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-07-51.json
+[2025-04-02T15:07:51.310Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:07:51.311Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:07:51.311Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:08:31.129Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:08:31.130Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:08:32.416Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:08:32.556Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:08:32.557Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:08:32.557Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-08-32.json
+[2025-04-02T15:08:32.558Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:08:32.559Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:08:32.560Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:10:00.487Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:10:00.488Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:10:02.595Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:10:02.732Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:10:02.733Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:10:02.733Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-10-02.json
+[2025-04-02T15:10:02.734Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:10:02.735Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:10:02.736Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:16:41.061Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:16:41.062Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:16:42.216Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:16:42.359Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:16:42.360Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:16:42.360Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-16-42.json
+[2025-04-02T15:16:42.361Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:16:42.362Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:16:42.362Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:17:27.113Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:17:27.114Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:17:28.319Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:17:28.455Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:17:28.456Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:17:28.456Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-17-28.json
+[2025-04-02T15:17:28.457Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:17:28.458Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:17:28.458Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:18:30.754Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:18:30.755Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:18:31.943Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:18:32.077Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:18:32.078Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:18:32.079Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-18-32.json
+[2025-04-02T15:18:32.079Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:18:32.080Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:18:32.081Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:19:23.492Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:19:23.493Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:19:25.785Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:19:25.923Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:19:25.924Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:19:25.924Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-19-25.json
+[2025-04-02T15:19:25.925Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:19:25.926Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:19:25.926Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:25:46.073Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:25:46.074Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:25:47.388Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:25:47.534Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:25:47.534Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-02T15:25:47.535Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-25-47.json
+[2025-04-02T15:25:47.535Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:25:47.536Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:25:47.537Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:26:15.411Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:26:15.412Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:26:17.475Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:26:17.477Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:26:17.850Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:26:17.990Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:26:17.991Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-02T15:26:17.991Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-26-17.json
+[2025-04-02T15:26:17.992Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:26:17.993Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:26:17.993Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:26:19.427Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:26:19.572Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:26:19.573Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-02T15:26:19.574Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-26-19.json
+[2025-04-02T15:26:19.574Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:26:19.575Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:26:19.575Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:27:19.664Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:27:19.665Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:27:25.101Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:27:25.280Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:27:25.281Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:27:25.282Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-27-25.json
+[2025-04-02T15:27:25.282Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:27:25.283Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:27:25.284Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:28:08.279Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:28:08.280Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:28:09.398Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:28:09.541Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:28:09.541Z] 成功从JSON文件获取 6 个游戏数据
+[2025-04-02T15:28:09.542Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-28-09.json
+[2025-04-02T15:28:09.542Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:28:09.544Z] 成功生成 6 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:28:09.544Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T15:47:49.078Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:47:49.079Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T15:47:51.140Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T15:47:51.288Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T15:47:51.288Z] 成功从JSON文件获取 4 个游戏数据
+[2025-04-02T15:47:51.289Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T15-47-51.json
+[2025-04-02T15:47:51.289Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T15:47:51.290Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T15:47:51.291Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T16:31:11.116Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T16:31:11.118Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T16:31:12.769Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T16:31:12.917Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T16:31:12.917Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-02T16:31:12.917Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T16-31-12.json
+[2025-04-02T16:31:12.919Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T16:31:12.920Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T16:31:12.920Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T17:48:18.004Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T17:48:18.006Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T17:48:19.787Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T17:48:19.936Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T17:48:19.937Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-02T17:48:19.937Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T17-48-19.json
+[2025-04-02T17:48:19.939Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T17:48:19.940Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T17:48:19.941Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T17:59:46.540Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T17:59:46.541Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T17:59:48.289Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T17:59:48.431Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T17:59:48.432Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-02T17:59:48.432Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T17-59-48.json
+[2025-04-02T17:59:48.433Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T17:59:48.434Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T17:59:48.435Z] 游戏数据同步和静态页面生成完成
+[2025-04-02T18:11:33.100Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-02T18:11:33.101Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-02T18:11:34.893Z] 页面加载完成，尝试读取localStorage...
+[2025-04-02T18:11:35.048Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-02T18:11:35.049Z] 成功从JSON文件获取 1 个游戏数据
+[2025-04-02T18:11:35.049Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-02T18-11-35.json
+[2025-04-02T18:11:35.080Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-02T18:11:35.082Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-02T18:11:35.083Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T05:34:06.304Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T05:34:06.305Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T05:34:08.963Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T05:34:09.101Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T05:34:09.102Z] 成功从JSON文件获取 2 个游戏数据
+[2025-04-03T05:34:09.102Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T05-34-09.json
+[2025-04-03T05:34:09.103Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T05:34:09.104Z] 成功生成 2 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T05:34:09.105Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T05:34:52.206Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T05:34:52.207Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T05:34:53.505Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T05:34:53.645Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T05:34:53.645Z] 成功从JSON文件获取 2 个游戏数据
+[2025-04-03T05:34:53.646Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T05-34-53.json
+[2025-04-03T05:34:53.646Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T05:34:53.647Z] 成功生成 2 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T05:34:53.647Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T08:31:35.347Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:31:35.348Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T08:31:36.888Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T08:31:37.023Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T08:31:37.023Z] 成功从JSON文件获取 2 个游戏数据
+[2025-04-03T08:31:37.024Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T08-31-37.json
+[2025-04-03T08:31:37.025Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T08:31:37.026Z] 成功生成 2 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:31:37.026Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T08:32:55.545Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:32:55.546Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T08:32:56.789Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T08:32:57.014Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T08:32:57.014Z] 成功从JSON文件获取 2 个游戏数据
+[2025-04-03T08:32:57.015Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T08-32-57.json
+[2025-04-03T08:32:57.015Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T08:32:57.016Z] 成功生成 2 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:32:57.017Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T08:34:06.015Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:34:06.017Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T08:34:07.310Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T08:34:07.456Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T08:34:07.457Z] 成功从JSON文件获取 3 个游戏数据
+[2025-04-03T08:34:07.458Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T08-34-07.json
+[2025-04-03T08:34:07.458Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T08:34:07.459Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:34:07.460Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T08:44:11.734Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:44:11.736Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T08:44:13.620Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T08:44:13.772Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T08:44:13.772Z] 成功从JSON文件获取 4 个游戏数据
+[2025-04-03T08:44:13.773Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T08-44-13.json
+[2025-04-03T08:44:13.774Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T08:44:13.776Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:44:13.776Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T08:59:36.305Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:59:36.306Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T08:59:38.231Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T08:59:38.403Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T08:59:38.403Z] 成功从JSON文件获取 4 个游戏数据
+[2025-04-03T08:59:38.404Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T08-59-38.json
+[2025-04-03T08:59:38.405Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T08:59:38.406Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T08:59:38.406Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T09:00:22.816Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T09:00:22.817Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T09:00:24.645Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T09:00:24.792Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T09:00:24.793Z] 成功从JSON文件获取 4 个游戏数据
+[2025-04-03T09:00:24.793Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T09-00-24.json
+[2025-04-03T09:00:24.794Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T09:00:24.795Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T09:00:24.795Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T09:01:51.323Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T09:01:51.324Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T09:01:52.524Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T09:01:52.854Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T09:01:52.854Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-03T09:01:52.855Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T09-01-52.json
+[2025-04-03T09:01:52.855Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T09:01:52.857Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T09:01:52.857Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T15:03:23.701Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T15:03:23.703Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T15:03:25.036Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T15:03:25.183Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T15:03:25.184Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-03T15:03:25.184Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T15-03-25.json
+[2025-04-03T15:03:25.185Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T15:03:25.186Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T15:03:25.187Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T15:04:40.144Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T15:04:40.145Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T15:04:41.314Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T15:04:41.459Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T15:04:41.460Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-03T15:04:41.460Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T15-04-41.json
+[2025-04-03T15:04:41.461Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T15:04:41.462Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T15:04:41.463Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T16:02:13.588Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T16:02:13.590Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T16:02:14.962Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T16:02:15.105Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T16:02:15.106Z] 成功从JSON文件获取 44 个游戏数据
+[2025-04-03T16:02:15.106Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T16-02-15.json
+[2025-04-03T16:02:15.108Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T16:02:15.116Z] 成功生成 44 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T16:02:15.116Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T16:11:31.644Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T16:11:31.645Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T16:11:32.947Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T16:11:33.096Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T16:11:33.097Z] 成功从JSON文件获取 44 个游戏数据
+[2025-04-03T16:11:33.097Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T16-11-33.json
+[2025-04-03T16:11:33.099Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T16:11:33.105Z] 成功生成 44 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T16:11:33.105Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T16:51:33.527Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T16:51:33.528Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T16:51:35.276Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T16:51:35.416Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T16:51:35.416Z] 成功从JSON文件获取 5 个游戏数据
+[2025-04-03T16:51:35.417Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T16-51-35.json
+[2025-04-03T16:51:35.417Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T16:51:35.419Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T16:51:35.419Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T16:59:51.173Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T16:59:51.174Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T16:59:51.174Z] 成功从主JSON文件获取 44 个游戏数据
+[2025-04-03T16:59:51.175Z] 成功从HTML5Games JSON获取 44 个游戏数据
+[2025-04-03T16:59:51.175Z] 保留现有数据(44 >= 44)
+[2025-04-03T16:59:51.175Z] 成功从最新备份获取 5 个游戏数据
+[2025-04-03T16:59:51.175Z] 保留现有数据(44 >= 5)
+[2025-04-03T16:59:51.175Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 44 个游戏
+[2025-04-03T16:59:51.176Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T16-59-51.json
+[2025-04-03T16:59:51.178Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T16:59:51.184Z] 成功生成 44 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T16:59:51.184Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:03:54.287Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:03:54.288Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:03:54.289Z] 成功从主JSON文件获取 44 个游戏数据
+[2025-04-03T17:03:54.289Z] 成功从HTML5Games JSON获取 44 个游戏数据
+[2025-04-03T17:03:54.289Z] 保留现有数据(44 >= 44)
+[2025-04-03T17:03:54.290Z] 成功从最新备份获取 44 个游戏数据
+[2025-04-03T17:03:54.290Z] 保留现有数据(44 >= 44)
+[2025-04-03T17:03:54.290Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 44 个游戏
+[2025-04-03T17:03:54.292Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-03-54.json
+[2025-04-03T17:03:54.293Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:03:54.301Z] 成功生成 44 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:03:54.302Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:07:44.669Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:07:44.671Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:07:44.671Z] 成功从主JSON文件获取 44 个游戏数据
+[2025-04-03T17:07:44.672Z] 成功从HTML5Games JSON获取 44 个游戏数据
+[2025-04-03T17:07:44.672Z] 保留现有数据(44 >= 44)
+[2025-04-03T17:07:44.673Z] 成功从最新备份获取 44 个游戏数据
+[2025-04-03T17:07:44.673Z] 保留现有数据(44 >= 44)
+[2025-04-03T17:07:44.673Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 44 个游戏
+[2025-04-03T17:07:44.675Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-07-44.json
+[2025-04-03T17:07:44.677Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:07:44.684Z] 成功生成 44 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:07:44.684Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:30:33.376Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:30:33.377Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:30:33.378Z] 成功从主JSON文件获取 10 个游戏数据
+[2025-04-03T17:30:33.378Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:30:33.378Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:30:33.379Z] 完成数据获取，综合主JSON文件、HTML5Games JSON中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:30:33.380Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-30-33.json
+[2025-04-03T17:30:33.381Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:30:33.384Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:30:33.385Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:35:53.076Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:35:53.077Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:35:53.078Z] 成功从主JSON文件获取 10 个游戏数据
+[2025-04-03T17:35:53.078Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:35:53.078Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:35:53.079Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:35:53.079Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:35:53.079Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:35:53.080Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-35-53.json
+[2025-04-03T17:35:53.081Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:35:53.084Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:35:53.085Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:40:56.785Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:40:56.786Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:40:56.787Z] 成功从主JSON文件获取 10 个游戏数据
+[2025-04-03T17:40:56.787Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:40:56.787Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:40:56.788Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:40:56.788Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:40:56.788Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:40:56.789Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-40-56.json
+[2025-04-03T17:40:56.790Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:40:56.792Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:40:56.793Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:30.330Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:30.331Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:30.332Z] 成功从主JSON文件获取 9 个游戏数据
+[2025-04-03T17:46:30.332Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:30.332Z] HTML5Games JSON包含更多游戏(10 > 9)，使用HTML5Games数据
+[2025-04-03T17:46:30.332Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:30.333Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:30.333Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:30.333Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-30.json
+[2025-04-03T17:46:30.336Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:30.338Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:30.339Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:31.524Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:31.526Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:31.526Z] 成功从主JSON文件获取 8 个游戏数据
+[2025-04-03T17:46:31.526Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:31.526Z] HTML5Games JSON包含更多游戏(10 > 8)，使用HTML5Games数据
+[2025-04-03T17:46:31.527Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:31.527Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:31.527Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:31.527Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-31.json
+[2025-04-03T17:46:31.528Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:31.531Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:31.531Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:33.039Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:33.041Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:33.041Z] 成功从主JSON文件获取 7 个游戏数据
+[2025-04-03T17:46:33.042Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:33.042Z] HTML5Games JSON包含更多游戏(10 > 7)，使用HTML5Games数据
+[2025-04-03T17:46:33.042Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:33.043Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:33.043Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:33.044Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-33.json
+[2025-04-03T17:46:33.045Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:33.048Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:33.048Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:33.685Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:33.687Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:33.687Z] 成功从主JSON文件获取 6 个游戏数据
+[2025-04-03T17:46:33.687Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:33.687Z] HTML5Games JSON包含更多游戏(10 > 6)，使用HTML5Games数据
+[2025-04-03T17:46:33.688Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:33.688Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:33.688Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:33.693Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-33.json
+[2025-04-03T17:46:33.694Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:33.697Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:33.697Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:35.090Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:35.091Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:35.091Z] 成功从主JSON文件获取 5 个游戏数据
+[2025-04-03T17:46:35.091Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:35.092Z] HTML5Games JSON包含更多游戏(10 > 5)，使用HTML5Games数据
+[2025-04-03T17:46:35.092Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:35.092Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:35.092Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:35.093Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-35.json
+[2025-04-03T17:46:35.094Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:35.096Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:35.097Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:35.756Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:35.757Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:35.757Z] 成功从主JSON文件获取 4 个游戏数据
+[2025-04-03T17:46:35.757Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:35.758Z] HTML5Games JSON包含更多游戏(10 > 4)，使用HTML5Games数据
+[2025-04-03T17:46:35.758Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:35.758Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:35.758Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:35.760Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-35.json
+[2025-04-03T17:46:35.761Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:35.763Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:35.764Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:36.506Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:36.507Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:36.507Z] 成功从主JSON文件获取 3 个游戏数据
+[2025-04-03T17:46:36.508Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:36.508Z] HTML5Games JSON包含更多游戏(10 > 3)，使用HTML5Games数据
+[2025-04-03T17:46:36.508Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:36.508Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:36.508Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:36.509Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-36.json
+[2025-04-03T17:46:36.510Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:36.512Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:36.512Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:37.956Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:37.958Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:37.958Z] 成功从主JSON文件获取 2 个游戏数据
+[2025-04-03T17:46:37.958Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:37.959Z] HTML5Games JSON包含更多游戏(10 > 2)，使用HTML5Games数据
+[2025-04-03T17:46:37.959Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:37.959Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:37.959Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:37.960Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-37.json
+[2025-04-03T17:46:37.961Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:37.963Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:37.963Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:39.284Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:39.285Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:39.285Z] 成功从主JSON文件获取 1 个游戏数据
+[2025-04-03T17:46:39.285Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:39.285Z] HTML5Games JSON包含更多游戏(10 > 1)，使用HTML5Games数据
+[2025-04-03T17:46:39.286Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:39.286Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:39.286Z] 完成数据获取，综合主JSON文件、HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:39.287Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-39.json
+[2025-04-03T17:46:39.288Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:39.290Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:39.290Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:46:40.145Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:40.146Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:46:40.147Z] 主JSON文件中没有有效的游戏数据
+[2025-04-03T17:46:40.147Z] 成功从HTML5Games JSON获取 10 个游戏数据
+[2025-04-03T17:46:40.147Z] HTML5Games JSON包含更多游戏(10 > 0)，使用HTML5Games数据
+[2025-04-03T17:46:40.147Z] 成功从最新备份获取 10 个游戏数据
+[2025-04-03T17:46:40.148Z] 保留现有数据(10 >= 10)
+[2025-04-03T17:46:40.148Z] 完成数据获取，综合HTML5Games JSON、最新备份中最完整的数据，共获取 10 个游戏
+[2025-04-03T17:46:40.148Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-46-40.json
+[2025-04-03T17:46:40.149Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:46:40.151Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:46:40.152Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:54:45.317Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:54:45.319Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:54:46.580Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T17:54:46.739Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T17:54:46.740Z] 成功从JSON文件获取 1 个游戏数据
+[2025-04-03T17:54:46.740Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-54-46.json
+[2025-04-03T17:54:46.742Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:54:46.743Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:54:46.743Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:55:25.883Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:55:25.885Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:55:27.120Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T17:55:27.302Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T17:55:27.302Z] 成功从JSON文件获取 1 个游戏数据
+[2025-04-03T17:55:27.303Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-55-27.json
+[2025-04-03T17:55:27.303Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:55:27.304Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:55:27.304Z] 游戏数据同步和静态页面生成完成
+[2025-04-03T17:55:45.251Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:55:45.252Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-03T17:55:46.526Z] 页面加载完成，尝试读取localStorage...
+[2025-04-03T17:55:46.668Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-03T17:55:46.668Z] 成功从JSON文件获取 1 个游戏数据
+[2025-04-03T17:55:46.669Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-03T17-55-46.json
+[2025-04-03T17:55:46.669Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-03T17:55:46.670Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-03T17:55:46.671Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T09:16:58.927Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T09:16:58.928Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T09:17:00.593Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T09:17:00.736Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-04T09:17:00.736Z] 成功从JSON文件获取 1 个游戏数据
+[2025-04-04T09:17:00.737Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T09-17-00.json
+[2025-04-04T09:17:00.738Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-04T09:17:00.739Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T09:17:00.740Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T09:17:23.271Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T09:17:23.273Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T09:17:24.561Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T09:17:24.704Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-04T09:17:24.705Z] 成功从JSON文件获取 1 个游戏数据
+[2025-04-04T09:17:24.705Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T09-17-24.json
+[2025-04-04T09:17:24.706Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-04T09:17:24.706Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T09:17:24.707Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T09:25:12.686Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T09:25:12.687Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T09:25:14.975Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T09:25:15.118Z] 成功从localStorage获取 1 个游戏数据
+[2025-04-04T09:25:15.119Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T09-25-15.json
+[2025-04-04T09:25:15.119Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-04T09:25:15.120Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T09:25:15.120Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T09:46:27.122Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T09:46:27.123Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T09:46:28.944Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T09:46:29.093Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-04T09:46:29.094Z] 成功从JSON文件获取 10 个游戏数据
+[2025-04-04T09:46:29.094Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T09-46-29.json
+[2025-04-04T09:46:29.096Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-04T09:46:29.098Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T09:46:29.098Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T10:07:13.488Z] [INFO] 开始游戏数据同步 [配置: sourceUrl=http://localhost:8000/admin/game-manager.html, jsonFile=E:\Cursor_Code\Gamenet\allpopulargames_games.json]
+[2025-04-04T10:07:13.489Z] [INFO] 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:07:13.489Z] [INFO] 备份目录: E:\Cursor_Code\Gamenet\backups
+[2025-04-04T10:07:13.490Z] [INFO] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T10:07:14.674Z] [INFO] 页面加载完成，尝试读取localStorage...
+[2025-04-04T10:07:14.991Z] [INFO] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-04T10:07:14.991Z] [INFO] 成功从JSON文件获取 10 个游戏数据
+[2025-04-04T10:07:14.992Z] [INFO] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T10-07-14.json
+[2025-04-04T10:07:14.992Z] [INFO] 获取到 10 个游戏数据
+[2025-04-04T10:07:14.992Z] [INFO] 开始验证游戏数据结构...
+[2025-04-04T10:07:14.992Z] [INFO] 所有游戏数据结构有效
+[2025-04-04T10:07:14.993Z] [INFO] 已转换 10 个游戏链接为静态页面链接
+[2025-04-04T10:07:14.994Z] [INFO] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:07:14.995Z] [INFO] 生成游戏分类数据...
+[2025-04-04T10:07:14.995Z] [INFO] 已生成分类数据文件: E:\Cursor_Code\Gamenet\game_categories.json (6 个分类)
+[2025-04-04T10:07:14.995Z] [INFO] 游戏数据同步完成!
+[2025-04-04T10:07:33.675Z] [INFO] 开始游戏数据同步 [配置: sourceUrl=http://localhost:8000/admin/game-manager.html, jsonFile=E:\Cursor_Code\Gamenet\allpopulargames_games.json]
+[2025-04-04T10:07:33.676Z] [INFO] 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:07:33.676Z] [INFO] 备份目录: E:\Cursor_Code\Gamenet\backups
+[2025-04-04T10:07:33.681Z] [INFO] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T10:07:34.971Z] [INFO] 页面加载完成，尝试读取localStorage...
+[2025-04-04T10:07:35.180Z] [INFO] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-04T10:07:35.181Z] [INFO] 成功从JSON文件获取 10 个游戏数据
+[2025-04-04T10:07:35.181Z] [INFO] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T10-07-35.json
+[2025-04-04T10:07:35.182Z] [INFO] 获取到 10 个游戏数据
+[2025-04-04T10:07:35.182Z] [INFO] 开始验证游戏数据结构...
+[2025-04-04T10:07:35.182Z] [INFO] 所有游戏数据结构有效
+[2025-04-04T10:07:35.182Z] [INFO] 已转换 10 个游戏链接为静态页面链接
+[2025-04-04T10:07:35.184Z] [INFO] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:07:35.184Z] [INFO] 生成游戏分类数据...
+[2025-04-04T10:07:35.185Z] [INFO] 已生成分类数据文件: E:\Cursor_Code\Gamenet\game_categories.json (6 个分类)
+[2025-04-04T10:07:35.185Z] [INFO] 游戏数据同步完成!
+[2025-04-04T10:07:39.068Z] [INFO] 开始游戏数据同步 [配置: sourceUrl=http://localhost:8000/admin/game-manager.html, jsonFile=E:\Cursor_Code\Gamenet\allpopulargames_games.json]
+[2025-04-04T10:07:39.069Z] [INFO] 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:07:39.069Z] [INFO] 备份目录: E:\Cursor_Code\Gamenet\backups
+[2025-04-04T10:07:39.069Z] [INFO] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T10:07:40.251Z] [INFO] 页面加载完成，尝试读取localStorage...
+[2025-04-04T10:07:40.485Z] [INFO] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-04T10:07:40.485Z] [INFO] 成功从JSON文件获取 10 个游戏数据
+[2025-04-04T10:07:40.486Z] [INFO] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T10-07-40.json
+[2025-04-04T10:07:40.486Z] [INFO] 获取到 10 个游戏数据
+[2025-04-04T10:07:40.486Z] [INFO] 开始验证游戏数据结构...
+[2025-04-04T10:07:40.487Z] [INFO] 所有游戏数据结构有效
+[2025-04-04T10:07:40.487Z] [INFO] 已转换 10 个游戏链接为静态页面链接
+[2025-04-04T10:07:40.488Z] [INFO] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:07:40.489Z] [INFO] 生成游戏分类数据...
+[2025-04-04T10:07:40.489Z] [INFO] 已生成分类数据文件: E:\Cursor_Code\Gamenet\game_categories.json (6 个分类)
+[2025-04-04T10:07:40.489Z] [INFO] 游戏数据同步完成!
+[2025-04-04T10:13:40.563Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:13:40.565Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T10:13:42.832Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T10:13:42.981Z] 成功从localStorage获取 3 个游戏数据
+[2025-04-04T10:13:42.982Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T10-13-42.json
+[2025-04-04T10:13:42.983Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-04T10:13:42.984Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:13:42.985Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T10:13:43.735Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:13:43.736Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T10:13:47.124Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T10:13:47.311Z] 成功从localStorage获取 1 个游戏数据
+[2025-04-04T10:13:47.312Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T10-13-47.json
+[2025-04-04T10:13:47.312Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-04T10:13:47.313Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:13:47.314Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T10:29:39.089Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:29:39.090Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T10:29:43.256Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T10:29:43.403Z] 成功从localStorage获取 3 个游戏数据
+[2025-04-04T10:29:43.404Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T10-29-43.json
+[2025-04-04T10:29:43.405Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-04T10:29:43.406Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:29:43.406Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T10:45:44.273Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:45:44.275Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T10:45:48.211Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T10:45:48.355Z] 成功从localStorage获取 2 个游戏数据
+[2025-04-04T10:45:48.356Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T10-45-48.json
+[2025-04-04T10:45:48.357Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-04T10:45:48.358Z] 成功生成 2 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:45:48.358Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T10:45:54.866Z] 开始同步游戏数据，源地址: http://localhost:8000/admin/game-manager.html, 输出目录: E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:45:54.867Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T10:45:58.921Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T10:45:59.066Z] 成功从localStorage获取 2 个游戏数据
+[2025-04-04T10:45:59.067Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T10-45-59.json
+[2025-04-04T10:45:59.067Z] 转换后的游戏数据已保存到: E:\Cursor_Code\Gamenet\allpopulargames_games.json
+[2025-04-04T10:45:59.068Z] 成功生成 2 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T10:45:59.069Z] 游戏数据同步和静态页面生成完成
+[2025-04-04T11:48:06.178Z] 开始同步游戏数据
+[2025-04-04T11:48:06.179Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T11:48:08.223Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T11:48:08.384Z] 成功从localStorage获取 1 个游戏数据
+[2025-04-04T11:48:08.384Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T11-48-08.json
+[2025-04-04T11:48:08.385Z] 成功获取 1 个游戏数据
+[2025-04-04T11:48:08.385Z] 转换了 1 个游戏链接为本地静态页面链接
+[2025-04-04T11:48:08.385Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T11:48:08.386Z] 生成了META数据统计
+[2025-04-04T11:48:08.387Z] 同步完成
+[2025-04-04T11:50:48.307Z] 开始同步游戏数据
+[2025-04-04T11:50:48.308Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T11:50:50.220Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T11:50:50.395Z] 成功从localStorage获取 1 个游戏数据
+[2025-04-04T11:50:50.396Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T11-50-50.json
+[2025-04-04T11:50:50.396Z] 成功获取 1 个游戏数据
+[2025-04-04T11:50:50.396Z] 转换了 1 个游戏链接为本地静态页面链接
+[2025-04-04T11:50:50.397Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T11:50:50.398Z] 生成了META数据统计
+[2025-04-04T11:50:50.398Z] 同步完成
+[2025-04-04T11:54:38.934Z] 开始同步游戏数据
+[2025-04-04T11:54:38.935Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T11:54:41.501Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T11:54:41.735Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T11:54:41.735Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T11-54-41.json
+[2025-04-04T11:54:41.736Z] 成功获取 10 个游戏数据
+[2025-04-04T11:54:41.736Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T11:54:41.737Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T11:54:41.738Z] 生成了META数据统计
+[2025-04-04T11:54:41.739Z] 同步完成
+[2025-04-04T12:17:25.273Z] 开始同步游戏数据
+[2025-04-04T12:17:25.275Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T12:17:27.601Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T12:17:27.740Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T12:17:27.740Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T12-17-27.json
+[2025-04-04T12:17:27.741Z] 成功获取 10 个游戏数据
+[2025-04-04T12:17:27.741Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T12:17:27.743Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T12:17:27.744Z] 生成了META数据统计
+[2025-04-04T12:17:27.744Z] 同步完成
+[2025-04-04T12:17:59.437Z] 开始同步游戏数据
+[2025-04-04T12:17:59.438Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T12:18:02.968Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T12:18:03.094Z] 成功从localStorage获取 1 个游戏数据
+[2025-04-04T12:18:03.095Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T12-18-03.json
+[2025-04-04T12:18:03.095Z] 成功获取 1 个游戏数据
+[2025-04-04T12:18:03.095Z] 转换了 1 个游戏链接为本地静态页面链接
+[2025-04-04T12:18:03.096Z] 成功生成 1 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T12:18:03.097Z] 生成了META数据统计
+[2025-04-04T12:18:03.097Z] 同步完成
+[2025-04-04T12:21:33.963Z] 开始同步游戏数据
+[2025-04-04T12:21:33.964Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T12:21:38.149Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T12:21:38.286Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T12:21:38.287Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T12-21-38.json
+[2025-04-04T12:21:38.287Z] 成功获取 10 个游戏数据
+[2025-04-04T12:21:38.287Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T12:21:38.289Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T12:21:38.290Z] 生成了META数据统计
+[2025-04-04T12:21:38.290Z] 同步完成
+[2025-04-04T13:25:06.245Z] 开始同步游戏数据
+[2025-04-04T13:25:06.247Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T13:25:08.897Z] 访问localStorage失败: net::ERR_CONNECTION_REFUSED at http://localhost:8000/admin/game-manager.html，尝试从JSON文件获取...
+[2025-04-04T13:25:08.898Z] 成功从JSON文件获取 10 个游戏数据
+[2025-04-04T13:25:08.899Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T13-25-08.json
+[2025-04-04T13:25:08.900Z] 成功获取 10 个游戏数据
+[2025-04-04T13:25:08.901Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T13:25:08.905Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T13:25:08.907Z] 生成了META数据统计
+[2025-04-04T13:25:08.908Z] 同步完成
+[2025-04-04T13:27:12.149Z] 开始同步游戏数据
+[2025-04-04T13:27:12.150Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T13:27:13.718Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T13:27:13.864Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T13:27:13.865Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T13-27-13.json
+[2025-04-04T13:27:13.865Z] 成功获取 10 个游戏数据
+[2025-04-04T13:27:13.865Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T13:27:13.867Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T13:27:13.868Z] 生成了META数据统计
+[2025-04-04T13:27:13.868Z] 同步完成
+[2025-04-04T13:30:54.311Z] 开始同步游戏数据
+[2025-04-04T13:30:54.313Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T13:30:56.565Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T13:30:56.713Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T13:30:56.714Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T13-30-56.json
+[2025-04-04T13:30:56.714Z] 成功获取 10 个游戏数据
+[2025-04-04T13:30:56.714Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T13:30:56.716Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T13:30:56.717Z] 生成了META数据统计
+[2025-04-04T13:30:56.717Z] 同步完成
+[2025-04-04T13:56:42.178Z] 开始同步游戏数据
+[2025-04-04T13:56:42.180Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T13:56:44.914Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T13:56:45.066Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T13:56:45.067Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T13-56-45.json
+[2025-04-04T13:56:45.068Z] 成功获取 10 个游戏数据
+[2025-04-04T13:56:45.068Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T13:56:45.070Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T13:56:45.072Z] 生成了META数据统计
+[2025-04-04T13:56:45.072Z] 同步完成
+[2025-04-04T14:01:34.844Z] 开始同步游戏数据
+[2025-04-04T14:01:34.846Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T14:01:37.198Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T14:01:37.344Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T14:01:37.344Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T14-01-37.json
+[2025-04-04T14:01:37.345Z] 成功获取 10 个游戏数据
+[2025-04-04T14:01:37.345Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T14:01:37.347Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T14:01:37.349Z] 生成了META数据统计
+[2025-04-04T14:01:37.350Z] 同步完成
+[2025-04-04T14:21:10.064Z] 开始同步游戏数据
+[2025-04-04T14:21:10.066Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T14:21:12.346Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T14:21:12.528Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T14:21:12.529Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T14-21-12.json
+[2025-04-04T14:21:12.529Z] 成功获取 10 个游戏数据
+[2025-04-04T14:21:12.529Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T14:21:12.531Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T14:21:12.533Z] 生成了META数据统计
+[2025-04-04T14:21:12.533Z] 同步完成
+[2025-04-04T14:42:58.295Z] 开始同步游戏数据
+[2025-04-04T14:42:58.297Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T14:43:01.247Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T14:43:01.409Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T14:43:01.410Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T14-43-01.json
+[2025-04-04T14:43:01.411Z] 成功获取 10 个游戏数据
+[2025-04-04T14:43:01.411Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T14:43:01.413Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T14:43:01.414Z] 生成了META数据统计
+[2025-04-04T14:43:01.414Z] 同步完成
+[2025-04-04T14:43:49.068Z] 开始同步游戏数据
+[2025-04-04T14:43:49.070Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T14:43:50.423Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T14:43:50.582Z] 成功从localStorage获取 11 个游戏数据
+[2025-04-04T14:43:50.583Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T14-43-50.json
+[2025-04-04T14:43:50.583Z] 成功获取 11 个游戏数据
+[2025-04-04T14:43:50.583Z] 转换了 11 个游戏链接为本地静态页面链接
+[2025-04-04T14:43:50.585Z] 成功生成 11 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T14:43:50.586Z] 生成了META数据统计
+[2025-04-04T14:43:50.587Z] 同步完成
+[2025-04-04T14:48:53.704Z] 开始同步游戏数据
+[2025-04-04T14:48:53.705Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T14:48:55.737Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T14:48:55.885Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T14:48:55.886Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T14-48-55.json
+[2025-04-04T14:48:55.887Z] 成功获取 10 个游戏数据
+[2025-04-04T14:48:55.887Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T14:48:55.889Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T14:48:55.890Z] 生成了META数据统计
+[2025-04-04T14:48:55.890Z] 同步完成
+[2025-04-04T14:50:34.974Z] 开始同步游戏数据
+[2025-04-04T14:50:34.975Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T14:50:37.244Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T14:50:37.400Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T14:50:37.400Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T14-50-37.json
+[2025-04-04T14:50:37.401Z] 成功获取 10 个游戏数据
+[2025-04-04T14:50:37.401Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T14:50:37.404Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T14:50:37.405Z] 生成了META数据统计
+[2025-04-04T14:50:37.406Z] 同步完成
+[2025-04-04T15:33:45.439Z] 开始同步游戏数据
+[2025-04-04T15:33:45.441Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T15:33:48.097Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T15:33:48.243Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T15:33:48.244Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T15-33-48.json
+[2025-04-04T15:33:48.244Z] 成功获取 10 个游戏数据
+[2025-04-04T15:33:48.244Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T15:33:48.246Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T15:33:48.247Z] 生成了META数据统计
+[2025-04-04T15:33:48.247Z] 同步完成
+[2025-04-04T15:39:14.544Z] 开始同步游戏数据
+[2025-04-04T15:39:14.546Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T15:39:16.820Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T15:39:16.960Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T15:39:16.961Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T15-39-16.json
+[2025-04-04T15:39:16.961Z] 成功获取 10 个游戏数据
+[2025-04-04T15:39:16.961Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T15:39:16.963Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T15:39:16.964Z] 生成了META数据统计
+[2025-04-04T15:39:16.965Z] 同步完成
+[2025-04-04T15:57:20.185Z] 开始同步游戏数据
+[2025-04-04T15:57:20.187Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T15:57:21.831Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T15:57:22.003Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T15:57:22.004Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T15-57-22.json
+[2025-04-04T15:57:22.004Z] 成功获取 10 个游戏数据
+[2025-04-04T15:57:22.004Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T15:57:22.006Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T15:57:22.007Z] 生成了META数据统计
+[2025-04-04T15:57:22.008Z] 同步完成
+[2025-04-04T15:58:24.419Z] 开始同步游戏数据
+[2025-04-04T15:58:24.421Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T15:58:26.214Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T15:58:26.371Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T15:58:26.371Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T15-58-26.json
+[2025-04-04T15:58:26.372Z] 成功获取 10 个游戏数据
+[2025-04-04T15:58:26.372Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T15:58:26.374Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T15:58:26.376Z] 生成了META数据统计
+[2025-04-04T15:58:26.376Z] 同步完成
+[2025-04-04T15:59:41.548Z] 开始同步游戏数据
+[2025-04-04T15:59:41.550Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T15:59:43.810Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T15:59:43.956Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T15:59:43.956Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T15-59-43.json
+[2025-04-04T15:59:43.956Z] 成功获取 10 个游戏数据
+[2025-04-04T15:59:43.957Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T15:59:43.959Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T15:59:43.961Z] 生成了META数据统计
+[2025-04-04T15:59:43.961Z] 同步完成
+[2025-04-04T16:01:50.139Z] 开始同步游戏数据
+[2025-04-04T16:01:50.141Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T16:01:52.552Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T16:01:52.718Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T16:01:52.719Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T16-01-52.json
+[2025-04-04T16:01:52.720Z] 成功获取 10 个游戏数据
+[2025-04-04T16:01:52.720Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T16:01:52.724Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T16:01:52.725Z] 已创建分类页面: Arcade
+[2025-04-04T16:01:52.726Z] 已创建分类页面: Shooting
+[2025-04-04T16:01:52.726Z] 已创建分类页面: Puzzle
+[2025-04-04T16:01:52.727Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T16:01:52.727Z] 已创建分类页面: Sports
+[2025-04-04T16:01:52.727Z] 同步失败: generateMetaStats is not defined
+[2025-04-04T16:02:52.873Z] 开始同步游戏数据
+[2025-04-04T16:02:52.874Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T16:02:55.165Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T16:02:55.341Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T16:02:55.342Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T16-02-55.json
+[2025-04-04T16:02:55.342Z] 成功获取 10 个游戏数据
+[2025-04-04T16:02:55.343Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T16:02:55.345Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T16:02:55.347Z] 已创建分类页面: Arcade
+[2025-04-04T16:02:55.347Z] 已创建分类页面: Shooting
+[2025-04-04T16:02:55.347Z] 已创建分类页面: Puzzle
+[2025-04-04T16:02:55.348Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T16:02:55.348Z] 已创建分类页面: Sports
+[2025-04-04T16:02:55.349Z] 生成了META数据统计
+[2025-04-04T16:02:55.349Z] 同步完成
+[2025-04-04T16:04:43.704Z] 开始同步游戏数据
+[2025-04-04T16:04:43.706Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T16:04:45.128Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T16:04:45.273Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T16:04:45.275Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T16-04-45.json
+[2025-04-04T16:04:45.275Z] 成功获取 10 个游戏数据
+[2025-04-04T16:04:45.275Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T16:04:45.279Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T16:04:45.280Z] 已创建分类页面: Arcade
+[2025-04-04T16:04:45.280Z] 已创建分类页面: Shooting
+[2025-04-04T16:04:45.281Z] 已创建分类页面: Puzzle
+[2025-04-04T16:04:45.281Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T16:04:45.281Z] 已创建分类页面: Sports
+[2025-04-04T16:04:45.281Z] 生成了META数据统计
+[2025-04-04T16:04:45.283Z] 同步完成
+[2025-04-04T16:28:34.131Z] 开始同步游戏数据
+[2025-04-04T16:28:34.133Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T16:28:35.395Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T16:28:35.537Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T16:28:35.537Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T16-28-35.json
+[2025-04-04T16:28:35.537Z] 成功获取 10 个游戏数据
+[2025-04-04T16:28:35.538Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T16:28:35.542Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T16:28:35.543Z] 已创建分类页面: Arcade
+[2025-04-04T16:28:35.543Z] 已创建分类页面: Shooting
+[2025-04-04T16:28:35.543Z] 已创建分类页面: Puzzle
+[2025-04-04T16:28:35.543Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T16:28:35.543Z] 已创建分类页面: Sports
+[2025-04-04T16:28:35.544Z] 生成了META数据统计
+[2025-04-04T16:28:35.544Z] 同步完成
+[2025-04-04T18:00:56.955Z] 开始同步游戏数据
+[2025-04-04T18:00:56.957Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T18:00:59.243Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T18:00:59.456Z] 成功从localStorage获取 624 个游戏数据
+[2025-04-04T18:00:59.458Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T18-00-59.json
+[2025-04-04T18:00:59.458Z] 成功获取 624 个游戏数据
+[2025-04-04T18:00:59.458Z] 转换了 624 个游戏链接为本地静态页面链接
+[2025-04-04T18:00:59.589Z] 成功生成 624 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T18:00:59.591Z] 已创建分类页面: Arcade
+[2025-04-04T18:00:59.591Z] 已创建分类页面: Shooting
+[2025-04-04T18:00:59.592Z] 已创建分类页面: Puzzle
+[2025-04-04T18:00:59.592Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T18:00:59.592Z] 已创建分类页面: Sports
+[2025-04-04T18:00:59.592Z] 生成了META数据统计
+[2025-04-04T18:00:59.593Z] 同步完成
+[2025-04-04T18:03:29.986Z] 开始同步游戏数据
+[2025-04-04T18:03:29.988Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T18:03:35.085Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T18:03:35.485Z] 成功从localStorage获取 624 个游戏数据
+[2025-04-04T18:03:35.487Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T18-03-35.json
+[2025-04-04T18:03:35.487Z] 成功获取 624 个游戏数据
+[2025-04-04T18:03:35.487Z] 转换了 624 个游戏链接为本地静态页面链接
+[2025-04-04T18:03:35.575Z] 成功生成 624 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T18:03:35.577Z] 已创建分类页面: Arcade
+[2025-04-04T18:03:35.578Z] 已创建分类页面: Shooting
+[2025-04-04T18:03:35.578Z] 已创建分类页面: Puzzle
+[2025-04-04T18:03:35.578Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T18:03:35.579Z] 已创建分类页面: Sports
+[2025-04-04T18:03:35.579Z] 生成了META数据统计
+[2025-04-04T18:03:35.579Z] 同步完成
+[2025-04-04T18:04:15.791Z] 开始同步游戏数据
+[2025-04-04T18:04:15.793Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T18:04:17.390Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T18:04:17.600Z] 成功从localStorage获取 624 个游戏数据
+[2025-04-04T18:04:17.603Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T18-04-17.json
+[2025-04-04T18:04:17.603Z] 成功获取 624 个游戏数据
+[2025-04-04T18:04:17.604Z] 转换了 624 个游戏链接为本地静态页面链接
+[2025-04-04T18:04:17.696Z] 成功生成 624 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T18:04:17.699Z] 已创建分类页面: Arcade
+[2025-04-04T18:04:17.699Z] 已创建分类页面: Shooting
+[2025-04-04T18:04:17.699Z] 已创建分类页面: Puzzle
+[2025-04-04T18:04:17.699Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T18:04:17.700Z] 已创建分类页面: Sports
+[2025-04-04T18:04:17.700Z] 生成了META数据统计
+[2025-04-04T18:04:17.701Z] 同步完成
+[2025-04-04T18:20:02.250Z] 开始同步游戏数据
+[2025-04-04T18:20:02.251Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T18:20:08.859Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T18:20:09.012Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T18:20:09.013Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T18-20-09.json
+[2025-04-04T18:20:09.013Z] 成功获取 10 个游戏数据
+[2025-04-04T18:20:09.013Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T18:20:09.016Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T18:20:09.017Z] 已创建分类页面: Arcade
+[2025-04-04T18:20:09.017Z] 生成了META数据统计
+[2025-04-04T18:20:09.018Z] 同步完成
+[2025-04-04T18:22:24.015Z] 开始同步游戏数据
+[2025-04-04T18:22:24.016Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T18:22:25.606Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T18:22:25.752Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T18:22:25.753Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T18-22-25.json
+[2025-04-04T18:22:25.753Z] 成功获取 10 个游戏数据
+[2025-04-04T18:22:25.753Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T18:22:25.756Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T18:22:25.757Z] 已创建分类页面: Arcade
+[2025-04-04T18:22:25.757Z] 生成了META数据统计
+[2025-04-04T18:22:25.758Z] 同步完成
+[2025-04-04T18:29:54.955Z] 开始同步游戏数据
+[2025-04-04T18:29:54.956Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T18:29:56.584Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T18:29:56.771Z] 成功从localStorage获取 14 个游戏数据
+[2025-04-04T18:29:56.771Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T18-29-56.json
+[2025-04-04T18:29:56.771Z] 成功获取 14 个游戏数据
+[2025-04-04T18:29:56.772Z] 转换了 14 个游戏链接为本地静态页面链接
+[2025-04-04T18:29:56.776Z] 成功生成 14 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T18:29:56.777Z] 已创建分类页面: Arcade
+[2025-04-04T18:29:56.777Z] 已创建分类页面: Shooting
+[2025-04-04T18:29:56.777Z] 已创建分类页面: Puzzle
+[2025-04-04T18:29:56.778Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T18:29:56.778Z] 已创建分类页面: Sports
+[2025-04-04T18:29:56.778Z] 生成了META数据统计
+[2025-04-04T18:29:56.778Z] 同步完成
+[2025-04-04T18:31:48.099Z] 开始同步游戏数据
+[2025-04-04T18:31:48.101Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T18:32:19.399Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T18:32:19.613Z] 成功从localStorage获取 14 个游戏数据
+[2025-04-04T18:32:19.616Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T18-32-19.json
+[2025-04-04T18:32:19.616Z] 成功获取 14 个游戏数据
+[2025-04-04T18:32:19.617Z] 转换了 14 个游戏链接为本地静态页面链接
+[2025-04-04T18:32:19.625Z] 成功生成 14 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T18:32:19.627Z] 已创建分类页面: Arcade
+[2025-04-04T18:32:19.628Z] 已创建分类页面: Shooting
+[2025-04-04T18:32:19.628Z] 已创建分类页面: Puzzle
+[2025-04-04T18:32:19.629Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T18:32:19.629Z] 已创建分类页面: Sports
+[2025-04-04T18:32:19.630Z] 生成了META数据统计
+[2025-04-04T18:32:19.630Z] 同步完成
+[2025-04-04T18:34:14.290Z] 开始同步游戏数据
+[2025-04-04T18:34:14.292Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T18:34:17.011Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T18:34:17.167Z] 成功从localStorage获取 29 个游戏数据
+[2025-04-04T18:34:17.168Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T18-34-17.json
+[2025-04-04T18:34:17.168Z] 成功获取 29 个游戏数据
+[2025-04-04T18:34:17.169Z] 转换了 29 个游戏链接为本地静态页面链接
+[2025-04-04T18:34:17.175Z] 成功生成 29 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T18:34:17.176Z] 已创建分类页面: Arcade
+[2025-04-04T18:34:17.176Z] 已创建分类页面: Shooting
+[2025-04-04T18:34:17.176Z] 已创建分类页面: Puzzle
+[2025-04-04T18:34:17.177Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T18:34:17.177Z] 已创建分类页面: Sports
+[2025-04-04T18:34:17.177Z] 生成了META数据统计
+[2025-04-04T18:34:17.177Z] 同步完成
+[2025-04-04T18:35:53.310Z] 开始同步游戏数据
+[2025-04-04T18:35:53.311Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T18:35:54.491Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T18:35:54.655Z] 成功从localStorage获取 34 个游戏数据
+[2025-04-04T18:35:54.656Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T18-35-54.json
+[2025-04-04T18:35:54.656Z] 成功获取 34 个游戏数据
+[2025-04-04T18:35:54.657Z] 转换了 34 个游戏链接为本地静态页面链接
+[2025-04-04T18:35:54.663Z] 成功生成 34 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T18:35:54.664Z] 已创建分类页面: Arcade
+[2025-04-04T18:35:54.665Z] 已创建分类页面: Shooting
+[2025-04-04T18:35:54.665Z] 已创建分类页面: Puzzle
+[2025-04-04T18:35:54.665Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T18:35:54.665Z] 已创建分类页面: Sports
+[2025-04-04T18:35:54.666Z] 生成了META数据统计
+[2025-04-04T18:35:54.666Z] 同步完成
+[2025-04-04T19:13:48.598Z] 开始同步游戏数据
+[2025-04-04T19:13:48.600Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T19:13:50.754Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T19:13:50.906Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T19:13:50.907Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T19-13-50.json
+[2025-04-04T19:13:50.907Z] 成功获取 10 个游戏数据
+[2025-04-04T19:13:50.908Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T19:13:50.911Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T19:13:50.912Z] 已创建分类页面: Arcade
+[2025-04-04T19:13:50.912Z] 已创建分类页面: Shooting
+[2025-04-04T19:13:50.912Z] 已创建分类页面: Puzzle
+[2025-04-04T19:13:50.912Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T19:13:50.913Z] 已创建分类页面: Sports
+[2025-04-04T19:13:50.913Z] 生成了META数据统计
+[2025-04-04T19:13:50.913Z] 同步完成
+[2025-04-04T19:15:30.526Z] 开始同步游戏数据
+[2025-04-04T19:15:30.528Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T19:15:32.179Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T19:15:32.397Z] 成功从localStorage获取 10 个游戏数据
+[2025-04-04T19:15:32.398Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T19-15-32.json
+[2025-04-04T19:15:32.398Z] 成功获取 10 个游戏数据
+[2025-04-04T19:15:32.398Z] 转换了 10 个游戏链接为本地静态页面链接
+[2025-04-04T19:15:32.401Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T19:15:32.402Z] 已创建分类页面: Arcade
+[2025-04-04T19:15:32.403Z] 已创建分类页面: Shooting
+[2025-04-04T19:15:32.403Z] 已创建分类页面: Puzzle
+[2025-04-04T19:15:32.403Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T19:15:32.403Z] 已创建分类页面: Sports
+[2025-04-04T19:15:32.404Z] 生成了META数据统计
+[2025-04-04T19:15:32.404Z] 同步完成
+[2025-04-04T20:34:36.087Z] 开始同步游戏数据
+[2025-04-04T20:34:36.088Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-04T20:34:38.958Z] 页面加载完成，尝试读取localStorage...
+[2025-04-04T20:34:39.196Z] 成功从localStorage获取 622 个游戏数据
+[2025-04-04T20:34:39.197Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-04T20-34-39.json
+[2025-04-04T20:34:39.197Z] 成功获取 622 个游戏数据
+[2025-04-04T20:34:39.198Z] 转换了 622 个游戏链接为本地静态页面链接
+[2025-04-04T20:34:39.289Z] 成功生成 622 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-04T20:34:39.292Z] 已创建分类页面: Arcade
+[2025-04-04T20:34:39.292Z] 已创建分类页面: Shooting
+[2025-04-04T20:34:39.292Z] 已创建分类页面: Puzzle
+[2025-04-04T20:34:39.293Z] 已创建分类页面: Bubble Shooter
+[2025-04-04T20:34:39.293Z] 已创建分类页面: Sports
+[2025-04-04T20:34:39.293Z] 生成了META数据统计
+[2025-04-04T20:34:39.294Z] 同步完成
+[2025-04-05T01:53:34.309Z] 开始同步游戏数据
+[2025-04-05T01:53:34.310Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T01:53:38.345Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T01:53:38.639Z] 成功从localStorage获取 622 个游戏数据
+[2025-04-05T01:53:38.641Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T01-53-38.json
+[2025-04-05T01:53:38.641Z] 成功获取 622 个游戏数据
+[2025-04-05T01:53:38.641Z] 转换了 622 个游戏链接为本地静态页面链接
+[2025-04-05T01:53:38.735Z] 成功生成 622 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T01:53:38.737Z] 已创建分类页面: Arcade
+[2025-04-05T01:53:38.738Z] 已创建分类页面: Shooting
+[2025-04-05T01:53:38.738Z] 已创建分类页面: Puzzle
+[2025-04-05T01:53:38.738Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T01:53:38.738Z] 已创建分类页面: Sports
+[2025-04-05T01:53:38.739Z] 生成了META数据统计
+[2025-04-05T01:53:38.739Z] 同步完成
+[2025-04-05T05:04:59.432Z] 开始同步游戏数据
+[2025-04-05T05:04:59.434Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T05:05:01.258Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T05:05:01.486Z] 成功从localStorage获取 622 个游戏数据
+[2025-04-05T05:05:01.488Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T05-05-01.json
+[2025-04-05T05:05:01.488Z] 成功获取 622 个游戏数据
+[2025-04-05T05:05:01.488Z] 转换了 622 个游戏链接为本地静态页面链接
+[2025-04-05T05:05:01.581Z] 成功生成 622 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T05:05:01.583Z] 已创建分类页面: Arcade
+[2025-04-05T05:05:01.583Z] 已创建分类页面: Shooting
+[2025-04-05T05:05:01.583Z] 已创建分类页面: Puzzle
+[2025-04-05T05:05:01.584Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T05:05:01.584Z] 已创建分类页面: Sports
+[2025-04-05T05:05:01.584Z] 生成了META数据统计
+[2025-04-05T05:05:01.585Z] 同步完成
+[2025-04-05T05:06:36.715Z] 开始同步游戏数据
+[2025-04-05T05:06:36.716Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T05:06:38.603Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T05:06:38.822Z] 成功从localStorage获取 622 个游戏数据
+[2025-04-05T05:06:38.825Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T05-06-38.json
+[2025-04-05T05:06:38.825Z] 成功获取 622 个游戏数据
+[2025-04-05T05:06:38.825Z] 转换了 622 个游戏链接为本地静态页面链接
+[2025-04-05T05:06:38.925Z] 成功生成 622 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T05:06:38.927Z] 已创建分类页面: Arcade
+[2025-04-05T05:06:38.927Z] 已创建分类页面: Shooting
+[2025-04-05T05:06:38.927Z] 已创建分类页面: Puzzle
+[2025-04-05T05:06:38.928Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T05:06:38.928Z] 已创建分类页面: Sports
+[2025-04-05T05:06:38.928Z] 生成了META数据统计
+[2025-04-05T05:06:38.929Z] 同步完成
+[2025-04-05T05:37:51.316Z] 开始同步游戏数据
+[2025-04-05T05:37:51.318Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T05:37:54.181Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T05:37:54.424Z] 成功从localStorage获取 623 个游戏数据
+[2025-04-05T05:37:54.426Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T05-37-54.json
+[2025-04-05T05:37:54.426Z] 成功获取 623 个游戏数据
+[2025-04-05T05:37:54.426Z] 转换了 623 个游戏链接为本地静态页面链接
+[2025-04-05T05:37:54.542Z] 成功生成 623 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T05:37:54.545Z] 已创建分类页面: Arcade
+[2025-04-05T05:37:54.545Z] 已创建分类页面: Shooting
+[2025-04-05T05:37:54.545Z] 已创建分类页面: Puzzle
+[2025-04-05T05:37:54.546Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T05:37:54.546Z] 已创建分类页面: Sports
+[2025-04-05T05:37:54.546Z] 已创建分类页面: Action
+[2025-04-05T05:37:54.546Z] 生成了META数据统计
+[2025-04-05T05:37:54.547Z] 同步完成
+[2025-04-05T05:56:12.824Z] 开始同步游戏数据
+[2025-04-05T05:56:12.826Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T05:56:13.996Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T05:56:14.144Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-05T05:56:14.145Z] 获取游戏数据失败: Unexpected non-whitespace character after JSON at position 5 (line 2 column 3)
+[2025-04-05T05:56:14.145Z] 同步失败: Unexpected non-whitespace character after JSON at position 5 (line 2 column 3)
+[2025-04-05T05:56:58.898Z] 开始同步游戏数据
+[2025-04-05T05:56:58.899Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T05:57:00.075Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T05:57:00.312Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-05T05:57:00.313Z] 获取游戏数据失败: Unexpected token '�', "��[ ]  
+ " is not valid JSON
+[2025-04-05T05:57:00.313Z] 同步失败: Unexpected token '�', "��[ ]  
+ " is not valid JSON
+[2025-04-05T05:57:25.689Z] 开始同步游戏数据
+[2025-04-05T05:57:25.690Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T05:57:26.872Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T05:57:27.069Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-05T05:57:27.069Z] 获取游戏数据失败: JSON文件中没有有效的游戏数据
+[2025-04-05T05:57:27.069Z] 同步失败: JSON文件中没有有效的游戏数据
+[2025-04-05T06:45:56.905Z] 开始同步游戏数据
+[2025-04-05T06:45:56.907Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T06:45:59.546Z] 访问localStorage失败: net::ERR_CONNECTION_REFUSED at http://localhost:8000/admin/game-manager.html，尝试从JSON文件获取...
+[2025-04-05T06:45:59.547Z] 成功从JSON文件获取 3 个游戏数据
+[2025-04-05T06:45:59.549Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T06-45-59.json
+[2025-04-05T06:45:59.549Z] 成功获取 3 个游戏数据
+[2025-04-05T06:45:59.550Z] 转换了 3 个游戏链接为本地静态页面链接
+[2025-04-05T06:45:59.557Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T06:45:59.561Z] 已创建分类页面: Match 3
+[2025-04-05T06:45:59.562Z] 生成了META数据统计
+[2025-04-05T06:45:59.563Z] 同步完成
+[2025-04-05T06:48:40.432Z] 开始同步游戏数据
+[2025-04-05T06:48:40.433Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T06:48:43.030Z] 访问localStorage失败: net::ERR_CONNECTION_REFUSED at http://localhost:8000/admin/game-manager.html，尝试从JSON文件获取...
+[2025-04-05T06:48:43.031Z] 成功从JSON文件获取 3 个游戏数据
+[2025-04-05T06:48:43.032Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T06-48-43.json
+[2025-04-05T06:48:43.032Z] 成功获取 3 个游戏数据
+[2025-04-05T06:48:43.033Z] 转换了 3 个游戏链接为本地静态页面链接
+[2025-04-05T06:48:43.038Z] 成功生成 3 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T06:48:43.039Z] 已创建分类页面: Match 3
+[2025-04-05T06:48:43.040Z] 生成了META数据统计
+[2025-04-05T06:48:43.041Z] 同步完成
+[2025-04-05T06:49:50.429Z] 开始同步游戏数据
+[2025-04-05T06:49:50.430Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T06:49:51.795Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T06:49:51.951Z] 成功从localStorage获取 4 个游戏数据
+[2025-04-05T06:49:51.951Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T06-49-51.json
+[2025-04-05T06:49:51.952Z] 成功获取 4 个游戏数据
+[2025-04-05T06:49:51.952Z] 转换了 4 个游戏链接为本地静态页面链接
+[2025-04-05T06:49:51.954Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T06:49:51.955Z] 已创建分类页面: Match 3
+[2025-04-05T06:49:51.955Z] 已创建分类页面: Arcade
+[2025-04-05T06:49:51.955Z] 生成了META数据统计
+[2025-04-05T06:49:51.956Z] 同步完成
+[2025-04-05T06:50:01.324Z] 开始同步游戏数据
+[2025-04-05T06:50:01.326Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T06:50:02.693Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T06:50:02.849Z] 成功从localStorage获取 4 个游戏数据
+[2025-04-05T06:50:02.849Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T06-50-02.json
+[2025-04-05T06:50:02.850Z] 成功获取 4 个游戏数据
+[2025-04-05T06:50:02.850Z] 转换了 4 个游戏链接为本地静态页面链接
+[2025-04-05T06:50:02.852Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T06:50:02.853Z] 已创建分类页面: Match 3
+[2025-04-05T06:50:02.853Z] 已创建分类页面: Arcade
+[2025-04-05T06:50:02.853Z] 生成了META数据统计
+[2025-04-05T06:50:02.854Z] 同步完成
+[2025-04-05T06:50:31.232Z] 开始同步游戏数据
+[2025-04-05T06:50:31.234Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T06:50:32.539Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T06:50:32.688Z] 成功从localStorage获取 4 个游戏数据
+[2025-04-05T06:50:32.689Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T06-50-32.json
+[2025-04-05T06:50:32.689Z] 成功获取 4 个游戏数据
+[2025-04-05T06:50:32.689Z] 转换了 4 个游戏链接为本地静态页面链接
+[2025-04-05T06:50:32.691Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T06:50:32.692Z] 已创建分类页面: Match 3
+[2025-04-05T06:50:32.692Z] 已创建分类页面: Arcade
+[2025-04-05T06:50:32.693Z] 生成了META数据统计
+[2025-04-05T06:50:32.693Z] 同步完成
+[2025-04-05T06:53:37.790Z] 开始同步游戏数据
+[2025-04-05T06:53:37.791Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T06:53:39.249Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T06:53:39.404Z] 成功从localStorage获取 4 个游戏数据
+[2025-04-05T06:53:39.405Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T06-53-39.json
+[2025-04-05T06:53:39.405Z] 成功获取 4 个游戏数据
+[2025-04-05T06:53:39.405Z] 转换了 4 个游戏链接为本地静态页面链接
+[2025-04-05T06:53:39.407Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T06:53:39.408Z] 已创建分类页面: Match 3
+[2025-04-05T06:53:39.409Z] 已创建分类页面: Arcade
+[2025-04-05T06:53:39.409Z] 生成了META数据统计
+[2025-04-05T06:53:39.409Z] 同步完成
+[2025-04-05T06:55:44.184Z] 开始同步游戏数据
+[2025-04-05T06:55:44.185Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T06:55:48.458Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T06:55:48.603Z] 成功从localStorage获取 5 个游戏数据
+[2025-04-05T06:55:48.603Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T06-55-48.json
+[2025-04-05T06:55:48.604Z] 成功获取 5 个游戏数据
+[2025-04-05T06:55:48.604Z] 转换了 5 个游戏链接为本地静态页面链接
+[2025-04-05T06:55:48.606Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T06:55:48.607Z] 已创建分类页面: Puzzle
+[2025-04-05T06:55:48.607Z] 已创建分类页面: Match 3
+[2025-04-05T06:55:48.608Z] 已创建分类页面: Arcade
+[2025-04-05T06:55:48.608Z] 生成了META数据统计
+[2025-04-05T06:55:48.608Z] 同步完成
+[2025-04-05T06:56:20.531Z] 开始同步游戏数据
+[2025-04-05T06:56:20.533Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T06:56:24.260Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T06:56:24.470Z] 成功从localStorage获取 5 个游戏数据
+[2025-04-05T06:56:24.471Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T06-56-24.json
+[2025-04-05T06:56:24.471Z] 成功获取 5 个游戏数据
+[2025-04-05T06:56:24.472Z] 转换了 5 个游戏链接为本地静态页面链接
+[2025-04-05T06:56:24.474Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T06:56:24.475Z] 已创建分类页面: Puzzle
+[2025-04-05T06:56:24.475Z] 已创建分类页面: Match 3
+[2025-04-05T06:56:24.476Z] 已创建分类页面: Arcade
+[2025-04-05T06:56:24.476Z] 生成了META数据统计
+[2025-04-05T06:56:24.477Z] 同步完成
+[2025-04-05T06:57:32.429Z] 开始同步游戏数据
+[2025-04-05T06:57:32.430Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T06:57:36.492Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T06:57:36.681Z] 成功从localStorage获取 5 个游戏数据
+[2025-04-05T06:57:36.682Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T06-57-36.json
+[2025-04-05T06:57:36.682Z] 成功获取 5 个游戏数据
+[2025-04-05T06:57:36.682Z] 转换了 5 个游戏链接为本地静态页面链接
+[2025-04-05T06:57:36.684Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T06:57:36.685Z] 已创建分类页面: Puzzle
+[2025-04-05T06:57:36.686Z] 已创建分类页面: Match 3
+[2025-04-05T06:57:36.686Z] 已创建分类页面: Arcade
+[2025-04-05T06:57:36.686Z] 生成了META数据统计
+[2025-04-05T06:57:36.686Z] 同步完成
+[2025-04-05T07:22:41.958Z] 开始同步游戏数据
+[2025-04-05T07:22:41.959Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T07:22:43.537Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T07:22:43.734Z] 成功从localStorage获取 4 个游戏数据
+[2025-04-05T07:22:43.735Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T07-22-43.json
+[2025-04-05T07:22:43.735Z] 成功获取 4 个游戏数据
+[2025-04-05T07:22:43.735Z] 转换了 4 个游戏链接为本地静态页面链接
+[2025-04-05T07:22:43.737Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T07:22:43.738Z] 已创建分类页面: Match 3
+[2025-04-05T07:22:43.738Z] 已创建分类页面: Arcade
+[2025-04-05T07:22:43.739Z] 生成了META数据统计
+[2025-04-05T07:22:43.739Z] 同步完成
+[2025-04-05T09:44:12.314Z] 开始同步游戏数据
+[2025-04-05T09:44:12.315Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T09:44:14.946Z] 访问localStorage失败: net::ERR_CONNECTION_REFUSED at http://localhost:8000/admin/game-manager.html，尝试从JSON文件获取...
+[2025-04-05T09:44:14.947Z] 成功从JSON文件获取 11 个游戏数据
+[2025-04-05T09:44:14.948Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T09-44-14.json
+[2025-04-05T09:44:14.948Z] 成功获取 11 个游戏数据
+[2025-04-05T09:44:14.949Z] 转换了 11 个游戏链接为本地静态页面链接
+[2025-04-05T09:44:14.953Z] 成功生成 11 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T09:44:14.954Z] 已创建分类页面: Match 3
+[2025-04-05T09:44:14.954Z] 已创建分类页面: Arcade
+[2025-04-05T09:44:14.955Z] 已创建分类页面: Casual
+[2025-04-05T09:44:14.955Z] 生成了META数据统计
+[2025-04-05T09:44:14.956Z] 同步完成
+[2025-04-05T09:51:10.961Z] 开始同步游戏数据
+[2025-04-05T09:51:10.962Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T09:51:12.139Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T09:51:12.274Z] 成功从localStorage获取 4 个游戏数据
+[2025-04-05T09:51:12.275Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T09-51-12.json
+[2025-04-05T09:51:12.275Z] 成功获取 4 个游戏数据
+[2025-04-05T09:51:12.275Z] 转换了 4 个游戏链接为本地静态页面链接
+[2025-04-05T09:51:12.278Z] 成功生成 4 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T09:51:12.279Z] 已创建分类页面: Match 3
+[2025-04-05T09:51:12.279Z] 已创建分类页面: Arcade
+[2025-04-05T09:51:12.280Z] 生成了META数据统计
+[2025-04-05T09:51:12.280Z] 同步完成
+[2025-04-05T11:32:08.267Z] 开始同步游戏数据
+[2025-04-05T11:32:08.269Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T11:32:09.835Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T11:32:10.107Z] 成功从localStorage获取 50 个游戏数据
+[2025-04-05T11:32:10.108Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T11-32-10.json
+[2025-04-05T11:32:10.108Z] 成功获取 50 个游戏数据
+[2025-04-05T11:32:10.108Z] 转换了 50 个游戏链接为本地静态页面链接
+[2025-04-05T11:32:10.116Z] 成功生成 50 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T11:32:10.118Z] 已创建分类页面: Arcade
+[2025-04-05T11:32:10.118Z] 已创建分类页面: Action
+[2025-04-05T11:32:10.118Z] 已创建分类页面: Puzzle
+[2025-04-05T11:32:10.118Z] 已创建分类页面: Skill
+[2025-04-05T11:32:10.119Z] 已创建分类页面: Girls
+[2025-04-05T11:32:10.119Z] 已创建分类页面: Quiz
+[2025-04-05T11:32:10.119Z] 已创建分类页面: Match 3
+[2025-04-05T11:32:10.119Z] 已创建分类页面: Best
+[2025-04-05T11:32:10.120Z] 生成了META数据统计
+[2025-04-05T11:32:10.120Z] 同步完成
+[2025-04-05T12:08:38.730Z] 开始同步游戏数据
+[2025-04-05T12:08:38.732Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:08:46.341Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:08:46.649Z] 成功从localStorage获取 619 个游戏数据
+[2025-04-05T12:08:46.653Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T12-08-46.json
+[2025-04-05T12:08:46.653Z] 成功获取 619 个游戏数据
+[2025-04-05T12:08:46.654Z] 转换了 619 个游戏链接为本地静态页面链接
+[2025-04-05T12:08:46.853Z] 成功生成 619 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T12:08:46.856Z] 已创建分类页面: Arcade
+[2025-04-05T12:08:46.857Z] 已创建分类页面: Action
+[2025-04-05T12:08:46.858Z] 已创建分类页面: Puzzle
+[2025-04-05T12:08:46.858Z] 已创建分类页面: Skill
+[2025-04-05T12:08:46.859Z] 已创建分类页面: Match 3
+[2025-04-05T12:08:46.860Z] 已创建分类页面: Best
+[2025-04-05T12:08:46.860Z] 已创建分类页面: Girls
+[2025-04-05T12:08:46.861Z] 已创建分类页面: Cars
+[2025-04-05T12:08:46.862Z] 已创建分类页面: Educational
+[2025-04-05T12:08:46.863Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T12:08:46.863Z] 已创建分类页面: Racing
+[2025-04-05T12:08:46.864Z] 已创建分类页面: Sport
+[2025-04-05T12:08:46.864Z] 已创建分类页面: Cards
+[2025-04-05T12:08:46.867Z] 已创建分类页面: Make-up
+[2025-04-05T12:08:46.868Z] 已创建分类页面: Jump & Run
+[2025-04-05T12:08:46.869Z] 已创建分类页面: Quiz
+[2025-04-05T12:08:46.869Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T12:08:46.870Z] 已创建分类页面: Dress-up
+[2025-04-05T12:08:46.871Z] 已创建分类页面: New
+[2025-04-05T12:08:46.871Z] 已创建分类页面: Tamagotchi
+[2025-04-05T12:08:46.872Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T12:08:46.872Z] 已创建分类页面: Breakout
+[2025-04-05T12:08:46.873Z] 生成了META数据统计
+[2025-04-05T12:08:46.874Z] 同步完成
+[2025-04-05T12:23:26.302Z] 开始同步游戏数据
+[2025-04-05T12:23:26.304Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:23:30.561Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:23:30.755Z] 成功从localStorage获取 619 个游戏数据
+[2025-04-05T12:23:30.758Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T12-23-30.json
+[2025-04-05T12:23:30.758Z] 成功获取 619 个游戏数据
+[2025-04-05T12:23:30.758Z] 转换了 619 个游戏链接为本地静态页面链接
+[2025-04-05T12:23:30.851Z] 成功生成 619 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T12:23:30.852Z] 已创建分类页面: Arcade
+[2025-04-05T12:23:30.853Z] 已创建分类页面: Action
+[2025-04-05T12:23:30.853Z] 已创建分类页面: Puzzle
+[2025-04-05T12:23:30.854Z] 已创建分类页面: Skill
+[2025-04-05T12:23:30.854Z] 已创建分类页面: Match 3
+[2025-04-05T12:23:30.854Z] 已创建分类页面: Best
+[2025-04-05T12:23:30.855Z] 已创建分类页面: Girls
+[2025-04-05T12:23:30.855Z] 已创建分类页面: Cars
+[2025-04-05T12:23:30.855Z] 已创建分类页面: Educational
+[2025-04-05T12:23:30.856Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T12:23:30.856Z] 已创建分类页面: Racing
+[2025-04-05T12:23:30.856Z] 已创建分类页面: Sport
+[2025-04-05T12:23:30.856Z] 已创建分类页面: Cards
+[2025-04-05T12:23:30.857Z] 已创建分类页面: Make-up
+[2025-04-05T12:23:30.857Z] 已创建分类页面: Jump & Run
+[2025-04-05T12:23:30.857Z] 已创建分类页面: Quiz
+[2025-04-05T12:23:30.858Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T12:23:30.858Z] 已创建分类页面: Dress-up
+[2025-04-05T12:23:30.858Z] 已创建分类页面: New
+[2025-04-05T12:23:30.858Z] 已创建分类页面: Tamagotchi
+[2025-04-05T12:23:30.859Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T12:23:30.859Z] 已创建分类页面: Breakout
+[2025-04-05T12:23:30.859Z] 生成了META数据统计
+[2025-04-05T12:23:30.860Z] 同步完成
+[2025-04-05T12:24:35.967Z] 开始同步游戏数据
+[2025-04-05T12:24:35.969Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:24:40.221Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:24:40.419Z] 成功从localStorage获取 619 个游戏数据
+[2025-04-05T12:24:40.422Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T12-24-40.json
+[2025-04-05T12:24:40.422Z] 成功获取 619 个游戏数据
+[2025-04-05T12:24:40.423Z] 转换了 619 个游戏链接为本地静态页面链接
+[2025-04-05T12:24:40.514Z] 成功生成 619 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T12:24:40.516Z] 已创建分类页面: Arcade
+[2025-04-05T12:24:40.516Z] 已创建分类页面: Action
+[2025-04-05T12:24:40.517Z] 已创建分类页面: Puzzle
+[2025-04-05T12:24:40.517Z] 已创建分类页面: Skill
+[2025-04-05T12:24:40.518Z] 已创建分类页面: Match 3
+[2025-04-05T12:24:40.518Z] 已创建分类页面: Best
+[2025-04-05T12:24:40.519Z] 已创建分类页面: Girls
+[2025-04-05T12:24:40.519Z] 已创建分类页面: Cars
+[2025-04-05T12:24:40.519Z] 已创建分类页面: Educational
+[2025-04-05T12:24:40.520Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T12:24:40.520Z] 已创建分类页面: Racing
+[2025-04-05T12:24:40.520Z] 已创建分类页面: Sport
+[2025-04-05T12:24:40.521Z] 已创建分类页面: Cards
+[2025-04-05T12:24:40.521Z] 已创建分类页面: Make-up
+[2025-04-05T12:24:40.521Z] 已创建分类页面: Jump & Run
+[2025-04-05T12:24:40.521Z] 已创建分类页面: Quiz
+[2025-04-05T12:24:40.522Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T12:24:40.522Z] 已创建分类页面: Dress-up
+[2025-04-05T12:24:40.522Z] 已创建分类页面: New
+[2025-04-05T12:24:40.522Z] 已创建分类页面: Tamagotchi
+[2025-04-05T12:24:40.523Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T12:24:40.523Z] 已创建分类页面: Breakout
+[2025-04-05T12:24:40.524Z] 生成了META数据统计
+[2025-04-05T12:24:40.524Z] 同步完成
+[2025-04-05T12:25:05.329Z] 开始同步游戏数据
+[2025-04-05T12:25:05.331Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:25:09.590Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:25:09.817Z] 成功从localStorage获取 619 个游戏数据
+[2025-04-05T12:25:09.819Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T12-25-09.json
+[2025-04-05T12:25:09.820Z] 成功获取 619 个游戏数据
+[2025-04-05T12:25:09.820Z] 转换了 619 个游戏链接为本地静态页面链接
+[2025-04-05T12:25:09.914Z] 成功生成 619 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T12:25:09.916Z] 已创建分类页面: Arcade
+[2025-04-05T12:25:09.916Z] 已创建分类页面: Action
+[2025-04-05T12:25:09.917Z] 已创建分类页面: Puzzle
+[2025-04-05T12:25:09.917Z] 已创建分类页面: Skill
+[2025-04-05T12:25:09.917Z] 已创建分类页面: Match 3
+[2025-04-05T12:25:09.918Z] 已创建分类页面: Best
+[2025-04-05T12:25:09.918Z] 已创建分类页面: Girls
+[2025-04-05T12:25:09.918Z] 已创建分类页面: Cars
+[2025-04-05T12:25:09.919Z] 已创建分类页面: Educational
+[2025-04-05T12:25:09.919Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T12:25:09.919Z] 已创建分类页面: Racing
+[2025-04-05T12:25:09.920Z] 已创建分类页面: Sport
+[2025-04-05T12:25:09.920Z] 已创建分类页面: Cards
+[2025-04-05T12:25:09.920Z] 已创建分类页面: Make-up
+[2025-04-05T12:25:09.921Z] 已创建分类页面: Jump & Run
+[2025-04-05T12:25:09.921Z] 已创建分类页面: Quiz
+[2025-04-05T12:25:09.921Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T12:25:09.922Z] 已创建分类页面: Dress-up
+[2025-04-05T12:25:09.922Z] 已创建分类页面: New
+[2025-04-05T12:25:09.923Z] 已创建分类页面: Tamagotchi
+[2025-04-05T12:25:09.923Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T12:25:09.923Z] 已创建分类页面: Breakout
+[2025-04-05T12:25:09.924Z] 生成了META数据统计
+[2025-04-05T12:25:09.924Z] 同步完成
+[2025-04-05T12:26:17.663Z] 开始同步游戏数据
+[2025-04-05T12:26:17.664Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:26:27.881Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:26:28.091Z] 成功从localStorage获取 619 个游戏数据
+[2025-04-05T12:26:28.094Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T12-26-28.json
+[2025-04-05T12:26:28.094Z] 成功获取 619 个游戏数据
+[2025-04-05T12:26:28.095Z] 转换了 619 个游戏链接为本地静态页面链接
+[2025-04-05T12:26:28.189Z] 成功生成 619 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T12:26:28.191Z] 已创建分类页面: Arcade
+[2025-04-05T12:26:28.191Z] 已创建分类页面: Action
+[2025-04-05T12:26:28.191Z] 已创建分类页面: Puzzle
+[2025-04-05T12:26:28.192Z] 已创建分类页面: Skill
+[2025-04-05T12:26:28.192Z] 已创建分类页面: Match 3
+[2025-04-05T12:26:28.193Z] 已创建分类页面: Best
+[2025-04-05T12:26:28.193Z] 已创建分类页面: Girls
+[2025-04-05T12:26:28.193Z] 已创建分类页面: Cars
+[2025-04-05T12:26:28.194Z] 已创建分类页面: Educational
+[2025-04-05T12:26:28.194Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T12:26:28.195Z] 已创建分类页面: Racing
+[2025-04-05T12:26:28.195Z] 已创建分类页面: Sport
+[2025-04-05T12:26:28.195Z] 已创建分类页面: Cards
+[2025-04-05T12:26:28.196Z] 已创建分类页面: Make-up
+[2025-04-05T12:26:28.196Z] 已创建分类页面: Jump & Run
+[2025-04-05T12:26:28.196Z] 已创建分类页面: Quiz
+[2025-04-05T12:26:28.196Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T12:26:28.197Z] 已创建分类页面: Dress-up
+[2025-04-05T12:26:28.197Z] 已创建分类页面: New
+[2025-04-05T12:26:28.197Z] 已创建分类页面: Tamagotchi
+[2025-04-05T12:26:28.198Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T12:26:28.198Z] 已创建分类页面: Breakout
+[2025-04-05T12:26:28.198Z] 生成了META数据统计
+[2025-04-05T12:26:28.199Z] 同步完成
+[2025-04-05T12:31:40.996Z] 开始同步游戏数据
+[2025-04-05T12:31:40.998Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:31:45.353Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:31:45.550Z] 成功从localStorage获取 619 个游戏数据
+[2025-04-05T12:31:45.553Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T12-31-45.json
+[2025-04-05T12:31:45.554Z] 成功获取 619 个游戏数据
+[2025-04-05T12:31:45.554Z] 转换了 619 个游戏链接为本地静态页面链接
+[2025-04-05T12:31:45.651Z] 成功生成 619 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T12:31:45.652Z] 已创建分类页面: Arcade
+[2025-04-05T12:31:45.653Z] 已创建分类页面: Action
+[2025-04-05T12:31:45.654Z] 已创建分类页面: Puzzle
+[2025-04-05T12:31:45.654Z] 已创建分类页面: Skill
+[2025-04-05T12:31:45.654Z] 已创建分类页面: Match 3
+[2025-04-05T12:31:45.655Z] 已创建分类页面: Best
+[2025-04-05T12:31:45.655Z] 已创建分类页面: Girls
+[2025-04-05T12:31:45.656Z] 已创建分类页面: Cars
+[2025-04-05T12:31:45.656Z] 已创建分类页面: Educational
+[2025-04-05T12:31:45.656Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T12:31:45.657Z] 已创建分类页面: Racing
+[2025-04-05T12:31:45.657Z] 已创建分类页面: Sport
+[2025-04-05T12:31:45.657Z] 已创建分类页面: Cards
+[2025-04-05T12:31:45.658Z] 已创建分类页面: Make-up
+[2025-04-05T12:31:45.658Z] 已创建分类页面: Jump & Run
+[2025-04-05T12:31:45.658Z] 已创建分类页面: Quiz
+[2025-04-05T12:31:45.658Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T12:31:45.659Z] 已创建分类页面: Dress-up
+[2025-04-05T12:31:45.659Z] 已创建分类页面: New
+[2025-04-05T12:31:45.659Z] 已创建分类页面: Tamagotchi
+[2025-04-05T12:31:45.659Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T12:31:45.660Z] 已创建分类页面: Breakout
+[2025-04-05T12:31:45.660Z] 生成了META数据统计
+[2025-04-05T12:31:45.661Z] 同步完成
+[2025-04-05T12:33:25.623Z] 开始同步游戏数据
+[2025-04-05T12:33:25.625Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:33:26.803Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:33:26.965Z] 成功从localStorage获取 619 个游戏数据
+[2025-04-05T12:33:26.969Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T12-33-26.json
+[2025-04-05T12:33:26.969Z] 成功获取 619 个游戏数据
+[2025-04-05T12:33:26.970Z] 转换了 619 个游戏链接为本地静态页面链接
+[2025-04-05T12:33:27.072Z] 成功生成 619 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T12:33:27.074Z] 已创建分类页面: Arcade
+[2025-04-05T12:33:27.074Z] 已创建分类页面: Action
+[2025-04-05T12:33:27.075Z] 已创建分类页面: Puzzle
+[2025-04-05T12:33:27.075Z] 已创建分类页面: Skill
+[2025-04-05T12:33:27.076Z] 已创建分类页面: Match 3
+[2025-04-05T12:33:27.076Z] 已创建分类页面: Best
+[2025-04-05T12:33:27.076Z] 已创建分类页面: Girls
+[2025-04-05T12:33:27.077Z] 已创建分类页面: Cars
+[2025-04-05T12:33:27.077Z] 已创建分类页面: Educational
+[2025-04-05T12:33:27.077Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T12:33:27.077Z] 已创建分类页面: Racing
+[2025-04-05T12:33:27.078Z] 已创建分类页面: Sport
+[2025-04-05T12:33:27.078Z] 已创建分类页面: Cards
+[2025-04-05T12:33:27.078Z] 已创建分类页面: Make-up
+[2025-04-05T12:33:27.079Z] 已创建分类页面: Jump & Run
+[2025-04-05T12:33:27.079Z] 已创建分类页面: Quiz
+[2025-04-05T12:33:27.079Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T12:33:27.079Z] 已创建分类页面: Dress-up
+[2025-04-05T12:33:27.080Z] 已创建分类页面: New
+[2025-04-05T12:33:27.080Z] 已创建分类页面: Tamagotchi
+[2025-04-05T12:33:27.080Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T12:33:27.080Z] 已创建分类页面: Breakout
+[2025-04-05T12:33:27.081Z] 生成了META数据统计
+[2025-04-05T12:33:27.081Z] 同步完成
+[2025-04-05T12:38:40.002Z] 开始同步游戏数据
+[2025-04-05T12:38:40.003Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:38:41.163Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:38:41.316Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-05T12:38:41.317Z] 获取游戏数据失败: Unexpected token '�', "��[ ]  
+ " is not valid JSON
+[2025-04-05T12:38:41.317Z] 同步失败: Unexpected token '�', "��[ ]  
+ " is not valid JSON
+[2025-04-05T12:39:47.726Z] 开始同步游戏数据
+[2025-04-05T12:39:47.727Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:39:49.020Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:39:49.156Z] 从localStorage获取游戏数据失败或为空，尝试从JSON文件获取...
+[2025-04-05T12:39:49.157Z] 获取游戏数据失败: JSON文件中没有有效的游戏数据
+[2025-04-05T12:39:49.157Z] 同步失败: JSON文件中没有有效的游戏数据
+[2025-04-05T12:46:20.218Z] 开始同步游戏数据
+[2025-04-05T12:46:20.220Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:46:21.435Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:46:21.573Z] 成功从localStorage获取 5 个游戏数据
+[2025-04-05T12:46:21.574Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T12-46-21.json
+[2025-04-05T12:46:21.574Z] 成功获取 5 个游戏数据
+[2025-04-05T12:46:21.574Z] 转换了 5 个游戏链接为本地静态页面链接
+[2025-04-05T12:46:21.576Z] 成功生成 5 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T12:46:21.578Z] 已创建分类页面: Arcade
+[2025-04-05T12:46:21.579Z] 已创建分类页面: Action
+[2025-04-05T12:46:21.579Z] 已创建分类页面: Puzzle
+[2025-04-05T12:46:21.579Z] 生成了META数据统计
+[2025-04-05T12:46:21.580Z] 同步完成
+[2025-04-05T12:52:24.958Z] 开始同步游戏数据
+[2025-04-05T12:52:24.960Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T12:52:27.274Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T12:52:27.433Z] 成功从localStorage获取 5 个游戏数据
+[2025-04-05T12:52:27.434Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T12-52-27.json
+[2025-04-05T12:52:27.434Z] 成功获取 5 个游戏数据
+[2025-04-05T12:52:27.434Z] 转换了 5 个游戏链接为本地静态页面链接
+[2025-04-05T12:52:27.438Z] 成功生成 10 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T12:52:27.440Z] 已创建分类页面: Arcade
+[2025-04-05T12:52:27.440Z] 已创建分类页面: Action
+[2025-04-05T12:52:27.440Z] 已创建分类页面: Puzzle
+[2025-04-05T12:52:27.440Z] 生成了META数据统计
+[2025-04-05T12:52:27.441Z] 同步完成
+[2025-04-05T13:02:56.810Z] 开始同步游戏数据
+[2025-04-05T13:02:56.812Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T13:02:58.011Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T13:02:58.165Z] 成功从localStorage获取 50 个游戏数据
+[2025-04-05T13:02:58.166Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T13-02-58.json
+[2025-04-05T13:02:58.166Z] 成功获取 50 个游戏数据
+[2025-04-05T13:02:58.167Z] 转换了 50 个游戏链接为本地静态页面链接
+[2025-04-05T13:02:58.187Z] 成功生成 100 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T13:02:58.188Z] 已创建分类页面: Arcade
+[2025-04-05T13:02:58.188Z] 已创建分类页面: Action
+[2025-04-05T13:02:58.189Z] 已创建分类页面: Puzzle
+[2025-04-05T13:02:58.189Z] 已创建分类页面: Skill
+[2025-04-05T13:02:58.190Z] 已创建分类页面: Girls
+[2025-04-05T13:02:58.190Z] 已创建分类页面: Quiz
+[2025-04-05T13:02:58.190Z] 已创建分类页面: Match 3
+[2025-04-05T13:02:58.191Z] 已创建分类页面: Best
+[2025-04-05T13:02:58.191Z] 生成了META数据统计
+[2025-04-05T13:02:58.192Z] 同步完成
+[2025-04-05T13:10:29.031Z] 开始同步游戏数据
+[2025-04-05T13:10:29.032Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T13:10:30.375Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T13:10:30.523Z] 成功从localStorage获取 50 个游戏数据
+[2025-04-05T13:10:30.524Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T13-10-30.json
+[2025-04-05T13:10:30.524Z] 成功获取 50 个游戏数据
+[2025-04-05T13:10:30.524Z] 转换了 50 个游戏链接为本地静态页面链接
+[2025-04-05T13:10:30.540Z] 成功生成 100 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T13:10:30.541Z] 已创建分类页面: Arcade
+[2025-04-05T13:10:30.542Z] 已创建分类页面: Action
+[2025-04-05T13:10:30.542Z] 已创建分类页面: Puzzle
+[2025-04-05T13:10:30.542Z] 已创建分类页面: Skill
+[2025-04-05T13:10:30.543Z] 已创建分类页面: Girls
+[2025-04-05T13:10:30.543Z] 已创建分类页面: Quiz
+[2025-04-05T13:10:30.543Z] 已创建分类页面: Match 3
+[2025-04-05T13:10:30.544Z] 已创建分类页面: Best
+[2025-04-05T13:10:30.544Z] 生成了META数据统计
+[2025-04-05T13:10:30.544Z] 同步完成
+[2025-04-05T13:27:49.804Z] 开始同步游戏数据
+[2025-04-05T13:27:49.806Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T13:27:51.325Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T13:27:51.486Z] 成功从localStorage获取 50 个游戏数据
+[2025-04-05T13:27:51.487Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T13-27-51.json
+[2025-04-05T13:27:51.487Z] 成功获取 50 个游戏数据
+[2025-04-05T13:27:51.488Z] 转换了 50 个游戏链接为本地静态页面链接
+[2025-04-05T13:27:51.506Z] 成功生成 100 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T13:27:51.508Z] 已创建分类页面: Arcade
+[2025-04-05T13:27:51.508Z] 已创建分类页面: Action
+[2025-04-05T13:27:51.509Z] 已创建分类页面: Puzzle
+[2025-04-05T13:27:51.509Z] 已创建分类页面: Skill
+[2025-04-05T13:27:51.509Z] 已创建分类页面: Girls
+[2025-04-05T13:27:51.510Z] 已创建分类页面: Quiz
+[2025-04-05T13:27:51.510Z] 已创建分类页面: Match 3
+[2025-04-05T13:27:51.510Z] 已创建分类页面: Best
+[2025-04-05T13:27:51.511Z] 生成了META数据统计
+[2025-04-05T13:27:51.511Z] 同步完成
+[2025-04-05T13:28:59.623Z] 开始同步游戏数据
+[2025-04-05T13:28:59.625Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T13:29:01.522Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T13:29:01.673Z] 成功从localStorage获取 50 个游戏数据
+[2025-04-05T13:29:01.674Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T13-29-01.json
+[2025-04-05T13:29:01.674Z] 成功获取 50 个游戏数据
+[2025-04-05T13:29:01.674Z] 转换了 50 个游戏链接为本地静态页面链接
+[2025-04-05T13:29:01.690Z] 成功生成 100 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T13:29:01.691Z] 已创建分类页面: Arcade
+[2025-04-05T13:29:01.692Z] 已创建分类页面: Action
+[2025-04-05T13:29:01.692Z] 已创建分类页面: Puzzle
+[2025-04-05T13:29:01.692Z] 已创建分类页面: Skill
+[2025-04-05T13:29:01.693Z] 已创建分类页面: Girls
+[2025-04-05T13:29:01.693Z] 已创建分类页面: Quiz
+[2025-04-05T13:29:01.694Z] 已创建分类页面: Match 3
+[2025-04-05T13:29:01.694Z] 已创建分类页面: Best
+[2025-04-05T13:29:01.694Z] 生成了META数据统计
+[2025-04-05T13:29:01.695Z] 同步完成
+[2025-04-05T13:38:54.063Z] 开始同步游戏数据
+[2025-04-05T13:38:54.064Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T13:38:55.695Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T13:38:55.839Z] 成功从localStorage获取 1 个游戏数据
+[2025-04-05T13:38:55.840Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T13-38-55.json
+[2025-04-05T13:38:55.840Z] 成功获取 1 个游戏数据
+[2025-04-05T13:38:55.840Z] 转换了 1 个游戏链接为本地静态页面链接
+[2025-04-05T13:38:55.842Z] 成功生成 2 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T13:38:55.843Z] 已创建分类页面: Puzzle
+[2025-04-05T13:38:55.843Z] 生成了META数据统计
+[2025-04-05T13:38:55.844Z] 同步完成
+[2025-04-05T13:39:36.006Z] 开始同步游戏数据
+[2025-04-05T13:39:36.007Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T13:39:37.186Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T13:39:37.333Z] 成功从localStorage获取 30 个游戏数据
+[2025-04-05T13:39:37.334Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T13-39-37.json
+[2025-04-05T13:39:37.334Z] 成功获取 30 个游戏数据
+[2025-04-05T13:39:37.334Z] 转换了 30 个游戏链接为本地静态页面链接
+[2025-04-05T13:39:37.348Z] 成功生成 60 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T13:39:37.349Z] 已创建分类页面: Arcade
+[2025-04-05T13:39:37.350Z] 已创建分类页面: Action
+[2025-04-05T13:39:37.350Z] 已创建分类页面: Puzzle
+[2025-04-05T13:39:37.351Z] 已创建分类页面: Skill
+[2025-04-05T13:39:37.351Z] 已创建分类页面: Girls
+[2025-04-05T13:39:37.351Z] 已创建分类页面: Quiz
+[2025-04-05T13:39:37.352Z] 生成了META数据统计
+[2025-04-05T13:39:37.352Z] 同步完成
+[2025-04-05T14:17:50.003Z] 开始同步游戏数据
+[2025-04-05T14:17:50.005Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T14:17:51.155Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T14:17:51.323Z] 成功从localStorage获取 624 个游戏数据
+[2025-04-05T14:17:51.326Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T14-17-51.json
+[2025-04-05T14:17:51.327Z] 成功获取 624 个游戏数据
+[2025-04-05T14:17:51.328Z] 转换了 624 个游戏链接为本地静态页面链接
+[2025-04-05T14:17:51.567Z] 成功生成 1248 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T14:17:51.569Z] 已创建分类页面: Arcade
+[2025-04-05T14:17:51.569Z] 已创建分类页面: Action
+[2025-04-05T14:17:51.569Z] 已创建分类页面: Puzzle
+[2025-04-05T14:17:51.570Z] 已创建分类页面: Skill
+[2025-04-05T14:17:51.570Z] 已创建分类页面: Girls
+[2025-04-05T14:17:51.570Z] 已创建分类页面: Quiz
+[2025-04-05T14:17:51.571Z] 已创建分类页面: Match 3
+[2025-04-05T14:17:51.571Z] 已创建分类页面: Best
+[2025-04-05T14:17:51.571Z] 已创建分类页面: Cars
+[2025-04-05T14:17:51.572Z] 已创建分类页面: Educational
+[2025-04-05T14:17:51.572Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T14:17:51.573Z] 已创建分类页面: Racing
+[2025-04-05T14:17:51.573Z] 已创建分类页面: Sport
+[2025-04-05T14:17:51.573Z] 已创建分类页面: Cards
+[2025-04-05T14:17:51.574Z] 已创建分类页面: Make-up
+[2025-04-05T14:17:51.574Z] 已创建分类页面: Jump & Run
+[2025-04-05T14:17:51.575Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T14:17:51.575Z] 已创建分类页面: Dress-up
+[2025-04-05T14:17:51.575Z] 已创建分类页面: New
+[2025-04-05T14:17:51.576Z] 已创建分类页面: Tamagotchi
+[2025-04-05T14:17:51.576Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T14:17:51.577Z] 已创建分类页面: Breakout
+[2025-04-05T14:17:51.577Z] 生成了META数据统计
+[2025-04-05T14:17:51.577Z] 同步完成
+[2025-04-05T14:43:26.676Z] 开始同步游戏数据
+[2025-04-05T14:43:26.678Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T14:43:30.969Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T14:43:31.198Z] 成功从localStorage获取 624 个游戏数据
+[2025-04-05T14:43:31.201Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T14-43-31.json
+[2025-04-05T14:43:31.201Z] 成功获取 624 个游戏数据
+[2025-04-05T14:43:31.203Z] 转换了 624 个游戏链接为本地静态页面链接
+[2025-04-05T14:43:31.392Z] 成功生成 1248 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T14:43:31.393Z] 已创建分类页面: Arcade
+[2025-04-05T14:43:31.394Z] 已创建分类页面: Action
+[2025-04-05T14:43:31.394Z] 已创建分类页面: Puzzle
+[2025-04-05T14:43:31.395Z] 已创建分类页面: Skill
+[2025-04-05T14:43:31.395Z] 已创建分类页面: Girls
+[2025-04-05T14:43:31.395Z] 已创建分类页面: Quiz
+[2025-04-05T14:43:31.396Z] 已创建分类页面: Match 3
+[2025-04-05T14:43:31.396Z] 已创建分类页面: Best
+[2025-04-05T14:43:31.396Z] 已创建分类页面: Cars
+[2025-04-05T14:43:31.397Z] 已创建分类页面: Educational
+[2025-04-05T14:43:31.397Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T14:43:31.397Z] 已创建分类页面: Racing
+[2025-04-05T14:43:31.398Z] 已创建分类页面: Sport
+[2025-04-05T14:43:31.398Z] 已创建分类页面: Cards
+[2025-04-05T14:43:31.398Z] 已创建分类页面: Make-up
+[2025-04-05T14:43:31.399Z] 已创建分类页面: Jump & Run
+[2025-04-05T14:43:31.399Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T14:43:31.399Z] 已创建分类页面: Dress-up
+[2025-04-05T14:43:31.399Z] 已创建分类页面: New
+[2025-04-05T14:43:31.400Z] 已创建分类页面: Tamagotchi
+[2025-04-05T14:43:31.400Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T14:43:31.400Z] 已创建分类页面: Breakout
+[2025-04-05T14:43:31.401Z] 生成了META数据统计
+[2025-04-05T14:43:31.402Z] 同步完成
+[2025-04-05T17:25:45.382Z] 开始同步游戏数据
+[2025-04-05T17:25:45.384Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T17:25:49.932Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T17:25:50.454Z] 成功从localStorage获取 572 个游戏数据
+[2025-04-05T17:25:50.457Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T17-25-50.json
+[2025-04-05T17:25:50.458Z] 成功获取 572 个游戏数据
+[2025-04-05T17:25:50.459Z] 转换了 572 个游戏链接为本地静态页面链接
+[2025-04-05T17:25:50.812Z] 成功生成 1144 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T17:25:50.815Z] 已创建分类页面: Puzzle
+[2025-04-05T17:25:50.815Z] 已创建分类页面: Girls
+[2025-04-05T17:25:50.816Z] 已创建分类页面: Skill
+[2025-04-05T17:25:50.817Z] 已创建分类页面: Arcade
+[2025-04-05T17:25:50.817Z] 已创建分类页面: Action
+[2025-04-05T17:25:50.818Z] 已创建分类页面: Match 3
+[2025-04-05T17:25:50.819Z] 已创建分类页面: Best
+[2025-04-05T17:25:50.819Z] 已创建分类页面: Cars
+[2025-04-05T17:25:50.820Z] 已创建分类页面: Educational
+[2025-04-05T17:25:50.820Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T17:25:50.821Z] 已创建分类页面: Racing
+[2025-04-05T17:25:50.821Z] 已创建分类页面: Sport
+[2025-04-05T17:25:50.822Z] 已创建分类页面: Cards
+[2025-04-05T17:25:50.822Z] 已创建分类页面: Make-up
+[2025-04-05T17:25:50.823Z] 已创建分类页面: Jump & Run
+[2025-04-05T17:25:50.823Z] 已创建分类页面: Quiz
+[2025-04-05T17:25:50.824Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T17:25:50.824Z] 已创建分类页面: Dress-up
+[2025-04-05T17:25:50.824Z] 已创建分类页面: New
+[2025-04-05T17:25:50.825Z] 已创建分类页面: Tamagotchi
+[2025-04-05T17:25:50.825Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T17:25:50.826Z] 已创建分类页面: Breakout
+[2025-04-05T17:25:50.827Z] 生成了META数据统计
+[2025-04-05T17:25:50.827Z] 同步完成
+[2025-04-05T17:32:45.698Z] 开始同步游戏数据
+[2025-04-05T17:32:45.699Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T17:32:48.945Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T17:32:49.166Z] 成功从localStorage获取 406 个游戏数据
+[2025-04-05T17:32:49.169Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T17-32-49.json
+[2025-04-05T17:32:49.169Z] 成功获取 406 个游戏数据
+[2025-04-05T17:32:49.171Z] 转换了 406 个游戏链接为本地静态页面链接
+[2025-04-05T17:32:49.423Z] 成功生成 812 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T17:32:49.425Z] 已创建分类页面: Puzzle
+[2025-04-05T17:32:49.426Z] 已创建分类页面: Girls
+[2025-04-05T17:32:49.426Z] 已创建分类页面: Skill
+[2025-04-05T17:32:49.427Z] 已创建分类页面: Arcade
+[2025-04-05T17:32:49.428Z] 已创建分类页面: Action
+[2025-04-05T17:32:49.428Z] 已创建分类页面: Match 3
+[2025-04-05T17:32:49.429Z] 已创建分类页面: Best
+[2025-04-05T17:32:49.429Z] 已创建分类页面: Cars
+[2025-04-05T17:32:49.430Z] 已创建分类页面: Educational
+[2025-04-05T17:32:49.431Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T17:32:49.431Z] 已创建分类页面: Racing
+[2025-04-05T17:32:49.432Z] 已创建分类页面: Sport
+[2025-04-05T17:32:49.432Z] 已创建分类页面: Cards
+[2025-04-05T17:32:49.433Z] 已创建分类页面: Make-up
+[2025-04-05T17:32:49.433Z] 已创建分类页面: Jump & Run
+[2025-04-05T17:32:49.434Z] 已创建分类页面: Quiz
+[2025-04-05T17:32:49.434Z] 已创建分类页面: New
+[2025-04-05T17:32:49.435Z] 已创建分类页面: Dress-up
+[2025-04-05T17:32:49.435Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T17:32:49.435Z] 已创建分类页面: Breakout
+[2025-04-05T17:32:49.436Z] 生成了META数据统计
+[2025-04-05T17:32:49.437Z] 同步完成
+[2025-04-05T17:41:24.014Z] 开始同步游戏数据
+[2025-04-05T17:41:24.015Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T17:41:26.545Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T17:41:26.689Z] 成功从localStorage获取 1 个游戏数据
+[2025-04-05T17:41:26.690Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T17-41-26.json
+[2025-04-05T17:41:26.690Z] 成功获取 1 个游戏数据
+[2025-04-05T17:41:26.691Z] 转换了 1 个游戏链接为本地静态页面链接
+[2025-04-05T17:41:26.692Z] 成功生成 2 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T17:41:26.693Z] 已创建分类页面: Match 3
+[2025-04-05T17:41:26.693Z] 生成了META数据统计
+[2025-04-05T17:41:26.694Z] 同步完成
+[2025-04-05T17:46:39.634Z] 开始同步游戏数据
+[2025-04-05T17:46:39.635Z] 开始从 http://localhost:8000/admin/game-manager.html 获取游戏数据...
+[2025-04-05T17:46:43.946Z] 页面加载完成，尝试读取localStorage...
+[2025-04-05T17:46:44.214Z] 成功从localStorage获取 624 个游戏数据
+[2025-04-05T17:46:44.217Z] 游戏数据已备份到: E:\Cursor_Code\Gamenet\backups\games-backup-2025-04-05T17-46-44.json
+[2025-04-05T17:46:44.217Z] 成功获取 624 个游戏数据
+[2025-04-05T17:46:44.218Z] 转换了 624 个游戏链接为本地静态页面链接
+[2025-04-05T17:46:44.650Z] 成功生成 1248 个静态页面到 E:\Cursor_Code\Gamenet\games
+[2025-04-05T17:46:44.653Z] 已创建分类页面: Arcade
+[2025-04-05T17:46:44.653Z] 已创建分类页面: Action
+[2025-04-05T17:46:44.654Z] 已创建分类页面: Puzzle
+[2025-04-05T17:46:44.655Z] 已创建分类页面: Skill
+[2025-04-05T17:46:44.655Z] 已创建分类页面: Girls
+[2025-04-05T17:46:44.656Z] 已创建分类页面: Quiz
+[2025-04-05T17:46:44.657Z] 已创建分类页面: Match 3
+[2025-04-05T17:46:44.657Z] 已创建分类页面: Best
+[2025-04-05T17:46:44.658Z] 已创建分类页面: Cars
+[2025-04-05T17:46:44.658Z] 已创建分类页面: Educational
+[2025-04-05T17:46:44.659Z] 已创建分类页面: Bubble Shooter
+[2025-04-05T17:46:44.659Z] 已创建分类页面: Racing
+[2025-04-05T17:46:44.660Z] 已创建分类页面: Sport
+[2025-04-05T17:46:44.660Z] 已创建分类页面: Cards
+[2025-04-05T17:46:44.661Z] 已创建分类页面: Make-up
+[2025-04-05T17:46:44.661Z] 已创建分类页面: Jump & Run
+[2025-04-05T17:46:44.662Z] 已创建分类页面: Time Management & Strategy
+[2025-04-05T17:46:44.662Z] 已创建分类页面: Dress-up
+[2025-04-05T17:46:44.662Z] 已创建分类页面: New
+[2025-04-05T17:46:44.663Z] 已创建分类页面: Tamagotchi
+[2025-04-05T17:46:44.663Z] 已创建分类页面: Cooking and Baking
+[2025-04-05T17:46:44.664Z] 已创建分类页面: Breakout
+[2025-04-05T17:46:44.664Z] 生成了META数据统计
+[2025-04-05T17:46:44.665Z] 同步完成

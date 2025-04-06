@@ -1,0 +1,122 @@
+{
+  "Home": {
+    "name": "首页",
+    "icon": "fas fa-home"
+  },
+  "Action": {
+    "name": "Action",
+    "icon": "fas fa-running"
+  },
+  "Arcade": {
+    "name": "Arcade",
+    "icon": "fas fa-gamepad"
+  },
+  "Best": {
+    "name": "Best",
+    "icon": "fas fa-gamepad"
+  },
+  "Breakout": {
+    "name": "Breakout",
+    "icon": "fas fa-gamepad"
+  },
+  "Bubble Shooter": {
+    "name": "Bubble Shooter",
+    "icon": "fas fa-bullseye"
+  },
+  "Cards": {
+    "name": "Cards",
+    "icon": "fas fa-car"
+  },
+  "Cars": {
+    "name": "Cars",
+    "icon": "fas fa-car"
+  },
+  "Cooking and Baking": {
+    "name": "Cooking and Baking",
+    "icon": "fas fa-gamepad"
+  },
+  "Dress-up": {
+    "name": "Dress-up",
+    "icon": "fas fa-gamepad"
+  },
+  "Educational": {
+    "name": "Educational",
+    "icon": "fas fa-globe"
+  },
+  "Girls": {
+    "name": "Girls",
+    "icon": "fas fa-gamepad"
+  },
+  "Jump": {
+    "name": "Jump",
+    "icon": "fas fa-gamepad"
+  },
+  "Jump & Run": {
+    "name": "Jump & Run",
+    "icon": "fas fa-gamepad"
+  },
+  "Mahjong": {
+    "name": "Mahjong",
+    "icon": "fas fa-gamepad"
+  },
+  "Make-up": {
+    "name": "Make-up",
+    "icon": "fas fa-gamepad"
+  },
+  "Management": {
+    "name": "Management",
+    "icon": "fas fa-gamepad"
+  },
+  "Match 3": {
+    "name": "Match 3",
+    "icon": "fas fa-gamepad"
+  },
+  "Multiplayer": {
+    "name": "Multiplayer",
+    "icon": "fas fa-users"
+  },
+  "New": {
+    "name": "New",
+    "icon": "fas fa-gamepad"
+  },
+  "Puzzle": {
+    "name": "Puzzle",
+    "icon": "fas fa-puzzle-piece"
+  },
+  "Quiz": {
+    "name": "Quiz",
+    "icon": "fas fa-gamepad"
+  },
+  "Racing": {
+    "name": "Racing",
+    "icon": "fas fa-car"
+  },
+  "Run": {
+    "name": "Run",
+    "icon": "fas fa-gamepad"
+  },
+  "Skill": {
+    "name": "Skill",
+    "icon": "fas fa-gamepad"
+  },
+  "Sport": {
+    "name": "Sport",
+    "icon": "fas fa-futbol"
+  },
+  "Strategy": {
+    "name": "Strategy",
+    "icon": "fas fa-chess"
+  },
+  "Tamagotchi": {
+    "name": "Tamagotchi",
+    "icon": "fas fa-gamepad"
+  },
+  "Time Management": {
+    "name": "Time Management",
+    "icon": "fas fa-gamepad"
+  },
+  "Time Management & Strategy": {
+    "name": "Time Management & Strategy",
+    "icon": "fas fa-chess"
+  }
+}

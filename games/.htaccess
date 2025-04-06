@@ -1,0 +1,42 @@
+# AllPopularGames .htaccess
+# 配置静态游戏页面的URL重写规则
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  # 如果请求的不是文件或目录，尝试添加.html扩展名
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.+)$ $1.html [L]
+  
+  # 将其他未匹配的请求重定向到index.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.html [L]
+</IfModule>
+
+# 设置MIME类型
+<IfModule mod_mime.c>
+  AddType text/html .html
+  AddType text/javascript .js
+  AddType text/css .css
+</IfModule>
+
+# 启用GZIP压缩
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/javascript text/css application/javascript
+</IfModule>
+
+# 设置缓存控制
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 1 hour"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType text/javascript "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/ico "access plus 1 month"
+</IfModule>

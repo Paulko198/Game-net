@@ -1,0 +1,28 @@
+{
+  "totalGames": 624,
+  "categories": {
+    "Arcade": 106,
+    "Action": 19,
+    "Puzzle": 124,
+    "Skill": 74,
+    "Girls": 63,
+    "Quiz": 10,
+    "Match 3": 36,
+    "Best": 20,
+    "Cars": 8,
+    "Educational": 10,
+    "Bubble Shooter": 12,
+    "Racing": 11,
+    "Sport": 27,
+    "Cards": 20,
+    "Make-up": 45,
+    "Jump & Run": 16,
+    "Time Management & Strategy": 2,
+    "Dress-up": 8,
+    "New": 3,
+    "Tamagotchi": 1,
+    "Cooking and Baking": 8,
+    "Breakout": 1
+  },
+  "createdAt": "2025-04-05T17:46:44.664Z"
+}

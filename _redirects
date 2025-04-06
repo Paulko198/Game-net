@@ -1,0 +1,31 @@
+# 主页重定向
+/ /index.html 200
+
+# 游戏页面规则
+/games/* /games/:splat 200
+
+# 游戏API数据
+/allpopulargames_games.json /allpopulargames_games.json 200
+
+# 处理旧路径
+/game/* /games/:splat 301
+/play/* /games/:splat 301
+
+# 国际化支持 - 暂时重定向到主站
+/zh/* /index.html 302
+/en/* /index.html 302
+
+# 确保所有404都有处理
+/* /index.html 404
+
+# 将www子域重定向到主域名
+https://www.allpopulargames.online/* https://allpopulargames.online/:splat 301!
+
+# 处理分类页面不存在时的重定向
+/category/* /index.html 200
+
+# 处理游戏页面不存在时的重定向
+/games/* /index.html 200
+
+# 确保单页应用路由工作正常
+/* /index.html 200 

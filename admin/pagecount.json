@@ -1,0 +1,15 @@
+{
+  "gamesCount": 10,
+  "lastUpdate": "2025-04-04T15:59:43.961Z",
+  "categoryCounts": {
+    "Arcade": 3,
+    "Shooting": 1,
+    "Puzzle": 3,
+    "Bubble Shooter": 2,
+    "Sports": 1
+  },
+  "tagCounts": {
+    "hot": 5,
+    "new": 5
+  }
+}

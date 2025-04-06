@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Popular Games - Game Collection</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- DNS预解析和资源预连接 -->
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//play.famobi.com">
+    <link rel="dns-prefetch" href="//games.cdn.famobi.com">
+    
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://play.famobi.com" crossorigin>
+    <link rel="preconnect" href="https://games.cdn.famobi.com" crossorigin>
+    
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="scripts/main.js" as="script">
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="scripts/game-loader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- 性能监控脚本 -->
+    <script src="scripts/performance-monitor.js" defer></script>
+    <!-- 游戏加载器脚本 -->
+    <script src="scripts/game-loader.js" defer></script>
+</head>
+<body>
+    <!-- Navigation toggle button -->
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="切换导航" onclick="toggleNav(event)">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="AllPopularGames Logo">
+                    <h1>AllPopular<span>Games</span></h1>
+                </a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search games..." aria-label="Search games">
+            </div>
+            <div class="user-actions">
+                <button class="btn-login">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <ul class="sidebar-categories" id="dynamic-sidebar-categories">
+            <!-- 分类将通过JavaScript动态添加 -->
+        </ul>
+    </div>
+
+    <main>
+        <div class="welcome-banner">
+            <div>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-gamepad feature-icon"></i>
+                        <span>4000+ Online Games</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-download feature-icon"></i>
+                        <span>No Installation</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-mobile-alt feature-icon"></i>
+                        <span>Device Friendly</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-users feature-icon"></i>
+                        <span>Play with Friends</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-fire"></i> Popular Games</h2>
+                    <a href="#" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="popular-games">
+                <!-- 示例游戏卡片，使用data-game-url属性 -->
+                <div class="game-card" data-game-url="slope/A1000-10?ref=allpopulargames">
+                    <div class="game-card-content">
+                        <div class="game-thumbnail">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/SlopeTeaser.jpg" alt="Slope" loading="lazy">
+                        </div>
+                        <h3>Slope</h3>
+                        <button class="play-button">Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card" data-game-url="tower-crash-3d/A1000-10?ref=allpopulargames">
+                    <div class="game-card-content">
+                        <div class="game-thumbnail">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/TowerCrash3dTeaser.jpg" alt="Tower Crash 3D" loading="lazy">
+                        </div>
+                        <h3>Tower Crash 3D</h3>
+                        <button class="play-button">Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card" data-game-url="g-switch-3/A1000-10?ref=allpopulargames">
+                    <div class="game-card-content">
+                        <div class="game-thumbnail">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/GSwitch3Teaser.jpg" alt="G-Switch 3" loading="lazy">
+                        </div>
+                        <h3>G-Switch 3</h3>
+                        <button class="play-button">Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card" data-game-url="neon-rider/A1000-10?ref=allpopulargames">
+                    <div class="game-card-content">
+                        <div class="game-thumbnail">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/NeonRiderTeaser.jpg" alt="Neon Rider" loading="lazy">
+                        </div>
+                        <h3>Neon Rider</h3>
+                        <button class="play-button">Play Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-star"></i> New Games</h2>
+                    <a href="#" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="new-games">
+                <!-- 示例游戏卡片 -->
+                <div class="game-card" data-game-url="subway-surfers/A1000-10?ref=allpopulargames">
+                    <div class="game-card-content">
+                        <div class="game-thumbnail">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/SubwaySurfersTeaser.jpg" alt="Subway Surfers" loading="lazy">
+                        </div>
+                        <h3>Subway Surfers</h3>
+                        <button class="play-button">Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card" data-game-url="bubble-woods/A1000-10?ref=allpopulargames">
+                    <div class="game-card-content">
+                        <div class="game-thumbnail">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/BubbleWoodsTeaser.jpg" alt="Bubble Woods" loading="lazy">
+                        </div>
+                        <h3>Bubble Woods</h3>
+                        <button class="play-button">Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card" data-game-url="candy-bubble/A1000-10?ref=allpopulargames">
+                    <div class="game-card-content">
+                        <div class="game-thumbnail">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/CandyBubbleTeaser.jpg" alt="Candy Bubble" loading="lazy">
+                        </div>
+                        <h3>Candy Bubble</h3>
+                        <button class="play-button">Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card" data-game-url="merge-jewels/A1000-10?ref=allpopulargames">
+                    <div class="game-card-content">
+                        <div class="game-thumbnail">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/MergeJewelsTeaser.jpg" alt="Merge Jewels" loading="lazy">
+                        </div>
+                        <h3>Merge Jewels</h3>
+                        <button class="play-button">Play Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-running"></i> Action Games</h2>
+                    <a href="category/action.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="action-adventure-games">
+                <!-- Game cards will be added through admin panel -->
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Action/Adventure</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-mountain"></i> Adventure Games</h2>
+                    <a href="category/adventure.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="adventure-games">
+                <!-- Game cards will be added through admin panel -->
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Adventure</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-smile"></i> Casual Games</h2>
+                    <a href="category/casual.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="casual-games">
+                <!-- Game cards will be added through admin panel -->
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Casual</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-puzzle-piece"></i> Puzzle Games</h2>
+                    <a href="category/puzzle.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="puzzle-games">
+                <!-- Game cards will be added through admin panel -->
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Puzzle</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-car"></i> Racing Games</h2>
+                    <a href="category/racing.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="racing-games">
+                <!-- Game cards will be added through admin panel -->
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Racing/Car</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-bullseye"></i> Shooting Games</h2>
+                    <a href="category/shooting.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="shooting-games">
+                <!-- Game cards will be added through admin panel -->
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Shooting</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-futbol"></i> Sports Games</h2>
+                    <a href="category/sports.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="sports-games">
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Sports</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-chess"></i> Strategy Games</h2>
+                    <a href="category/strategy.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="strategy-games">
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Strategy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-users"></i> Multiplayer Games</h2>
+                    <a href="category/multiplayer.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="multiplayer-games">
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Multiplayer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-th"></i> Match 3 Games</h2>
+                    <a href="category/match-3.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="match3-games">
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Match 3</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-bullseye"></i> Bubble Shooter</h2>
+                    <a href="category/bubble-shooter.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="bubble-shooter-games">
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Bubble Shooter</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-question"></i> Quiz Games</h2>
+                    <a href="category/quiz.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="quiz-games">
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Quiz</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-female"></i> Girls Games</h2>
+                    <a href="category/girls.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="girls-games">
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Girls</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="section-header">
+                <div class="title-container">
+                    <h2 class="section-title"><i class="fas fa-running"></i> Jump & Run Games</h2>
+                    <a href="category/jump-run.html" class="view-more">View More</a>
+                </div>
+            </div>
+            <div class="games-grid" id="jump-run-games">
+                <div class="game-card empty-card">
+                    <div class="game-card-content">
+                        <h3>Add games from admin panel</h3>
+                        <p>Type: Jump & Run</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 AllPopularGames.online. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Initialize scripts -->
+    <script src="scripts/performance-monitor.js"></script>
+    <script src="scripts/i18n.js"></script>
+    <script src="scripts/main.js"></script>
+    
+    <!-- 内联导航切换脚本 -->
+    <script>
+    function toggleNav(e) {
+        e.preventDefault();
+        const sidebar = document.querySelector('.sidebar');
+        const main = document.querySelector('main');
+        const navToggle = document.getElementById('navToggle');
+        
+        if (sidebar && main && navToggle) {
+            // 获取当前状态
+            const currentlyCollapsed = sidebar.classList.contains('sidebar-collapsed');
+            console.log('当前状态:', currentlyCollapsed ? '已折叠' : '已展开');
+            
+            // 强制切换到相反状态
+            if (currentlyCollapsed) {
+                // 如果折叠，则展开
+                sidebar.classList.remove('sidebar-collapsed');
+                main.classList.remove('content-expanded');
+                navToggle.classList.remove('active');
+                
+                // 显示文本
+                document.querySelectorAll('.sidebar-categories li span').forEach(span => {
+                    span.style.opacity = '1';
+                });
+                
+                // 保存状态
+                localStorage.removeItem('sidebarCollapsed');
+            } else {
+                // 如果展开，则折叠
+                sidebar.classList.add('sidebar-collapsed');
+                main.classList.add('content-expanded');
+                navToggle.classList.add('active');
+                
+                // 隐藏文本
+                document.querySelectorAll('.sidebar-categories li span').forEach(span => {
+                    span.style.opacity = '0';
+                });
+                
+                // 保存状态
+                localStorage.setItem('sidebarCollapsed', 'true');
+            }
+            
+            console.log('内联事件：导航按钮被点击，状态已切换为:', !currentlyCollapsed ? '已折叠' : '已展开');
+        }
+    }
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 获取所有游戏卡片
+            const gameCards = document.querySelectorAll('.game-card');
+            
+            gameCards.forEach(card => {
+                const playButton = card.querySelector('.play-button');
+                if (playButton) {
+                    playButton.addEventListener('click', function() {
+                        const gameUrl = card.getAttribute('data-game-url');
+                        
+                        if (gameUrl) {
+                            // 提取游戏ID，创建URL
+                            const gameId = gameUrl.split('/')[0];
+                            window.location.href = `/games/${gameId}.html`;
+                        }
+                    });
+                }
+            });
+            
+            // 移动端展开/收起菜单功能
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('nav');
+            
+            if (menuToggle && nav) {
+                menuToggle.addEventListener('click', function() {
+                    nav.classList.toggle('active');
+                    menuToggle.classList.toggle('active');
+                });
+            }
+            
+            // 分类选择逻辑
+            const categoryButtons = document.querySelectorAll('.category-button');
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // 移除所有按钮的active类
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    // 为当前点击的按钮添加active类
+                    this.classList.add('active');
+                    
+                    // 这里可以添加分类筛选逻辑
+                    // 例如隐藏不符合分类的游戏卡片
+                    const category = this.getAttribute('data-category');
+                    console.log(`选择了分类: ${category}`);
+                    
+                    // 演示：如果实现过滤功能，可以这样写
+                    /*
+                    const allGames = document.querySelectorAll('.game-card');
+                    allGames.forEach(game => {
+                        if (category === 'all' || game.getAttribute('data-category') === category) {
+                            game.style.display = '';
+                        } else {
+                            game.style.display = 'none';
+                        }
+                    });
+                    */
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

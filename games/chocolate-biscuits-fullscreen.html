@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Chocolate Biscuits - 全屏模式 - AllPopularGames</title>
+    <meta name="description" content="全屏体验Chocolate Biscuits游戏，一款精彩的Girls游戏。">
+    <link rel="canonical" href="https://allpopulargames.online/games/chocolate-biscuits-fullscreen.html">
+    
+    <!-- 性能优化：预连接到游戏资源域名 -->
+    <link rel="preconnect" href="https://play.famobi.com" crossorigin>
+    <link rel="dns-prefetch" href="https://play.famobi.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+        }
+        
+        .game-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        
+        iframe.loaded {
+            opacity: 1;
+        }
+        
+        .controls {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 100;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .control-button {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+        
+        .control-button:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        
+        .control-button i {
+            margin-right: 5px;
+        }
+        
+        #loadingOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .loading-spinner:before,
+        .loading-spinner:after {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 50%;
+            border: 4px solid transparent;
+            border-top-color: #fff;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            animation: spinner 1.2s linear infinite;
+        }
+        
+        .loading-spinner:after {
+            border-top-color: #4caf50;
+            animation-delay: 0.3s;
+        }
+        
+        @keyframes spinner {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .loading-text {
+            color: white;
+            font-size: 18px;
+            margin: 15px 0;
+            text-align: center;
+        }
+        
+        .loading-progress {
+            width: 200px;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+        
+        .loading-progress-bar {
+            height: 100%;
+            width: 0%;
+            background: #4caf50;
+            border-radius: 3px;
+            transition: width 0.3s ease;
+        }
+        
+        .game-thumb {
+            width: 150px;
+            margin: 15px auto;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            transform: scale(1);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <button class="control-button" onclick="window.location.href='chocolate-biscuits.html'">
+            <i class="fas fa-info-circle"></i> 游戏信息
+        </button>
+        <button class="control-button" onclick="window.location.href='../index.html'">
+            <i class="fas fa-home"></i> 返回首页
+        </button>
+    </div>
+    
+    <div class="game-container">
+        <iframe id="game-frame" src="about:blank" data-src="https://play.famobi.com/wrapper/chocolate-biscuits/A1000-10?ref=allpopulargames" allow="fullscreen" allowfullscreen="true"></iframe>
+    </div>
+    
+    <div id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">游戏加载中，请稍候...</p>
+        <div class="loading-progress">
+            <div class="loading-progress-bar" id="progressBar"></div>
+        </div>
+        <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/ChocolateBiscuitsTeaser.jpg?v=0.2-e9a56fac" alt="Chocolate Biscuits" class="game-thumb">
+        <p class="loading-text" style="font-size: 14px; opacity: 0.7;">由于游戏资源较大，首次加载可能需要一些时间</p>
+    </div>
+    
+    <script>
+        // 改进的加载动画
+        let loadingProgress = 0;
+        const progressBar = document.getElementById('progressBar');
+        const loadingOverlay = document.getElementById('loadingOverlay');
+        const iframe = document.getElementById('game-frame');
+        
+        // 显示渐进式加载进度
+        const loadingInterval = setInterval(() => {
+            loadingProgress += Math.random() * 2;
+            if (loadingProgress > 70) {
+                clearInterval(loadingInterval);
+            }
+            progressBar.style.width = Math.min(loadingProgress, 70) + '%';
+        }, 200);
+        
+        // 延迟加载iframe内容，减少初始加载时间
+        setTimeout(() => {
+            iframe.src = iframe.getAttribute('data-src');
+        }, 300);
+        
+        // 监听iframe加载事件
+        iframe.onload = function() {
+            // 标记iframe为已加载
+            this.classList.add('loaded');
+            
+            // 完成进度条
+            loadingProgress = 100;
+            progressBar.style.width = '100%';
+            
+            // 给用户一个短暂的完成感后再隐藏加载动画
+            setTimeout(() => {
+                loadingOverlay.style.opacity = '0';
+                setTimeout(() => {
+                    loadingOverlay.style.display = 'none';
+                }, 500);
+            }, 500);
+        };
+        
+        // 设置超时保护，防止长时间加载
+        setTimeout(() => {
+            if (loadingProgress < 100) {
+                loadingProgress = 100;
+                progressBar.style.width = '100%';
+                
+                setTimeout(() => {
+                    loadingOverlay.style.opacity = '0';
+                    setTimeout(() => {
+                        loadingOverlay.style.display = 'none';
+                    }, 500);
+                }, 500);
+            }
+        }, 15000);
+        
+        // 跟踪游戏加载
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'play_game_fullscreen', {
+                'event_category': 'engagement',
+                'event_label': "Chocolate Biscuits",
+                'game_type': "Girls"
+            });
+        }
+    </script>
+</body>
+</html>

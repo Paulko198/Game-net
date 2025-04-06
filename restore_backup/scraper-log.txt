@@ -1,0 +1,196 @@
+[2025-04-03T13:12:40.204Z] 开始运行HTML5Games爬虫...
+[2025-04-03T13:12:40.205Z] 已有 0 个爬取过的URL
+[2025-04-03T13:12:40.206Z] 开始爬取游戏分类...
+[2025-04-03T13:12:49.434Z] 找到 40 个游戏分类
+[2025-04-03T13:12:49.434Z] 分类已按优先级排序，将优先爬取: Best, Best, Sport
+[2025-04-03T13:12:51.461Z] 开始爬取 "Best" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:12:54.114Z] 在 "Best" 分类下找到 0 个游戏链接
+[2025-04-03T13:12:55.710Z] 开始爬取 "Best" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:00.953Z] 在 "Best" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:03.865Z] 开始爬取 "Sport" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:07.949Z] 在 "Sport" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:09.243Z] 开始爬取 "Sport" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:12.429Z] 在 "Sport" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:14.130Z] 开始爬取 "Arcade" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:16.909Z] 在 "Arcade" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:18.018Z] 开始爬取 "Arcade" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:20.625Z] 在 "Arcade" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:23.638Z] 开始爬取 "Puzzle" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:27.093Z] 在 "Puzzle" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:28.944Z] 开始爬取 "Puzzle" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:31.713Z] 在 "Puzzle" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:33.329Z] 开始爬取 "Home" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:36.268Z] 在 "Home" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:38.085Z] 开始爬取 "New" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:41.182Z] 在 "New" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:43.558Z] 开始爬取 "Match 3" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:46.781Z] 在 "Match 3" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:47.927Z] 开始爬取 "Bubble Shooter" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:13:55.453Z] 在 "Bubble Shooter" 分类下找到 0 个游戏链接
+[2025-04-03T13:13:56.930Z] 开始爬取 "Quiz" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:14:00.302Z] 在 "Quiz" 分类下找到 0 个游戏链接
+[2025-04-03T13:14:01.945Z] 开始爬取 "Cards" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:14:06.537Z] 在 "Cards" 分类下找到 0 个游戏链接
+[2025-04-03T13:14:08.917Z] 开始爬取 "Girls" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:14:14.168Z] 在 "Girls" 分类下找到 0 个游戏链接
+[2025-04-03T13:14:17.029Z] 开始爬取 "Jump & Run" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:14:19.400Z] 在 "Jump & Run" 分类下找到 0 个游戏链接
+[2025-04-03T13:14:22.322Z] 开始爬取 "Racing" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:14:26.619Z] 在 "Racing" 分类下找到 0 个游戏链接
+[2025-04-03T13:14:27.990Z] 开始爬取 "Multiplayer" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:14:45.749Z] 在 "Multiplayer" 分类下找到 0 个游戏链接
+[2025-04-03T13:14:47.672Z] 开始爬取 "All Games" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:14:49.936Z] 在 "All Games" 分类下找到 0 个游戏链接
+[2025-04-03T13:14:51.068Z] 开始爬取 "Publishers
+			Buy and license HTML5 games" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:14:59.755Z] 在 "Publishers
+			Buy and license HTML5 games" 分类下找到 0 个游戏链接
+[2025-04-03T13:15:02.469Z] 开始爬取 "Developers
+			Submit your HTML5 game" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:15:08.223Z] 在 "Developers
+			Submit your HTML5 game" 分类下找到 0 个游戏链接
+[2025-04-03T13:15:10.556Z] 开始爬取 "For Companies
+			Visit our HTML5 Games Shop." 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:15:16.288Z] 在 "For Companies
+			Visit our HTML5 Games Shop." 分类下找到 3 个游戏链接
+[2025-04-03T13:15:18.571Z] 开始爬取游戏详情: https://buy.html5games.com/#
+[2025-04-03T13:15:21.531Z] 爬取游戏详情失败 (https://buy.html5games.com/#): 无法提取完整的游戏信息
+[2025-04-03T13:15:23.510Z] 开始爬取游戏详情: https://buy.html5games.com/bubble-shooter
+[2025-04-03T13:15:26.634Z] 爬取游戏详情失败 (https://buy.html5games.com/bubble-shooter): 无法提取完整的游戏信息
+[2025-04-03T13:15:29.595Z] 开始爬取游戏详情: https://buy.html5games.com/bubble-tower-3d
+[2025-04-03T13:15:36.316Z] 爬取游戏详情失败 (https://buy.html5games.com/bubble-tower-3d): 无法提取完整的游戏信息
+[2025-04-03T13:15:38.006Z] 开始爬取 "Home" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:08.341Z] 爬取 "Home" 分类游戏列表失败: Navigation timeout of 30000 ms exceeded
+[2025-04-03T13:16:10.322Z] 开始爬取 "New" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:12.563Z] 在 "New" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:14.574Z] 开始爬取 "Match 3" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:17.010Z] 在 "Match 3" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:18.786Z] 开始爬取 "Bubble Shooter" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:23.264Z] 在 "Bubble Shooter" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:25.072Z] 开始爬取 "Quiz" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:27.873Z] 在 "Quiz" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:29.745Z] 开始爬取 "Cards" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:32.773Z] 在 "Cards" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:34.873Z] 开始爬取 "Girls" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:36.835Z] 在 "Girls" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:38.607Z] 开始爬取 "Jump & Run" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:41.157Z] 在 "Jump & Run" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:43.936Z] 开始爬取 "Racing" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:46.768Z] 在 "Racing" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:49.568Z] 开始爬取 "Multiplayer" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:51.819Z] 在 "Multiplayer" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:53.802Z] 开始爬取 "All Games" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:16:56.151Z] 在 "All Games" 分类下找到 0 个游戏链接
+[2025-04-03T13:16:57.854Z] 开始爬取 "Publishers
+			Buy and license HTML5 games" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:17:03.690Z] 在 "Publishers
+			Buy and license HTML5 games" 分类下找到 0 个游戏链接
+[2025-04-03T13:17:05.849Z] 开始爬取 "Developers
+			Submit your HTML5 game" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:17:15.437Z] 在 "Developers
+			Submit your HTML5 game" 分类下找到 0 个游戏链接
+[2025-04-03T13:17:17.292Z] 开始爬取 "For Companies
+			Visit our HTML5 Games Shop." 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:17:19.641Z] 在 "For Companies
+			Visit our HTML5 Games Shop." 分类下找到 3 个游戏链接
+[2025-04-03T13:17:20.890Z] 开始爬取游戏详情: https://buy.html5games.com/#
+[2025-04-03T13:17:25.275Z] 爬取游戏详情失败 (https://buy.html5games.com/#): 无法提取完整的游戏信息
+[2025-04-03T13:17:27.782Z] 开始爬取游戏详情: https://buy.html5games.com/bubble-shooter
+[2025-04-03T13:17:30.898Z] 爬取游戏详情失败 (https://buy.html5games.com/bubble-shooter): 无法提取完整的游戏信息
+[2025-04-03T13:17:32.795Z] 开始爬取游戏详情: https://buy.html5games.com/bubble-tower-3d
+[2025-04-03T13:17:35.712Z] 爬取游戏详情失败 (https://buy.html5games.com/bubble-tower-3d): 无法提取完整的游戏信息
+[2025-04-03T13:17:38.424Z] 开始爬取 "Imprint" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:17:41.028Z] 在 "Imprint" 分类下找到 0 个游戏链接
+[2025-04-03T13:17:43.003Z] 开始爬取 "Ad Vendors" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:17:47.841Z] 在 "Ad Vendors" 分类下找到 0 个游戏链接
+[2025-04-03T13:17:50.423Z] 开始爬取 "Privacy Policy" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:17:51.762Z] 在 "Privacy Policy" 分类下找到 0 个游戏链接
+[2025-04-03T13:17:54.295Z] 开始爬取 "gamebow.com" 分类下的游戏 (最多 3 个)...
+[2025-04-03T13:17:57.923Z] 在 "gamebow.com" 分类下找到 0 个游戏链接
+[2025-04-03T13:17:57.925Z] 成功保存 0 个新游戏，总共 0 个游戏
+[2025-04-03T13:17:57.925Z] 爬虫任务完成，共爬取 0 个新游戏
+[2025-04-03T13:17:57.925Z] 游戏数据已保存到: E:\Cursor_Code\Gamenet\test_scraped_games.json
+[2025-04-03T13:17:57.925Z] 游戏缩略图已保存到: E:\Cursor_Code\Gamenet\temp
+[2025-04-03T13:17:57.925Z] 游戏类型统计:
+[2025-04-03T13:34:03.148Z] 开始爬取HTML5游戏...
+[2025-04-03T13:34:03.149Z] 创建目录: E:\Cursor_Code\Gamenet\scripts\scraped_data
+[2025-04-03T13:34:03.525Z] ====== 开始爬取分类: Sport ======
+[2025-04-03T13:34:03.525Z] 开始获取 Sport 分类的游戏列表...
+[2025-04-03T13:34:04.924Z] 从 Sport 分类获取到 0 个游戏链接
+[2025-04-03T13:34:04.924Z] 创建目录: E:\Cursor_Code\Gamenet\scripts\scraped_data\Sport
+[2025-04-03T13:34:04.925Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\sport_games.json (0 个游戏)
+[2025-04-03T13:34:04.925Z] ====== 开始爬取分类: Skill ======
+[2025-04-03T13:34:04.926Z] 开始获取 Skill 分类的游戏列表...
+[2025-04-03T13:34:06.241Z] 从 Skill 分类获取到 0 个游戏链接
+[2025-04-03T13:34:06.242Z] 创建目录: E:\Cursor_Code\Gamenet\scripts\scraped_data\Skill
+[2025-04-03T13:34:06.242Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\skill_games.json (0 个游戏)
+[2025-04-03T13:34:06.242Z] ====== 开始爬取分类: Puzzle ======
+[2025-04-03T13:34:06.243Z] 开始获取 Puzzle 分类的游戏列表...
+[2025-04-03T13:34:07.522Z] 从 Puzzle 分类获取到 0 个游戏链接
+[2025-04-03T13:34:07.526Z] 创建目录: E:\Cursor_Code\Gamenet\scripts\scraped_data\Puzzle
+[2025-04-03T13:34:07.527Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\puzzle_games.json (0 个游戏)
+[2025-04-03T13:34:07.527Z] ====== 开始爬取分类: Racing ======
+[2025-04-03T13:34:07.527Z] 开始获取 Racing 分类的游戏列表...
+[2025-04-03T13:34:08.445Z] 从 Racing 分类获取到 0 个游戏链接
+[2025-04-03T13:34:08.446Z] 创建目录: E:\Cursor_Code\Gamenet\scripts\scraped_data\Racing
+[2025-04-03T13:34:08.446Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\racing_games.json (0 个游戏)
+[2025-04-03T13:34:08.447Z] ====== 开始爬取分类: Arcade ======
+[2025-04-03T13:34:08.447Z] 开始获取 Arcade 分类的游戏列表...
+[2025-04-03T13:34:09.480Z] 从 Arcade 分类获取到 0 个游戏链接
+[2025-04-03T13:34:09.499Z] 创建目录: E:\Cursor_Code\Gamenet\scripts\scraped_data\Arcade
+[2025-04-03T13:34:09.500Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\arcade_games.json (0 个游戏)
+[2025-04-03T13:34:09.500Z] 保存所有游戏数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\all_scraped_games.json (总共 0 个游戏)
+[2025-04-03T13:34:09.649Z] 爬取完成, 浏览器已关闭.
+[2025-04-03T13:34:39.444Z] 开始爬取HTML5游戏...
+[2025-04-03T13:34:39.749Z] ====== 开始爬取分类: Sport ======
+[2025-04-03T13:34:39.750Z] 开始获取 Sport 分类的游戏列表...
+[2025-04-03T13:34:39.750Z] 为 Sport 分类预设了 3 个游戏链接
+[2025-04-03T13:34:42.215Z] 爬取游戏: https://html5games.com/Game/Blaze-Kick/7c3d6873-9470-466b-8e8c-d68aa8c6d699
+[2025-04-03T13:34:50.607Z] 无法获取游戏数据: https://html5games.com/Game/Blaze-Kick/7c3d6873-9470-466b-8e8c-d68aa8c6d699
+[2025-04-03T13:34:51.763Z] 爬取游戏: https://html5games.com/Game/3D-Penalty/08e84514-d985-4051-8cd1-4fe3cfc7e5bb
+[2025-04-03T13:34:55.257Z] 无法获取游戏数据: https://html5games.com/Game/3D-Penalty/08e84514-d985-4051-8cd1-4fe3cfc7e5bb
+[2025-04-03T13:34:56.364Z] 爬取游戏: https://html5games.com/Game/Penalty-Challenge-Multiplayer/db9c1b36-4c1e-4bb4-928e-ac9e74a2a95f
+[2025-04-03T13:34:58.876Z] 无法获取游戏数据: https://html5games.com/Game/Penalty-Challenge-Multiplayer/db9c1b36-4c1e-4bb4-928e-ac9e74a2a95f
+[2025-04-03T13:34:58.877Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\sport_games.json (0 个游戏)
+[2025-04-03T13:34:58.877Z] ====== 开始爬取分类: Skill ======
+[2025-04-03T13:34:58.877Z] 开始获取 Skill 分类的游戏列表...
+[2025-04-03T13:34:58.877Z] 为 Skill 分类预设了 3 个游戏链接
+[2025-04-03T13:35:00.167Z] 爬取游戏: https://html5games.com/Game/Stickman-destruction-3-Heroes/40a3f093-e1fb-469a-b0e7-e1cb01d27be9
+[2025-04-03T13:35:04.130Z] 无法获取游戏数据: https://html5games.com/Game/Stickman-destruction-3-Heroes/40a3f093-e1fb-469a-b0e7-e1cb01d27be9
+[2025-04-03T13:35:05.375Z] 爬取游戏: https://html5games.com/Game/Peet-a-Lock/3a8dd47c-e2dd-4264-ae5b-f2c6186b5d7b
+[2025-04-03T13:35:08.372Z] 无法获取游戏数据: https://html5games.com/Game/Peet-a-Lock/3a8dd47c-e2dd-4264-ae5b-f2c6186b5d7b
+[2025-04-03T13:35:10.718Z] 爬取游戏: https://html5games.com/Game/Brain-Test/a7c1c8cd-7c19-47da-b8a7-04eed2d0d513
+[2025-04-03T13:35:14.404Z] 无法获取游戏数据: https://html5games.com/Game/Brain-Test/a7c1c8cd-7c19-47da-b8a7-04eed2d0d513
+[2025-04-03T13:35:14.406Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\skill_games.json (0 个游戏)
+[2025-04-03T13:35:14.406Z] ====== 开始爬取分类: Puzzle ======
+[2025-04-03T13:35:14.407Z] 开始获取 Puzzle 分类的游戏列表...
+[2025-04-03T13:35:14.407Z] 为 Puzzle 分类预设了 3 个游戏链接
+[2025-04-03T13:35:16.635Z] 爬取游戏: https://html5games.com/Game/Knots-Master/19e54c22-d66b-40c6-ad13-73e6c35a3b06
+[2025-04-03T13:35:20.460Z] 无法获取游戏数据: https://html5games.com/Game/Knots-Master/19e54c22-d66b-40c6-ad13-73e6c35a3b06
+[2025-04-03T13:35:21.941Z] 爬取游戏: https://html5games.com/Game/Candy-Match-3/a77e7cc9-3c06-4fac-a898-ec95c5cc7bc2
+[2025-04-03T13:35:25.973Z] 无法获取游戏数据: https://html5games.com/Game/Candy-Match-3/a77e7cc9-3c06-4fac-a898-ec95c5cc7bc2
+[2025-04-03T13:35:27.032Z] 爬取游戏: https://html5games.com/Game/Colors-Puzzle/a1f02aed-14c1-4da1-aae0-d7f3bbce9b83
+[2025-04-03T13:35:30.722Z] 无法获取游戏数据: https://html5games.com/Game/Colors-Puzzle/a1f02aed-14c1-4da1-aae0-d7f3bbce9b83
+[2025-04-03T13:35:30.726Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\puzzle_games.json (0 个游戏)
+[2025-04-03T13:35:30.727Z] ====== 开始爬取分类: Racing ======
+[2025-04-03T13:35:30.728Z] 开始获取 Racing 分类的游戏列表...
+[2025-04-03T13:35:30.729Z] 为 Racing 分类预设了 3 个游戏链接
+[2025-04-03T13:35:33.311Z] 爬取游戏: https://html5games.com/Game/StreetRace-Fury/fed1ebc1-be3e-49b3-8a7c-b7b72f85eca2
+[2025-04-03T13:35:36.773Z] 无法获取游戏数据: https://html5games.com/Game/StreetRace-Fury/fed1ebc1-be3e-49b3-8a7c-b7b72f85eca2
+[2025-04-03T13:35:39.016Z] 爬取游戏: https://html5games.com/Game/Racing-Cars/51aedc4d-9ef1-402d-b28c-53afe3c6a683
+[2025-04-03T13:35:42.390Z] 无法获取游戏数据: https://html5games.com/Game/Racing-Cars/51aedc4d-9ef1-402d-b28c-53afe3c6a683
+[2025-04-03T13:35:44.458Z] 爬取游戏: https://html5games.com/Game/Burnout-Drift/f0f43af0-a69d-47dd-aa14-30eedf72be44
+[2025-04-03T13:35:48.224Z] 无法获取游戏数据: https://html5games.com/Game/Burnout-Drift/f0f43af0-a69d-47dd-aa14-30eedf72be44
+[2025-04-03T13:35:48.224Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\racing_games.json (0 个游戏)
+[2025-04-03T13:35:48.225Z] ====== 开始爬取分类: Arcade ======
+[2025-04-03T13:35:48.225Z] 开始获取 Arcade 分类的游戏列表...
+[2025-04-03T13:35:48.225Z] 为 Arcade 分类预设了 3 个游戏链接
+[2025-04-03T13:35:50.721Z] 爬取游戏: https://html5games.com/Game/Candy-Bubble/5c1c7e70-7ca0-42bf-a7e4-3a42e8d46ee7
+[2025-04-03T13:35:55.106Z] 无法获取游戏数据: https://html5games.com/Game/Candy-Bubble/5c1c7e70-7ca0-42bf-a7e4-3a42e8d46ee7
+[2025-04-03T13:35:56.380Z] 爬取游戏: https://html5games.com/Game/Candy-Endless/1afe5c55-52cd-46a9-8d90-b63d96bc9f19
+[2025-04-03T13:35:59.122Z] 无法获取游戏数据: https://html5games.com/Game/Candy-Endless/1afe5c55-52cd-46a9-8d90-b63d96bc9f19
+[2025-04-03T13:36:01.847Z] 爬取游戏: https://html5games.com/Game/Bubble-Woods/2e1b6714-f331-463e-a4ee-2d0c7f03ba88
+[2025-04-03T13:36:04.545Z] 无法获取游戏数据: https://html5games.com/Game/Bubble-Woods/2e1b6714-f331-463e-a4ee-2d0c7f03ba88
+[2025-04-03T13:36:04.546Z] 保存分类数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\arcade_games.json (0 个游戏)
+[2025-04-03T13:36:04.546Z] 保存所有游戏数据: E:\Cursor_Code\Gamenet\scripts\scraped_data\all_scraped_games.json (总共 0 个游戏)
+[2025-04-03T13:36:04.705Z] 爬取完成, 浏览器已关闭.
