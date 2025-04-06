@@ -135,12 +135,47 @@
     }
   }
   
-  // 添加性能分析UI
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      createPerformanceUI();
-    }, 2000);
+  // 错误跟踪
+  window.addEventListener('error', function(event) {
+    console.error('捕获到错误:', event.error ? event.error.message : event.message);
+    
+    // 如果在生产环境，可以发送错误日志到服务器
+    const isProduction = window.location.hostname.includes('cloudflare') ||
+                        !window.location.hostname.includes('localhost');
+    
+    if (isProduction) {
+        // 记录错误但不阻塞用户体验
+        setTimeout(() => {
+            try {
+                const errorInfo = {
+                    message: event.error ? event.error.message : event.message,
+                    source: event.filename || 'unknown',
+                    lineno: event.lineno || 0,
+                    colno: event.colno || 0,
+                    stack: event.error ? event.error.stack : '',
+                    url: window.location.href,
+                    userAgent: navigator.userAgent,
+                    timestamp: new Date().toISOString()
+                };
+                
+                console.log('错误详情:', errorInfo);
+                
+                // 这里可以添加将错误发送到服务器的代码
+                // 或者使用Cloudflare Worker记录错误
+            } catch (e) {
+                // 忽略错误处理过程中的错误
+            }
+        }, 0);
+    }
+    
+    // 不阻止默认处理
+    return false;
   });
+  
+  // 导出创建性能监控面板的函数，但默认不显示
+  window.showPerformanceMonitor = function() {
+    createPerformanceUI();
+  };
   
   // 创建性能分析UI
   function createPerformanceUI() {
@@ -234,41 +269,4 @@
       }, 2000);
     }
   }
-
-  // 错误跟踪
-  window.addEventListener('error', function(event) {
-    console.error('捕获到错误:', event.error ? event.error.message : event.message);
-    
-    // 如果在生产环境，可以发送错误日志到服务器
-    const isProduction = window.location.hostname.includes('cloudflare') ||
-                        !window.location.hostname.includes('localhost');
-    
-    if (isProduction) {
-        // 记录错误但不阻塞用户体验
-        setTimeout(() => {
-            try {
-                const errorInfo = {
-                    message: event.error ? event.error.message : event.message,
-                    source: event.filename || 'unknown',
-                    lineno: event.lineno || 0,
-                    colno: event.colno || 0,
-                    stack: event.error ? event.error.stack : '',
-                    url: window.location.href,
-                    userAgent: navigator.userAgent,
-                    timestamp: new Date().toISOString()
-                };
-                
-                console.log('错误详情:', errorInfo);
-                
-                // 这里可以添加将错误发送到服务器的代码
-                // 或者使用Cloudflare Worker记录错误
-            } catch (e) {
-                // 忽略错误处理过程中的错误
-            }
-        }, 0);
-    }
-    
-    // 不阻止默认处理
-    return false;
-  });
 })(); 
