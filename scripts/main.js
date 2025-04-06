@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 确保从服务器加载最新数据
     localStorage.removeItem('allpopulargames_games');
+    console.log('已清除本地缓存，将从服务器重新加载数据');
     
     // 应用大数据量优化设置
     const ENABLE_OPTIMIZATIONS = true;
@@ -130,7 +131,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const games = JSON.parse(storedGames);
             console.log(`从localStorage加载了 ${games.length} 个游戏`);
             
-            // 使用新的分类管理器初始化
+            // 强制重新计算所有分类游戏数量
+            console.log('强制重新计算所有分类游戏数量...');
+            categoryManager.categoryCounts = {}; // 清空现有计数
             categoryManager.initialize(games);
             
             // 处理并显示游戏
@@ -170,7 +173,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     // 保存到localStorage
                     localStorage.setItem('allpopulargames_games', JSON.stringify(games));
                     
-                    // 使用新的分类管理器初始化
+                    // 强制重新计算所有分类游戏数量
+                    console.log('强制重新计算所有分类游戏数量...');
+                    categoryManager.categoryCounts = {}; // 清空现有计数
                     categoryManager.initialize(games);
                     
                     // 处理并显示游戏
@@ -608,8 +613,8 @@ document.addEventListener('DOMContentLoaded', function() {
             gamesGrid.className = 'games-grid';
             gamesGrid.id = selector;
             
-            // 显示游戏（最多10个）
-            const gamesToShow = games.slice(0, 10);
+            // 显示游戏（最多50个而不是10个）
+            const gamesToShow = games.slice(0, 50);
             
             // 使用内部DocumentFragment进行批量添加
             const cardsFragment = document.createDocumentFragment();
@@ -705,9 +710,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const startIndex = (currentPage - 1) * GAMES_PER_PAGE;
         let endIndex;
         
-        // 如果不需要分页（在主页上），限制显示游戏数量为10个
+        // 如果不需要分页（在主页上），设置为50个而不是10个
         if (!showPagination) {
-            endIndex = Math.min(10, games.length);
+            endIndex = Math.min(50, games.length); // 从10改为50，允许主页显示更多游戏
         } else {
             endIndex = Math.min(startIndex + GAMES_PER_PAGE, games.length);
         }
@@ -1395,6 +1400,7 @@ const categoryManager = {
     // 更新各分类的游戏数量
     updateCategoryCounts(games) {
         console.log('更新分类计数...');
+        console.log(`要处理的游戏总数: ${games.length}`);
         
         // 创建新的分类计数对象，而不是直接修改现有对象
         const newCategoryCounts = {};
@@ -1408,8 +1414,18 @@ const categoryManager = {
         // 记录实际处理的游戏数量
         let processedGames = 0;
         
-        games.forEach(game => {
+        // 检查环境
+        const isProduction = window.location.hostname.includes('cloudflare') || 
+                      !window.location.hostname.includes('localhost');
+        console.log(`当前运行环境: ${isProduction ? '生产环境' : '开发环境'}, 强制进行完整统计`);
+        
+        games.forEach((game, index) => {
             processedGames++;
+            
+            // 每200个游戏输出一次进度
+            if (processedGames % 200 === 0) {
+                console.log(`分类统计进度: ${processedGames}/${games.length} 游戏已处理`);
+            }
             
             // 处理type字段
             if (game.type) {
@@ -1443,7 +1459,12 @@ const categoryManager = {
         this.categoryCounts = newCategoryCounts;
         
         console.log(`分类数量统计完成: 处理了${processedGames}个游戏，共${Object.keys(newCategoryCounts).length}个分类`);
-        console.log('分类统计结果:', this.categoryCounts);
+        
+        // 输出前10个最大的分类及其计数，用于调试
+        const top10Categories = Object.entries(newCategoryCounts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10);
+        console.log('前10个最大分类:', top10Categories);
     },
     
     // 设置当前活动分类
