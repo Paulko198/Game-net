@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 应用大数据量优化设置
     const ENABLE_OPTIMIZATIONS = true;
-    const GAMES_THRESHOLD = 500; // 触发优化的游戏数量阈值
+    const GAMES_THRESHOLD = 10; // 触发优化的游戏数量阈值
     
     // 加载优化模块(如果已启用)
     if (ENABLE_OPTIMIZATIONS) {
@@ -91,6 +91,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // 加载游戏数据并初始化页面
     function loadGamesAndInitialize() {
         console.log('加载游戏数据...');
+        // 清除localStorage中的缓存，确保每次都从服务器加载最新数据
+        localStorage.removeItem('allpopulargames_games');
+        
         // 尝试从localStorage读取游戏数据
         const storedGames = localStorage.getItem('allpopulargames_games');
         
@@ -122,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('本地没有游戏数据，尝试从服务器加载...');
             
             // 尝试从服务器获取游戏数据
-            fetch('/top50games.json')
+            fetch('/allgames.json')
         .then(response => {
                     if (!response.ok) throw new Error('获取游戏数据失败');
             return response.json();
@@ -1258,7 +1261,7 @@ function showSystemNotification(title, message, type = 'info') {
 
 // 全局变量和配置
 const ENABLE_OPTIMIZATIONS = true;
-const GAMES_THRESHOLD = 500; // 触发优化的游戏数量阈值
+const GAMES_THRESHOLD = 10; // 触发优化的游戏数量阈值
 let isStartupDone = false;
 
 // 添加分类状态管理器
