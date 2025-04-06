@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
                          !window.location.hostname.includes('localhost');
     console.log(`当前运行环境: ${isProduction ? '生产环境' : '开发环境'}`);
     
+    // 确保从服务器加载最新数据
+    localStorage.removeItem('allpopulargames_games');
+    
     // 应用大数据量优化设置
     const ENABLE_OPTIMIZATIONS = true;
     const GAMES_THRESHOLD = 10; // 触发优化的游戏数量阈值
@@ -30,6 +33,34 @@ document.addEventListener('DOMContentLoaded', function() {
     // 初始化
     adjustGameGrids();
     loadGamesAndInitialize();
+    
+    // 手动初始化分类计数，确保显示正确
+    function initializeCategories() {
+        // 检查是否已有游戏数据
+        try {
+            const games = JSON.parse(localStorage.getItem('allpopulargames_games') || '[]');
+            if (games.length > 0) {
+                console.log(`手动初始化分类计数，共 ${games.length} 个游戏`);
+                
+                // 设置一个标记以避免重复初始化
+                if (window.sidebarInitialized) {
+                    console.log('侧边栏已经初始化，跳过重复初始化');
+                    return;
+                }
+                
+                categoryManager.updateCategoryCounts(games);
+                updateSidebarCategories(games);
+                
+                // 标记侧边栏已初始化
+                window.sidebarInitialized = true;
+            }
+        } catch (e) {
+            console.error('初始化分类计数失败:', e);
+        }
+    }
+    
+    // 页面加载后执行手动初始化
+    setTimeout(initializeCategories, 2000);
     
     // 检查本地存储状态并应用
     const navToggle = document.getElementById('navToggle');
@@ -91,8 +122,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // 加载游戏数据并初始化页面
     function loadGamesAndInitialize() {
         console.log('加载游戏数据...');
-        // 清除localStorage中的缓存，确保每次都从服务器加载最新数据
-        localStorage.removeItem('allpopulargames_games');
         
         // 尝试从localStorage读取游戏数据
         const storedGames = localStorage.getItem('allpopulargames_games');
@@ -107,9 +136,6 @@ document.addEventListener('DOMContentLoaded', function() {
             // 处理并显示游戏
             processAndDisplayGames(games);
             
-            // 更新侧边栏分类
-            updateSidebarCategories(games);
-            
             // 初始化搜索功能
             initializeSearch();
             
@@ -121,15 +147,23 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // 标记初始化完成
             isStartupDone = true;
+            
+            // 标记侧边栏已初始化
+            window.sidebarInitialized = true;
         } else {
             console.log('本地没有游戏数据，尝试从服务器加载...');
             
+            // 添加时间戳参数避免缓存
+            const timestamp = new Date().getTime();
+            const url = `/allgames.json?v=${timestamp}`;
+            console.log(`请求游戏数据: ${url}`);
+            
             // 尝试从服务器获取游戏数据
-            fetch('/allgames.json')
-        .then(response => {
+            fetch(url)
+                .then(response => {
                     if (!response.ok) throw new Error('获取游戏数据失败');
-            return response.json();
-        })
+                    return response.json();
+                })
                 .then(games => {
                     console.log(`从服务器加载了 ${games.length} 个游戏`);
                     
@@ -142,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     // 处理并显示游戏
                     processAndDisplayGames(games);
                 
-                // 更新侧边栏分类
+                    // 更新侧边栏分类
                     updateSidebarCategories(games);
                     
                     // 初始化搜索功能
@@ -156,6 +190,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     
                     // 标记初始化完成
                     isStartupDone = true;
+                    
+                    // 标记侧边栏已初始化
+                    window.sidebarInitialized = true;
             })
             .catch(error => {
                     console.error('加载游戏数据失败:', error);
@@ -364,7 +401,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 处理并显示各类游戏
     function processAndDisplayGames(games) {
-        console.log('处理并显示游戏分类...');
+        console.log(`处理并显示${games.length}个游戏...`);
+        
+        // 记录真实的游戏数量，用于调试
+        console.log('游戏总数:', games.length);
+        console.log('分类统计:', categoryManager.categoryCounts);
         
         // 检查是否需要应用优化
         const shouldApplyOptimizations = ENABLE_OPTIMIZATIONS && games.length > GAMES_THRESHOLD;
@@ -609,10 +650,39 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(`已显示 ${sortedCategorySections.length} 个游戏分类，按游戏数量排序`);
         
         // 更新categoryManager中的分类计数值
-        categoryManager.categoryCounts = updatedCategoryCounts;
+        for (const key in updatedCategoryCounts) {
+            categoryManager.categoryCounts[key] = updatedCategoryCounts[key];
+        }
         
         // 重新更新侧边栏以显示准确的游戏计数
-        updateSidebarCategories(games);
+        if (!window.sidebarInitialized) {
+            updateSidebarCategories(games);
+            window.sidebarInitialized = true;
+            console.log('初次更新侧边栏，标记为已初始化');
+        } else {
+            console.log('侧边栏已经初始化，只更新计数值');
+            // 只更新计数，不重新创建侧边栏
+            document.querySelectorAll('.sidebar-categories li').forEach(li => {
+                const span = li.querySelector('span');
+                if (!span) return;
+                
+                const fullText = span.textContent.trim();
+                const categoryName = fullText.split(' (')[0];
+                
+                if (categoryName === '首页') return; // 跳过首页
+                
+                // 查找对应的分类名
+                for (const category in categoryManager.categoryCounts) {
+                    if (categoryManager.matchCategory(categoryName, category)) {
+                        const count = categoryManager.categoryCounts[category] || 0;
+                        span.textContent = `${categoryName} (${count})`;
+                        break;
+                    }
+                }
+            });
+        }
+        
+        console.log('游戏分类处理和显示完成');
     }
     
     // 在指定区域显示游戏
@@ -1324,15 +1394,29 @@ const categoryManager = {
     
     // 更新各分类的游戏数量
     updateCategoryCounts(games) {
-        this.categoryCounts = {};
+        console.log('更新分类计数...');
+        
+        // 创建新的分类计数对象，而不是直接修改现有对象
+        const newCategoryCounts = {};
+        
+        // 确保games是有效的数组
+        if (!Array.isArray(games) || games.length === 0) {
+            console.warn('没有有效的游戏数据用于计算分类计数');
+            return;
+        }
+        
+        // 记录实际处理的游戏数量
+        let processedGames = 0;
         
         games.forEach(game => {
+            processedGames++;
+            
             // 处理type字段
             if (game.type) {
                 const types = game.type.split(/[,&\/]/).map(t => t.trim());
                 types.forEach(type => {
                     if (type) {
-                        this.categoryCounts[type] = (this.categoryCounts[type] || 0) + 1;
+                        newCategoryCounts[type] = (newCategoryCounts[type] || 0) + 1;
                     }
                 });
             }
@@ -1341,7 +1425,7 @@ const categoryManager = {
             if (game.categories && Array.isArray(game.categories)) {
                 game.categories.forEach(category => {
                     if (category) {
-                        this.categoryCounts[category] = (this.categoryCounts[category] || 0) + 1;
+                        newCategoryCounts[category] = (newCategoryCounts[category] || 0) + 1;
                     }
                 });
             }
@@ -1350,12 +1434,16 @@ const categoryManager = {
             if (game.tag) {
                 const tag = game.tag.toLowerCase();
                 if (tag === 'hot' || tag === 'new') {
-                    this.categoryCounts[tag] = (this.categoryCounts[tag] || 0) + 1;
+                    newCategoryCounts[tag] = (newCategoryCounts[tag] || 0) + 1;
                 }
             }
         });
         
-        console.log('分类数量统计完成:', this.categoryCounts);
+        // 更新分类计数
+        this.categoryCounts = newCategoryCounts;
+        
+        console.log(`分类数量统计完成: 处理了${processedGames}个游戏，共${Object.keys(newCategoryCounts).length}个分类`);
+        console.log('分类统计结果:', this.categoryCounts);
     },
     
     // 设置当前活动分类
