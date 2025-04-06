@@ -184,55 +184,112 @@ const I18N = {
   
   // 添加语言切换器
   addLanguageSwitcher() {
+    // 首先尝试在用户操作区域添加
     const userActions = document.querySelector('.user-actions');
-    if (!userActions) {
-      console.warn('未找到用户操作区域，无法添加语言切换按钮');
-      return;
-    }
     
-    // 防止重复添加
-    if (document.querySelector('.btn-language')) {
-      return;
-    }
-    
-    const langBtn = document.createElement('button');
-    langBtn.className = 'btn-language';
-    langBtn.textContent = this.currentLang === 'zh' ? 'English' : '中文';
-    langBtn.style.cssText = `
-      background-color: var(--tertiary-bg);
-      color: var(--text-primary);
-      border: 1px solid var(--separator);
-      border-radius: 4px;
-      padding: 6px 12px;
-      margin-left: 10px;
-      cursor: pointer;
-      font-size: 14px;
-      transition: all 0.2s ease;
-    `;
-    
-    // 添加悬停效果
-    langBtn.onmouseover = function() { 
-      this.style.backgroundColor = 'var(--accent-blue)';
-      this.style.borderColor = 'var(--accent-blue)';
-    };
-    langBtn.onmouseout = function() { 
-      if (I18N.currentLang === 'en' && this.textContent === '中文' || 
-          I18N.currentLang === 'zh' && this.textContent === 'English') {
-        this.style.backgroundColor = 'var(--tertiary-bg)';
-        this.style.borderColor = 'var(--separator)';
+    // 如果在主页找到用户操作区域
+    if (userActions) {
+      // 防止重复添加
+      if (document.querySelector('.btn-language')) {
+        return;
       }
-    };
-    
-    langBtn.addEventListener('click', () => {
-      const newLang = this.currentLang === 'zh' ? 'en' : 'zh';
-      console.log(`切换语言至: ${newLang}`);
-      this.setLanguage(newLang);
-      langBtn.textContent = newLang === 'zh' ? 'English' : '中文';
-      this.applyTranslations();
-    });
-    
-    userActions.appendChild(langBtn);
-    console.log('语言切换按钮已添加');
+      
+      const langBtn = document.createElement('button');
+      langBtn.className = 'btn-language';
+      langBtn.textContent = this.currentLang === 'zh' ? 'English' : '中文';
+      langBtn.style.cssText = `
+        background-color: var(--tertiary-bg);
+        color: var(--text-primary);
+        border: 1px solid var(--separator);
+        border-radius: 4px;
+        padding: 6px 12px;
+        margin-left: 10px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: all 0.2s ease;
+      `;
+      
+      // 添加悬停效果
+      langBtn.onmouseover = function() { 
+        this.style.backgroundColor = 'var(--accent-blue)';
+        this.style.borderColor = 'var(--accent-blue)';
+      };
+      langBtn.onmouseout = function() { 
+        if (I18N.currentLang === 'en' && this.textContent === '中文' || 
+            I18N.currentLang === 'zh' && this.textContent === 'English') {
+          this.style.backgroundColor = 'var(--tertiary-bg)';
+          this.style.borderColor = 'var(--separator)';
+        }
+      };
+      
+      langBtn.addEventListener('click', () => {
+        const newLang = this.currentLang === 'zh' ? 'en' : 'zh';
+        console.log(`切换语言至: ${newLang}`);
+        this.setLanguage(newLang);
+        langBtn.textContent = newLang === 'zh' ? 'English' : '中文';
+        this.applyTranslations();
+        
+        // 触发语言变更事件，通知其他组件
+        window.dispatchEvent(new CustomEvent('languageChanged', { 
+          detail: { language: newLang } 
+        }));
+      });
+      
+      userActions.appendChild(langBtn);
+      console.log('语言切换按钮已添加到用户操作区域');
+    } 
+    // 如果在游戏页面找不到用户操作区域，则尝试在页面头部添加
+    else {
+      // 防止重复添加
+      if (document.querySelector('.btn-language')) {
+        return;
+      }
+      
+      // 尝试找到游戏页面的header区域
+      const headerContent = document.querySelector('.header-content');
+      if (headerContent) {
+        const langBtn = document.createElement('button');
+        langBtn.className = 'btn-language';
+        langBtn.textContent = this.currentLang === 'zh' ? 'English' : '中文';
+        langBtn.style.cssText = `
+          background-color: #4a6cf7;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          padding: 6px 12px;
+          margin-left: 10px;
+          cursor: pointer;
+          font-size: 14px;
+          transition: all 0.2s ease;
+        `;
+        
+        // 添加悬停效果
+        langBtn.onmouseover = function() { 
+          this.style.backgroundColor = '#3451b2';
+        };
+        langBtn.onmouseout = function() { 
+          this.style.backgroundColor = '#4a6cf7';
+        };
+        
+        langBtn.addEventListener('click', () => {
+          const newLang = this.currentLang === 'zh' ? 'en' : 'zh';
+          console.log(`切换语言至: ${newLang}`);
+          this.setLanguage(newLang);
+          langBtn.textContent = newLang === 'zh' ? 'English' : '中文';
+          this.applyTranslations();
+          
+          // 触发语言变更事件，通知游戏页面的元数据更新
+          window.dispatchEvent(new CustomEvent('languageChanged', { 
+            detail: { language: newLang } 
+          }));
+        });
+        
+        headerContent.appendChild(langBtn);
+        console.log('语言切换按钮已添加到游戏页面头部');
+      } else {
+        console.warn('未找到用户操作区域或页面头部，无法添加语言切换按钮');
+      }
+    }
   },
   
   // 应用翻译到页面元素
