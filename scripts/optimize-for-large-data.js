@@ -10,7 +10,7 @@
 // 1. 分页加载游戏卡片
 function implementPaginatedLoading() {
   // 每页游戏数量
-  const GAMES_PER_PAGE = 600;
+  const GAMES_PER_PAGE = 0; // 设置为0表示不限制每页显示的游戏数量
   let currentPage = 1;
   
   // 替代原有的displayGames函数

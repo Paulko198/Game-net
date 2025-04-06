@@ -12,7 +12,7 @@ const CONFIG = {
   // 临时输出文件
   outputFile: path.join(__dirname, '..', 'html5games_imported.json'),
   // 最大游戏数量 (0表示不限制)
-  maxGames: 20,
+  maxGames: 0,
   // 日志文件
   logFile: path.join(__dirname, 'fetch-log.txt'),
 };

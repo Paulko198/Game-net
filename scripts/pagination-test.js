@@ -252,7 +252,7 @@
             function displayGamesWithPagination() {
                 testContainer.innerHTML = '';
                 
-                const GAMES_PER_PAGE = 50;
+                const GAMES_PER_PAGE = 0; // 设置为0表示不限制每页显示的游戏数量
                 const totalPages = Math.ceil(testGames.length / GAMES_PER_PAGE);
                 
                 // 只显示第一页

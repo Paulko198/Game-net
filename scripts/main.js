@@ -686,7 +686,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // 在指定区域显示游戏
-    const GAMES_PER_PAGE = 50; // 主页外的每页显示游戏数量
+    const GAMES_PER_PAGE = 0; // 主页外的每页显示游戏数量，从600改为0表示不限制
     let currentPage = 1;
     
     function displayGames(games, containerId, showPagination = true) {
